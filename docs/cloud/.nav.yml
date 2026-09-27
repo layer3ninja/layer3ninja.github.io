@@ -1,0 +1,7 @@
+nav:
+  - index.md
+  - Azure: azure
+  - AWS: aws
+  - Google Cloud: gcp
+  - glob: "*.md"
+    ignore_no_matches: true

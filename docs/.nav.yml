@@ -1,0 +1,11 @@
+# Top-menu order. Folders listed here pick up new pages automatically.
+nav:
+  - Home: index.md
+  - Routing & Switching: routing-switching
+  - CCNA: ccna
+  - CCNP: ccnp
+  - Security: security
+  - Cloud: cloud
+  - AI & Networking: ai
+  - Blog: blog
+  - About: about.md

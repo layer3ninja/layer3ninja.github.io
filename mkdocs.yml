@@ -1,0 +1,110 @@
+# ─────────────────────────────────────────────────────────────
+#  Site settings — edit the 4 lines marked  <-- CHANGE ME
+# ─────────────────────────────────────────────────────────────
+site_name: Farshad Daliri · Network Engineering            # <-- CHANGE ME (optional)
+site_url: https://layer3ninja.github.io/                # <-- CHANGE ME
+site_author: Farshad Daliri
+site_description: >-
+  Study notes, labs and write-ups on routing & switching, CCNA/CCNP,
+  network security, Azure / AWS / Google Cloud networking, and AI for networking.
+repo_url: https://github.com/layer3ninja/layer3ninja.github.io   # <-- CHANGE ME
+repo_name: View source on GitHub
+edit_uri: edit/main/docs/
+copyright: © 2026 Farshad Daliri — content licensed CC BY 4.0
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/lan
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle: { icon: material/weather-night, name: Dark mode }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle: { icon: material/weather-sunny, name: Light mode }
+  features:
+    - navigation.tabs          # top tabs: CCNA, CCNP, Security, Cloud...
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes       # a folder's index.md becomes its landing page
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy        # copy button on CLI blocks
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - toc.follow
+
+plugins:
+  - search
+  - awesome-nav
+  - tags
+  - blog:
+      blog_dir: blog
+      post_url_format: "{date}/{slug}"
+      archive_date_format: yyyy
+      categories_allowed:
+        - CCNA
+        - CCNP
+        - Routing & Switching
+        - Security
+        - Azure
+        - AWS
+        - Google Cloud
+        - AI
+        - Labs
+        - Career
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - abbr
+  - toc: { permalink: true }
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid            # draw topologies with ```mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight: { anchor_linenums: true, line_spans: __span }
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed: { alternate_style: true }
+  - pymdownx.tasklist: { custom_checkbox: true }
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    # Uncomment and add your LinkedIn handle:
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://www.linkedin.com/in/LINKEDIN_HANDLE
+    - icon: fontawesome/brands/github
+      link: https://github.com/layer3ninja
+
+extra_css:
+  - stylesheets/extra.css
+
+# The admin panel is a static app, not a page — don't warn about it.
+not_in_nav: |
+  /admin/**
+
+validation:
+  links:
+    absolute_links: relative_to_docs

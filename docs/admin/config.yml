@@ -45,7 +45,7 @@ collections:
   - name: field-stories
     label: "Field Stories"
     label_singular: Note
-    folder: docs/docs/field-stories
+    folder: docs/field-stories
     create: true
     slug: "{{slug}}"
     summary: "{{title}}"

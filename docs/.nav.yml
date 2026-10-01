@@ -1,6 +1,7 @@
 # Top-menu order. Folders listed here pick up new pages automatically.
 nav:
   - Home: index.md
+  - Field Stories: field-stories
   - Routing & Switching: routing-switching
   - CCNA: ccna
   - CCNP: ccnp
@@ -9,4 +10,4 @@ nav:
   - AI & Networking: ai
   - Blog: blog
   - About: about.md
-  - Field Stories: blog/category/field-stories.md
+  

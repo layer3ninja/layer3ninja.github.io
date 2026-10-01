@@ -34,7 +34,7 @@ collections:
         label: Categories
         widget: select
         multiple: true
-        options: [CCNA, CCNP, "Routing & Switching", Security, Azure, AWS, "Google Cloud", AI, Labs, Career]
+        options: [CCNA, CCNP, "Routing & Switching", Security, Azure, AWS, "Google Cloud", AI, Labs, Career, Field Stories]
       - { name: tags, label: Tags, widget: list, required: false, hint: "Comma-separated, e.g. OSPF, BGP" }
       - name: body
         label: Post

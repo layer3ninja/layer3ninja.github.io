@@ -1,3 +1,4 @@
-# CCNA
+   # Field Stories
 
-Foundational notes for the Cisco CCNA (200-301): network fundamentals, access, IP connectivity, IP services, security fundamentals, automation.
+   Real incidents from production networks: what broke, how I found it,
+   and what I learned fixing it.

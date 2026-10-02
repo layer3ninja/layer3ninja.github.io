@@ -17,7 +17,6 @@ tags:
 We needed a site-to-site IPsec tunnel between two networks, and both sides were using the
 same private range. The tunnel itself was easy. Getting traffic through it was not.
 
-!!! abstract "TL;DR"
     When the **same subnet exists on both ends** of a VPN, routing alone can't fix it.
     Hosts never even send the traffic to their gateway. The fix is **NAT**: present each
     side to the other as a unique "virtual" network. **PBR** only helps when the overlap is

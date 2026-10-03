@@ -21,7 +21,7 @@ your head while you work on something else.
 
 The fix for both is surprisingly small: **send the first touch.** Not the fix. Just a message.
 
-!!! abstract "TL;DR"
+!!! abstract "Key takeaway"
     Waiting itself isn't the worst part; **not knowing** is. A short acknowledgement, one
     specific question, or a time for the next update removes that uncertainty for the user.
     It also helps *you*: once a task has a concrete plan attached, it stops nagging at you.

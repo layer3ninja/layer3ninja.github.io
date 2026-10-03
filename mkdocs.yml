@@ -5,8 +5,8 @@ site_name: Farshad · Network Engineering
 site_url: https://layer3ninja.github.io/
 site_author: Farshad
 site_description: >-
-  Study notes, labs and write-ups on routing & switching, CCNA/CCNP,
-  network security, Azure / AWS / Google Cloud networking, and AI for networking.
+  Real-world network troubleshooting stories and the soft skills
+  behind them, from a working network engineer.
 repo_url: https://github.com/layer3ninja/layer3ninja.github.io   # <-- CHANGE ME
 repo_name: View source on GitHub
 edit_uri: edit/main/docs/
@@ -31,7 +31,7 @@ theme:
       accent: cyan
       toggle: { icon: material/weather-sunny, name: Light mode }
   features:
-    - navigation.tabs          # top tabs: CCNA, CCNP, Security, Cloud...
+    - navigation.tabs          # top tabs: Field Stories, layer8-softskills, About
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes       # a folder's index.md becomes its landing page
@@ -49,21 +49,6 @@ plugins:
   - search
   - awesome-nav
   - tags
-  - blog:
-      blog_dir: blog
-      post_url_format: "{date}/{slug}"
-      archive_date_format: yyyy
-      categories_allowed:
-        - CCNA
-        - CCNP
-        - Routing & Switching
-        - Security
-        - Azure
-        - AWS
-        - Google Cloud
-        - AI
-        - Labs
-        - Career
 
 markdown_extensions:
   - admonition

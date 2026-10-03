@@ -5,58 +5,33 @@ hide:
   - toc
 ---
 
-# Network Engineering Notes
+# Network Engineering, From the Field
 
-Hi, I'm **Farshad** — a network engineer based in Vancouver, Canada. This site is my public
-notebook: study notes, lab write-ups and troubleshooting guides from real-world work and
-certification prep. Everything here is written to be practical — real commands, real outputs.
+Hi, I'm **Farshad**, a network engineer based in Vancouver, Canada. This site collects
+real incidents I've worked on and the people skills that make troubleshooting work.
+Everything here is practical: real commands, real outputs, real lessons.
 
 <div class="grid cards" markdown>
 
--   :material-router-network:{ .lg .middle } **Routing & Switching**
+-   :material-tools:{ .lg .middle } **Field Stories**
 
     ---
-    VLANs, STP, OSPF, EIGRP, BGP — how they work and how to fix them.
+    Real production incidents: what broke, how I found it, and what I learned fixing it.
 
-    [:octicons-arrow-right-24: Browse](routing-switching/index.md)
+    [:octicons-arrow-right-24: Read the stories](field-stories/index.md)
 
--   :material-certificate:{ .lg .middle } **CCNA**
-
-    ---
-    Foundations: subnetting, switching, routing, IP services.
-
-    [:octicons-arrow-right-24: Browse](ccna/index.md)
-
--   :material-school:{ .lg .middle } **CCNP Enterprise**
+-   :material-account-group:{ .lg .middle } **layer8-softskills**
 
     ---
-    ENCOR 350-401: architecture, virtualization, infrastructure, automation.
+    The layer above the OSI model: communication, psychology, learning and mindset at work.
 
-    [:octicons-arrow-right-24: Browse](ccnp/index.md)
+    [:octicons-arrow-right-24: Browse](layer8-softskills/index.md)
 
--   :material-shield-lock:{ .lg .middle } **Security**
-
-    ---
-    Firewalls, VPNs, AAA, segmentation and hardening.
-
-    [:octicons-arrow-right-24: Browse](security/index.md)
-
--   :material-cloud:{ .lg .middle } **Cloud Networking**
+-   :material-account:{ .lg .middle } **About me**
 
     ---
-    Azure, AWS and Google Cloud — VNets/VPCs, hybrid connectivity, routing.
+    Background, experience and how to reach me.
 
-    [:octicons-arrow-right-24: Browse](cloud/index.md)
-
--   :material-robot:{ .lg .middle } **AI & Networking**
-
-    ---
-    AI fundamentals, AIOps, LLMs for network automation, and networks for AI clusters.
-
-    [:octicons-arrow-right-24: Browse](ai/index.md)
+    [:octicons-arrow-right-24: About](about.md)
 
 </div>
-
-## Latest from the blog
-
-Lab write-ups, exam experiences and lessons learned → **[Read the blog](blog/index.md)**

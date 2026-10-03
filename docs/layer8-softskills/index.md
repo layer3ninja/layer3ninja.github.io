@@ -2,3 +2,8 @@
 
 The layer above the OSI model: the people. Communication, psychology,
 learning and mindset at work.
+
+## Posts
+
+- [The First Touch: Why a Quick Reply Lowers Everyone's Stress](first-touch-ticket-stress.md): how one short message to a waiting user reduces stress on both sides
+- [Making a User Feel Heard in a Few Sentences](feel-heard.md): the three-sentence formula to use before you start fixing

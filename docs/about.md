@@ -4,7 +4,7 @@ title: About me
 
 # About me
 
-I'm **Farshad Daliri**, a network engineer in Vancouver, BC with a background in IT
+I'm **Farshad**, a network engineer with a background in IT
 infrastructure.
 
 ## What I work on

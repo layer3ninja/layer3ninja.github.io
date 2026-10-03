@@ -2,6 +2,7 @@
 nav:
   - Home: index.md
   - Field Stories: field-stories
+  - layer8-softskills: layer8-softskills
   - Routing & Switching: routing-switching
   - CCNA: ccna
   - CCNP: ccnp

@@ -54,6 +54,20 @@ collections:
       - { name: description, label: "Short description (for search/SEO)", widget: string, required: false }
       - { name: tags, label: Tags, widget: list, required: false }
       - { name: body, label: Content, widget: markdown }
+  
+  - name: layer8-softskills
+    label: "layer8-softskills"
+    label_singular: Note
+    folder: docs/layer8-softskills
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: description, label: "Short description (for search/SEO)", widget: string, required: false }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - { name: body, label: Content, widget: markdown }
+
   - name: ccna
     label: "CCNA notes"
     label_singular: Note

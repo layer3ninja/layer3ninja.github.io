@@ -1,4 +1,9 @@
-   # Field Stories
+# Field Stories
 
-   Real incidents from production networks: what broke, how I found it,
-   and what I learned fixing it.
+Real incidents from production networks: what broke, how I found it,
+and what I learned fixing it.
+
+## Stories
+
+- [Overlapping Subnets Across an IPsec Tunnel](overlapping-subnets-ipsec.md): same /24 on both sides of a VPN, solved with NAT (and when PBR is enough)
+- [Pre-Staging FortiGate VIPs Took Down the Old Firewall's NATs](fortigate-vip-proxy-arp.md): how a default ARP setting caused an outage before the cutover even started

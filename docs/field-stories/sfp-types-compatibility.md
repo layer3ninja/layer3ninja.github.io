@@ -110,17 +110,71 @@ the 100F/200F mentioned above).
 
 ### Palo Alto Networks
 
-Palo Alto has a knowledge base article,
+Palo Alto's main reference is the datasheet
+**[Key Specifications for Palo Alto Networks Interfaces and Transceivers](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/key-specs-for-paloalto-interface-transceivers)**. It has two
+tables, and you need both:
+
+- **Table 1: specifications.** Speed, connector, fiber type, maximum distance, wavelength and
+  power for every Palo Alto optic. For example, `PAN-SFP-PLUS-SR` is listed at 300 m on OM3 and
+  450 m on OM4.
+- **Table 2: platform applicability.** Which firewall models or series each optic is supported
+  on, sometimes with a **minimum PAN-OS version** in brackets (e.g. `[Min PAN-OS 11.1.4]`).
+  The datasheet is explicit: only the models or series listed are supported, and anything
+  unlisted is not.
+
+The same datasheet spells out Palo Alto's support policy: they validate only the listed optic
+SKUs on the listed platforms, they can't troubleshoot connectivity or hardware issues involving
+non-validated transceivers, and using unsupported optics may affect hardware replacement (RMA)
+if the failure is traced to that component.
+
+Palo Alto also has a knowledge base article,
 **[How to confirm if your SFP transceiver is supported by Palo Alto Networks firewall](https://knowledgebase.paloaltonetworks.com/articles/en_US/Knowledge/How-to-confirm-if-your-SFP-transceiver-is-supported-by-Palo-Alto-Networks-firewall)**,
-which warns that an unsupported SFP can cause undesirable behaviour. Each PA-Series hardware
-reference also lists the supported transceivers for that model.
+and each PA-Series hardware reference lists the supported transceivers for that model.
+
+## Quick ways to filter the matrices
+
+These lists are long. A few habits make them fast to use:
+
+=== "Cisco matrix"
+
+    - **Start from your device, not the optic.** Type the exact model (e.g. `C9300-48P`) in the
+      search box, then use the **filters** to narrow by form factor, data rate and reach. You
+      go from hundreds of rows to a handful.
+    - **Bookmark the device page.** Each device has its own link (it ends in `?npid=` plus a
+      number), so you can jump straight back to "optics for our core switch" next time.
+    - **Going the other way?** Search an optic part number (e.g. `SFP-10G-SR`) to see every
+      device that takes it, which is handy when reusing optics from old hardware.
+    - **Check the far end too** with the **Interoperability Matrix** (`tmgmatrix.cisco.com/iop`):
+      it tells you which other optics or standards a given Cisco optic can talk to.
+
+=== "Palo Alto datasheet"
+
+    - **Search for your series as well as your model.** Table 2 often lists a whole series
+      (e.g. `PA-1400 Series`), so searching only `PA-1410` can miss it. Use **Ctrl+F** for
+      both.
+    - **Search for "Min PAN-OS"** to spot every optic that needs a newer software version.
+    - **Work from Table 2 back to Table 1:** first confirm the optic is supported on your
+      model, then check its reach and fiber type in Table 1.
+
+=== "Fortinet datasheet"
+
+    - **Ctrl+F your model** (e.g. `FG-200F`) or its series, and **Ctrl+F the optic part
+      number** (e.g. `FN-TRAN-SFP+SR`) to read the supported models for that optic.
+    - **Then check the community knowledge base** for your model plus "SFP", since
+      platform-specific caveats (like the 1 G speed setting) live there, not in the datasheet.
+
+!!! tip "Turn any PDF matrix into a filterable spreadsheet"
+    In **Excel (Microsoft 365)**, go to **Data → Get Data → From File → From PDF**, pick the
+    vendor's datasheet, and select the table. You get a proper sheet with filter drop-downs:
+    filter the platform column for your model, the speed column for 10G, and you're done.
+    Save it next to your network documentation, and refresh it when the vendor updates the PDF.
 
 ## Third-party optics: allowed, but know the trade-off
 
-Third-party ("compatible") optics are much cheaper and often work fine. But on Palo Alto, for
-example, community experience is that only Palo Alto's own optics are **officially supported**,
-because they've been qualified on the hardware. Third-party optics may work, but without vendor
-support. Most vendors take the same position.
+Third-party ("compatible") optics are much cheaper and often work fine. But vendors draw a
+clear line: Palo Alto's datasheet, for example, states that it validates only its own listed
+optics, won't troubleshoot issues involving non-validated ones, and that unsupported optics may
+affect RMA. Most vendors take a similar position.
 
 On Cisco, a third-party optic may be rejected with an "unsupported transceiver" error. Hidden
 commands exist to allow it (`service unsupported-transceiver`), but they're unsupported, and TAC
@@ -167,4 +221,5 @@ somewhere around **−1 to −10 dBm**; check the optic's data sheet for its exa
 - Cisco: [Optics-to-Device Compatibility Matrix](https://tmgmatrix.cisco.com/) and [Optics-to-Optics Interoperability Matrix](https://tmgmatrix.cisco.com/iop)
 - Fortinet: [Transceivers data sheet](https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/Fortinet_Transceivers.pdf)
 - Fortinet Community: [SFP transceiver support on FortiGate-100F and 200F SFP+ slots](https://community.fortinet.com/fortigate-3/technical-tip-sfp-transceiver-support-on-fortigate-100f-and-200f-sfp-slots-95363)
+- Palo Alto Networks: [Key Specifications for Palo Alto Networks Interfaces and Transceivers](https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/key-specs-for-paloalto-interface-transceivers) (datasheet)
 - Palo Alto Networks: [How to confirm if your SFP transceiver is supported](https://knowledgebase.paloaltonetworks.com/articles/en_US/Knowledge/How-to-confirm-if-your-SFP-transceiver-is-supported-by-Palo-Alto-Networks-firewall)

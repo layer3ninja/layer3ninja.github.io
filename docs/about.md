@@ -18,12 +18,11 @@ infrastructure.
 
 | Certification | Status |
 |---|---|
-| CCNA | *add yours* |
+| CCNA | 2021 |
 | CCNP Enterprise (ENCOR 350-401) | In progress |
 
 ## Contact
 
-- LinkedIn: *add link*
 - GitHub: [layer3ninja](https://github.com/layer3ninja)
 
 !!! note "Why this site"

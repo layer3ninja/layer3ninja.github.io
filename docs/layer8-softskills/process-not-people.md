@@ -10,10 +10,6 @@ tags:
 
 # When Something Breaks, Ask "What" and "How", Not "Who"
 
-<!-- EDIT ME: open with a real moment, e.g. an incident call where someone asked "who did
-     this?" and the room went quiet, or one where a good question opened things up.
-     Keep names and companies out. -->
-
 When something breaks, the first question in the room is often "**who** made this change?"
 It's a natural reaction. But the moment people hear it, they get defensive: they start
 protecting themselves instead of sharing what actually happened. And what actually happened
@@ -117,9 +113,6 @@ incident, where chasing a single "why" tends to stop at the nearest person.
 | Teams where people feel safe to speak up learn more from mistakes | Edmondson, 1999 | **Moderate to strong.** A field study of 51 work teams, supported by many later studies; much of the evidence is correlational |
 | Better-run teams may *report* more errors, because people feel safe to admit them | Edmondson, 1996 | **Moderate.** A hospital study; the finding has been influential, but it comes from a specific setting |
 | Changing the system (procedures, training) improves safety after accidents | Aviation's adoption of crew resource management | **Strong in practice**, widely adopted after Tenerife and later accidents, though isolating its exact effect is difficult |
-
-<!-- EDIT ME: close with one line from your own experience, e.g. how an incident review
-     changed once the questions moved from "who" to "how". -->
 
 ## References
 

@@ -10,10 +10,6 @@ tags:
 
 # Pre-Staging FortiGate VIPs Took Down the Old Firewall's NATs
 
-<!-- EDIT ME: add one or two sentences of real context: what kind of migration it was,
-     how long before cutover you staged the VIPs, and how the outage was noticed
-     (monitoring alert, user calls, a vendor?). Keep names and companies out. -->
-
 We were migrating from an old firewall to a new FortiGate. To make the cutover night
 smoother, we did the sensible thing: we built the configuration ahead of time, including the
 **VIPs** (FortiGate's destination NAT objects) for every published service.
@@ -117,9 +113,6 @@ updates neighbours, but don't rely on it: check.
     - Pre-staging is still the right idea. Just stage it **silently**.
     - When "nothing changed" on a device but its traffic stopped, look at what changed
       **next to it**.
-
-<!-- EDIT ME: if you remember how long it took to find, what you suspected first, or how
-     you discovered the MAC conflict, add a short "What I checked first" section here. -->
 
 ## Reference
 

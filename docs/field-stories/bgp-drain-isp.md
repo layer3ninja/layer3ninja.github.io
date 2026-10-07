@@ -10,9 +10,6 @@ tags:
 
 # Taking a Bad ISP Out of BGP Without Shutting the Session
 
-<!-- EDIT ME: add real context: what the ISP problem looked like (packet loss, latency,
-     flapping?), how you noticed it, and how many ISPs you had. Keep names out. -->
-
 We had two upstream ISPs, both running BGP to our edge router. One of them started having
 problems, and we needed all traffic off it until they fixed it. Not later, but now, and without
 making things worse.
@@ -106,9 +103,6 @@ A sensible order when restoring:
     - A route-map change needs a **soft** reset to take effect. Never hard-reset BGP in production.
     - Removing a path is fast; **relearning a full table takes minutes**. Plan for it.
     - Measure, don't guess: `PfxRcd` and a looking glass tell you when you're actually done.
-
-<!-- EDIT ME: add a short "What happened" section: how long the ISP was drained, how you
-     knew it was healthy again, and anything that surprised you. -->
 
 ## Reference
 

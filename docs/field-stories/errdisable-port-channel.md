@@ -10,9 +10,6 @@ tags:
 
 # One Port Pulled From a Port-Channel Took the Whole Uplink Down
 
-<!-- EDIT ME: add real context: what you were trying to change, which link it was
-     (uplink, server, firewall?), and how you noticed it went down. Keep names out. -->
-
 We had a two-link port-channel between two switches. While making a change on one of
 them, a port was removed from the channel by mistake. It felt minor: one link out of two, and
 the other one was still there. Then the **whole** port-channel went down, on the switch
@@ -151,9 +148,6 @@ Enable recovery only for the causes you're comfortable auto-retrying, rather tha
     - Errdisable recovery is a safety net: great for transient causes, misleading for
       permanent ones.
     - Prefer **LACP** over static `mode on`: mistakes are far less dramatic.
-
-<!-- EDIT ME: add a short "What happened to me" section: how long the uplink was down, how
-     you found the err-disabled ports, and whether you had errdisable recovery enabled. -->
 
 ## References
 

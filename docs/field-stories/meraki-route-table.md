@@ -10,10 +10,6 @@ tags:
 
 # Reading the Meraki Route Table: Why One Site Shows the Whole Organization
 
-<!-- EDIT ME: open with the real moment, e.g. looking at one site's route table while
-     troubleshooting and wondering why subnets from other sites were there.
-     Keep names and companies out. -->
-
 The first time you open the route table of a Meraki MX, it can be confusing. You're looking at
 **one** network, but the table is full of subnets that clearly belong to **other** sites. Is
 this site routing all of them? Are they configured here? Which ones are actually local?
@@ -105,9 +101,6 @@ traffic doesn't quietly fail over to the other route.
     - VPN participation per subnet is set on the **Site-to-site VPN** page.
     - **Auto VPN routes take priority** over IPsec peers, BGP and NAT, even when down. Design
       around that.
-
-<!-- EDIT ME: add a short "What happened to me" section: what you were troubleshooting,
-     what in the route table confused you, and what helped you make sense of it. -->
 
 ## References
 

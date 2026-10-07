@@ -13,9 +13,6 @@ tags:
 
 # Overlapping Subnets Across an IPsec Tunnel
 
-<!-- EDIT ME: add one or two sentences of real context, e.g. "During an acquisition..." or
-     "A partner wanted a site-to-site VPN...". Keep employer/partner names out. -->
-
 We needed a site-to-site IPsec tunnel between two networks, and both sides were using the
 same private range. The tunnel itself was easy. Getting traffic through it was not.
 
@@ -320,9 +317,6 @@ interface GigabitEthernet0/2
     - Exempt VPN traffic from Internet NAT, and scope the VPN NAT to VPN traffic only.
     - Ask about the remote side's addressing **before** building a tunnel, especially
       with partners and after acquisitions.
-
-<!-- EDIT ME: if you remember how long it took, what the first symptom was, or what you
-     tried first, add a short "What I tried first" section here. That's what makes it yours. -->
 
 ## References
 

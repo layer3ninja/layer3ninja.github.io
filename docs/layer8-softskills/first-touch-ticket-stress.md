@@ -10,10 +10,6 @@ tags:
 
 # The First Touch: Why a Quick Reply Lowers Everyone's Stress
 
-<!-- EDIT ME: open with one real moment, e.g. "Monday morning, 14 tickets in my queue,
-     and one user had already emailed twice asking if anyone had seen theirs..."
-     Keep names and companies out. -->
-
 Every engineer knows the feeling: the queue is full, a ticket has been sitting there for a
 while, and you haven't had time to touch it. Two people are stressed about that ticket. The
 user is wondering whether anyone has even seen it. And you're carrying it in the back of
@@ -106,9 +102,6 @@ progress, and telling the user about it turns "still broken" into "getting close
 
 The practical advice doesn't depend on any one of these being perfect: a short, honest
 message costs almost nothing, and the downside of silence is easy to see in any ticket queue.
-
-<!-- EDIT ME: close with one line from your own experience, e.g. how a user's tone
-     changed after you started sending a first touch. -->
 
 ## References
 

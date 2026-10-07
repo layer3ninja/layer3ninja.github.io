@@ -10,10 +10,6 @@ tags:
 
 # SFPs Explained: Types, Reach, and How to Check Compatibility
 
-<!-- EDIT ME: open with a real moment, e.g. an optic that arrived and didn't work, a link
-     that came up at the wrong speed, or an "unsupported transceiver" message on install day.
-     Keep names and companies out. -->
-
 Optics look simple: a small module you push into a port. But "SFP" covers dozens of different
 parts, and picking the wrong one is one of the most common reasons an install day goes
 sideways. The link won't come up, comes up at the wrong speed, or the switch rejects the module
@@ -212,9 +208,6 @@ somewhere around **−1 to −10 dBm**; check the optic's data sheet for its exa
     - Both ends must match, and **BiDi optics come in opposite pairs**.
     - Third-party optics save money but cost you vendor support. Choose deliberately.
     - After installing, **read the light levels**. They tell you more than "link up" does.
-
-<!-- EDIT ME: add a short "What happened to me" section: an optic that didn't work, how you
-     found out why, and what you order now. -->
 
 ## References
 

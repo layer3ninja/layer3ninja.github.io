@@ -10,10 +10,6 @@ tags:
 
 # Safe Changes on Remote Switches: Arm the Safety Net First
 
-<!-- EDIT ME: open with the time "reload in" actually saved you: what you were changing,
-     what locked you out, and how long you waited for the switch to come back.
-     Keep names and companies out. -->
-
 Changing a switch in the next room is easy: if you break it, you walk over with a console
 cable. Changing a switch at a remote site is different. One wrong command on the uplink and
 you've cut off your own access, along with everyone at that site, with nobody there who can
@@ -135,9 +131,6 @@ Rules of thumb:
     - On trunks, `add` is the most important word you'll type all day.
     - Be conservative with time: a fixed go/no-go and a real rollback window turn a bad night
       into a short one.
-
-<!-- EDIT ME: add a short "What happened to me" section here: the change, the lockout,
-     and how it felt to watch the switch come back. That's what makes this post yours. -->
 
 ## Reference
 

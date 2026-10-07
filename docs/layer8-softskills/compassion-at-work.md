@@ -10,10 +10,6 @@ tags:
 
 # Compassion at Work: Notice, Feel, Make Sense, Act
 
-<!-- EDIT ME: open with a real moment, e.g. a colleague after an outage, a user under
-     deadline pressure, or a time someone was kind to you after your own mistake.
-     Keep names and companies out. -->
-
 IT work is full of other people's bad days. A user is about to miss a deadline. A colleague's
 change just took down a site. And sometimes the bad day is ours. How we respond in those
 moments shapes the team far more than any config.
@@ -95,9 +91,6 @@ avoid the mistake rather than learn from it.
 | Experiencing compassion at work is linked to positive emotion and commitment | Lilius et al., 2008 | **Moderate to weak.** Survey-based and correlational, so it shows a link, not cause and effect |
 | Compassion differs from empathic distress and supports wellbeing | Singer & Klimecki, 2014 | **Moderate.** Lab and training studies including brain imaging, but mostly short-term and from one research program |
 | Self-compassion after failure increases motivation to improve | Breines & Chen, 2012 | **Moderate.** Several experiments, mostly with university students in lab settings |
-
-<!-- EDIT ME: close with one line from your own experience, e.g. what you do now after a
-     colleague's outage, or what you tell yourself after your own. -->
 
 ## References
 

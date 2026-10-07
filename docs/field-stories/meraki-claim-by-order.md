@@ -10,10 +10,6 @@ tags:
 
 # Adding Meraki Devices: Claim the Order, Not the Serial Numbers
 
-<!-- EDIT ME: open with a real moment, e.g. a stack of boxes and typing serials one by one,
-     a device that never showed up in the dashboard, or licenses that didn't come in.
-     Keep names and companies out. -->
-
 Before a Meraki device can do anything, it has to be **claimed** into your organization's
 inventory in the dashboard. The obvious way is to read the serial number off each box and type
 it in. It works, but it's slow, error-prone, and it can make the rest of the order harder to
@@ -108,9 +104,6 @@ module (`cisco.meraki.organizations_inventory_claim`) if you manage Meraki with 
     - Claiming isn't deploying: add the devices to their **network** as a separate step.
     - Use the **Order Claim Key** from the Product Claim email; the plain order number is being
       phased out.
-
-<!-- EDIT ME: add a short "What happened to me" section: how many devices, what went wrong
-     with serial-by-serial claiming (if anything), and what you do now. -->
 
 ## References
 

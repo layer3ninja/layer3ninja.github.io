@@ -10,9 +10,6 @@ tags:
 
 # Making a User Feel Heard in a Few Sentences
 
-<!-- EDIT ME: open with a real moment, e.g. a user who was angry on the phone and calmed
-     down once you repeated their problem back. Keep names and companies out. -->
-
 When a user reaches out upset, our instinct as engineers is to go straight to the fix. That's
 the part we're good at. But the user doesn't know yet whether we've understood the problem,
 and until they do, every question we ask can feel like we're not listening.
@@ -85,9 +82,6 @@ The question gives them a chance to correct you; the next step shows that action
 |---|---|---|
 | Paraphrasing (active listening) makes people feel more understood than simple acknowledgements or advice | Weger et al., 2014 | **Moderate.** A controlled experiment with 115 participants, but short conversations between university students. Notably, advice and active listening scored about the same on *overall satisfaction*, so advice isn't wrong; it just works better *after* the person feels understood |
 | Being listened to at work is linked to trust, performance and well-being | Kluger & Itzchakov, 2022 (review) | **Moderate.** A broad review across many fields, but much of the evidence is correlational, with fewer controlled experiments |
-
-<!-- EDIT ME: close with one line from your own experience, e.g. how a tense call turned
-     around after you paraphrased the problem. -->
 
 ## References
 

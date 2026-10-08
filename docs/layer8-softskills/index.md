@@ -9,3 +9,4 @@ learning and mindset at work.
 - [Making a User Feel Heard in a Few Sentences](feel-heard.md): the three-sentence formula to use before you start fixing
 - [Compassion at Work: Notice, Feel, Make Sense, Act](compassion-at-work.md): the four steps of compassion, why it beats empathic distress, and how to apply it to yourself
 - [When Something Breaks, Ask 'What' and 'How', Not 'Who'](process-not-people.md): the Swiss cheese model, better questions in incidents, and fixing the process instead of blaming people
+- [Ask Early: Why Escalating Sooner Saves Everyone Time](ask-for-help-early.md): why we wait too long, the timebox rule, and a three-part escalation message

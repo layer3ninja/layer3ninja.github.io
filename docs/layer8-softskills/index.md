@@ -11,3 +11,4 @@ learning and mindset at work.
 - [When Something Breaks, Ask 'What' and 'How', Not 'Who'](process-not-people.md): the Swiss cheese model, better questions in incidents, and fixing the process instead of blaming people
 - [Ask Early: Why Escalating Sooner Saves Everyone Time](ask-for-help-early.md): why we wait too long, the timebox rule, and a three-part escalation message
 - ["It's the Network": Us vs. Them and the Minimal Group Paradigm](us-vs-them-teams.md): why even trivial groups take sides, how it shows up between IT teams, and how a bigger "we" fixes it
+- [Growth Mindset for Engineers: Useful Habit, Oversold Promise](growth-mindset.md): fixed vs. growth readings of failure, what the research really shows, and what actually helps

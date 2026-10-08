@@ -13,3 +13,4 @@ and what I learned fixing it.
 - [SFPs Explained: Types, Reach, and How to Check Compatibility](sfp-types-compatibility.md): choosing the right optic, and using Cisco, Fortinet and Palo Alto compatibility resources before you order
 - [Adding Meraki Devices: Claim the Order, Not the Serial Numbers](meraki-claim-by-order.md): why one order claim beats typing serials, and the trap that blocks it
 - [Reading the Meraki Route Table: Why One Site Shows the Whole Organization](meraki-route-table.md): Auto VPN routes, telling local subnets from remote ones, and the routing-priority surprise
+- [Fiber Link Won't Come Up? Check the Polarity](fiber-polarity.md): reading Tx/Rx light levels, spotting swapped strands, and fixing it at one end

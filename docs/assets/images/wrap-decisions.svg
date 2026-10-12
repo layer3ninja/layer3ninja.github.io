@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="960" height="600" rx="14" fill="#F4F7FA"/>
+  <text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">WRAP: four steps to a better decision</text>
+  <text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">From Chip and Dan Heath's Decisive. Example: "Our firewall cluster keeps crashing. What do we do?"</text>
+
+  <!-- Card W -->
+  <g>
+    <rect x="40" y="96" width="200" height="330" rx="12" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="2"/>
+    <text x="140" y="160" text-anchor="middle" font-size="56" font-weight="800" fill="#3B5BA9">W</text>
+    <text x="140" y="192" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A3A">Widen your options</text>
+    <rect x="52" y="206" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#3B5BA9"/>
+    <text x="140" y="224" text-anchor="middle" font-size="12" fill="#3B5BA9">beats narrow framing</text>
+    <text x="56" y="262" font-size="13" fill="#1B2A3A">
+      <tspan x="56" dy="0">Not just "replace it":</tspan>
+      <tspan x="56" dy="20">• downgrade firmware</tspan>
+      <tspan x="56" dy="20">• open a vendor case</tspan>
+      <tspan x="56" dy="20">• shift traffic to a</tspan>
+      <tspan x="68" dy="20">backup path</tspan>
+      <tspan x="56" dy="20">• or several at once</tspan>
+    </text>
+  </g>
+
+  <!-- Card R -->
+  <g>
+    <rect x="266" y="96" width="200" height="330" rx="12" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+    <text x="366" y="160" text-anchor="middle" font-size="56" font-weight="800" fill="#B35C00">R</text>
+    <text x="366" y="192" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A3A">Reality-test</text>
+    <rect x="278" y="206" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#B35C00"/>
+    <text x="366" y="224" text-anchor="middle" font-size="12" fill="#B35C00">beats confirmation bias</text>
+    <text x="282" y="262" font-size="13" fill="#1B2A3A">
+      <tspan x="282" dy="0">Look for what proves</tspan>
+      <tspan x="282" dy="20">you wrong:</tspan>
+      <tspan x="282" dy="20">• vendor bug database</tspan>
+      <tspan x="282" dy="20">• peers running the</tspan>
+      <tspan x="294" dy="20">same model</tspan>
+      <tspan x="282" dy="20">• a small lab test</tspan>
+    </text>
+  </g>
+
+  <!-- Card A -->
+  <g>
+    <rect x="492" y="96" width="200" height="330" rx="12" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+    <text x="592" y="160" text-anchor="middle" font-size="56" font-weight="800" fill="#2E7D5B">A</text>
+    <text x="592" y="192" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A3A">Attain distance</text>
+    <rect x="504" y="206" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#2E7D5B"/>
+    <text x="592" y="224" text-anchor="middle" font-size="12" fill="#2E7D5B">beats short-term emotion</text>
+    <text x="508" y="262" font-size="13" fill="#1B2A3A">
+      <tspan x="508" dy="0">At 2 a.m., ask:</tspan>
+      <tspan x="508" dy="20">• "What would I tell</tspan>
+      <tspan x="520" dy="20">a colleague?"</tspan>
+      <tspan x="508" dy="20">• "How will this look</tspan>
+      <tspan x="520" dy="20">in 6 months?"</tspan>
+      <tspan x="508" dy="20">• 10 min / 10 months /</tspan>
+      <tspan x="520" dy="20">10 years</tspan>
+    </text>
+  </g>
+
+  <!-- Card P -->
+  <g>
+    <rect x="718" y="96" width="200" height="330" rx="12" fill="#F8E3E0" stroke="#C0392B" stroke-width="2"/>
+    <text x="818" y="160" text-anchor="middle" font-size="56" font-weight="800" fill="#C0392B">P</text>
+    <text x="818" y="192" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A3A">Prepare to be wrong</text>
+    <rect x="730" y="206" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#C0392B"/>
+    <text x="818" y="224" text-anchor="middle" font-size="12" fill="#C0392B">beats overconfidence</text>
+    <text x="734" y="262" font-size="13" fill="#1B2A3A">
+      <tspan x="734" dy="0">• rollback plan</tspan>
+      <tspan x="734" dy="20">• premortem: "it failed,</tspan>
+      <tspan x="746" dy="20">why?"</tspan>
+      <tspan x="734" dy="20">• tripwire: "if it</tspan>
+      <tspan x="746" dy="20">crashes again, we</tspan>
+      <tspan x="746" dy="20">go to RMA"</tspan>
+    </text>
+  </g>
+
+  <!-- Arrows -->
+  <g fill="#8A97A6">
+    <path d="M243 261 L263 261 L253 251 M263 261 L253 271" stroke="#8A97A6" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M469 261 L489 261 L479 251 M489 261 L479 271" stroke="#8A97A6" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M695 261 L715 261 L705 251 M715 261 L705 271" stroke="#8A97A6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom box -->
+  <rect x="40" y="450" width="878" height="122" rx="12" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+  <text x="62" y="482" font-size="16" font-weight="700" fill="#1B2A3A">Why "widen" comes first</text>
+  <text x="62" y="508" font-size="14" fill="#1B2A3A">In Paul Nutt's study of 168 organizational decisions, only 29% considered more than one option.</text>
+  <text x="62" y="530" font-size="14" fill="#1B2A3A">"Whether or not" decisions failed <tspan font-weight="700" fill="#C0392B">52%</tspan> of the time, versus <tspan font-weight="700" fill="#2E7D5B">32%</tspan> when two or more options were compared.</text>
+  <text x="62" y="556" font-size="13" fill="#5B6B7C">Trigger: if you hear yourself say "should we do X or not?", stop and look for a third option.</text>
+</svg>

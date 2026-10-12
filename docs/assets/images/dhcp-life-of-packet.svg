@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker></defs>
+<rect width="960" height="700" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Life of a DHCP packet: DORA through a relay</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Client in VLAN 10 (10.10.10.0/24), DHCP server in another subnet (10.0.50.10)</text>
+<rect x="70" y="92" width="220" height="76" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="180" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#1B2A3A">Client</text>
+<text x="180" y="137" text-anchor="middle" font-size="12" fill="#5B6B7C">no IP yet</text>
+<line x1="180" y1="168" x2="180" y2="580" stroke="#8A97A6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="390" y="92" width="220" height="76" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="500" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#1B2A3A">L3 switch / relay</text>
+<text x="500" y="137" text-anchor="middle" font-size="12" fill="#5B6B7C">VLAN 10 SVI: 10.10.10.1</text>
+<line x1="500" y1="168" x2="500" y2="580" stroke="#8A97A6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="710" y="92" width="220" height="76" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="820" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#1B2A3A">DHCP server</text>
+<text x="820" y="137" text-anchor="middle" font-size="12" fill="#5B6B7C">10.0.50.10</text>
+<line x1="820" y1="168" x2="820" y2="580" stroke="#8A97A6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="500" y="158" text-anchor="middle" font-size="11.5" fill="#B35C00" font-family="Consolas, Menlo, monospace">ip helper-address 10.0.50.10</text>
+<text x="340" y="192" text-anchor="middle" font-size="12" font-weight="600" fill="#5B6B7C">VLAN 10: broadcast</text>
+<text x="660" y="192" text-anchor="middle" font-size="12" font-weight="600" fill="#5B6B7C">Routed: unicast, UDP 67</text>
+<circle cx="44" cy="230" r="20" fill="#3B5BA9"/><text x="44" y="237" text-anchor="middle" font-size="20" font-weight="800" fill="#FFFFFF">D</text>
+<line x1="184" y1="230" x2="496" y2="230" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<text x="340" y="220" text-anchor="middle" font-size="13" font-weight="700" fill="#3B5BA9">DISCOVER (broadcast)</text>
+<text x="340" y="250" text-anchor="middle" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace">0.0.0.0:68 → 255.255.255.255:67</text>
+<line x1="504" y1="230" x2="816" y2="230" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<text x="660" y="220" text-anchor="middle" font-size="13" font-weight="700" fill="#3B5BA9">Relayed as unicast</text>
+<text x="660" y="250" text-anchor="middle" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace">adds giaddr = 10.10.10.1</text>
+<circle cx="44" cy="320" r="20" fill="#2E7D5B"/><text x="44" y="327" text-anchor="middle" font-size="20" font-weight="800" fill="#FFFFFF">O</text>
+<line x1="816" y1="320" x2="504" y2="320" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="660" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D5B">OFFER</text>
+<text x="660" y="340" text-anchor="middle" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace">sent back to the giaddr</text>
+<line x1="496" y1="320" x2="184" y2="320" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="340" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D5B">OFFER</text>
+<text x="340" y="340" text-anchor="middle" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace">10.10.10.25 + options</text>
+<circle cx="44" cy="410" r="20" fill="#3B5BA9"/><text x="44" y="417" text-anchor="middle" font-size="20" font-weight="800" fill="#FFFFFF">R</text>
+<line x1="184" y1="410" x2="496" y2="410" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<text x="340" y="400" text-anchor="middle" font-size="13" font-weight="700" fill="#3B5BA9">REQUEST (broadcast)</text>
+<text x="340" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace">opt 50: 10.10.10.25, opt 54: server</text>
+<line x1="504" y1="410" x2="816" y2="410" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<text x="660" y="400" text-anchor="middle" font-size="13" font-weight="700" fill="#3B5BA9">Relayed as unicast</text>
+<text x="660" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace">giaddr picks the scope</text>
+<circle cx="44" cy="500" r="20" fill="#2E7D5B"/><text x="44" y="507" text-anchor="middle" font-size="20" font-weight="800" fill="#FFFFFF">A</text>
+<line x1="816" y1="500" x2="504" y2="500" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="660" y="490" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D5B">ACK</text>
+<text x="660" y="520" text-anchor="middle" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace">lease recorded</text>
+<line x1="496" y1="500" x2="184" y2="500" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="340" y="490" text-anchor="middle" font-size="13" font-weight="700" fill="#2E7D5B">ACK</text>
+<text x="340" y="520" text-anchor="middle" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace">mask, gateway, DNS, lease time</text>
+<rect x="30" y="540" width="300" height="34" rx="8" fill="#F6E7D2" stroke="#B35C00"/>
+<text x="180" y="562" text-anchor="middle" font-size="12.5" fill="#1B2A3A">ARP probe: is 10.10.10.25 really free?</text>
+<rect x="30" y="598" width="900" height="80" rx="12" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="50" y="626" font-size="14" fill="#1B2A3A"><tspan font-weight="700">Later: </tspan>renew at 50% of the lease (T1, unicast to the server), rebind at 87.5% (T2, broadcast).</text>
+<text x="50" y="654" font-size="14" fill="#1B2A3A"><tspan font-weight="700" fill="#C0392B">No answer at all: </tspan>the client gives itself 169.254.x.x (APIPA). That address means DHCP failed.</text>
+</svg>

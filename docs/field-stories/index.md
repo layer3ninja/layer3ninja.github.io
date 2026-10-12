@@ -15,3 +15,4 @@ and what I learned fixing it.
 - [Reading the Meraki Route Table: Why One Site Shows the Whole Organization](meraki-route-table.md): Auto VPN routes, telling local subnets from remote ones, and the routing-priority surprise
 - [Fiber Link Won't Come Up? Check the Polarity](fiber-polarity.md): reading Tx/Rx light levels, spotting swapped strands, and fixing it at one end
 - [Hitting the Route Limit on an Old Switch: TCAM and SDM Templates](switch-max-routes.md): why routes beyond the hardware limit get CPU-switched, and how to check and fix it
+- [Life of a Packet: DHCP, Step by Step](dhcp-life-of-packet.md): DORA through a relay, renewals and APIPA, where DHCP breaks, and the commands to follow the packet

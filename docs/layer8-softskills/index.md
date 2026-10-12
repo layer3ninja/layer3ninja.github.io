@@ -13,3 +13,4 @@ learning and mindset at work.
 - ["It's the Network": Us vs. Them and the Minimal Group Paradigm](us-vs-them-teams.md): why even trivial groups take sides, how it shows up between IT teams, and how a bigger "we" fixes it
 - [Growth Mindset for Engineers: Useful Habit, Oversold Promise](growth-mindset.md): fixed vs. growth readings of failure, what the research really shows, and what actually helps
 - [WRAP: Four Steps to Better Decisions Under Pressure](wrap-decisions.md): widen options, reality-test, attain distance, and prepare to be wrong, with network examples
+- [TALK: The Topic Pyramid and Better Conversations at Work](talk-conversations.md): the topic pyramid, follow-up questions, levity, and kindness when you disagree

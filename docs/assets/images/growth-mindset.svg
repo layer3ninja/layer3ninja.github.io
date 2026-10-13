@@ -1,40 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="960" height="580" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozMGRmYjdlZS0yMmE0LTRlN2EtYmEyOS0xOTg5Y2UwZDEwNmIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIYzq5a7LnWFeeSaj98pROIAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0MjU4ZTVmNC1lNjAzLTQzMDMtYTNkMy0wMjZkZTBhZTE4ZjBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNopMaY4vBneJB8T5sjOb68/gAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggxVFBNK1/EQALPH0KwdlLbs2DYbH824j3t8wElVTx49ekZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaNHEKjuLH0mlV5fbcPCqdY0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAb33tv8VNABvgVZ2xoOUz1//D/b4TjvpFW505UFWZqE2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjTZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjMwZGZiN2VlLTIyYTQtNGU3YS1iYTI5LTE5ODljZTBkMTA2Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjIxZjNkNGY4LTZkMmUtNGYzMS1iNGQ0LTczOTYxZGNmMDg4Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDFUUE0rX8RAAs8fQrB2UtuzYNhsfzbiPe3zASVVPHj16JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggsaDn7tWP78owGa06pJxiHLEdgdAvB9QORKZrOcSF69miY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggxoPQ2Z1DOMDkc9GVPEQDWXePZn5snwvy6dzXCYYm7Kx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQFwVWnTCkPUNx0OFs4MXS/u82QPk6PjfAJmyu8K7MxdSyc8xMBLAHZRtc6slW+ha5St7Or9etY0yphWxOla0apU=</c2pa:manifest></metadata>
-  <rect width="960" height="580" rx="14" fill="#F4F7FA"/>
-  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Growth mindset: a useful habit, not a magic switch</text>
-  <text x="40" y="74" font-size="15" fill="#5B6B7C">Same situation, two ways to read it</text>
-
-  <rect x="40" y="96" width="880" height="38" rx="8" fill="#E9EDF2"/>
-  <g font-size="13" font-weight="700" fill="#5B6B7C">
-    <text x="58" y="120">Situation</text><text x="300" y="120" fill="#C0392B">Fixed reading</text><text x="610" y="120" fill="#2E7D5B">Growth reading</text>
-  </g>
-  <g font-size="13" fill="#1B2A3A">
-    <rect x="40" y="142" width="880" height="72" rx="8" fill="#FFFFFF"/>
-    <text x="58" y="174" font-weight="700">Failed a certification exam</text>
-    <text x="300" y="174">"I'm just not good at this."</text>
-    <text x="610" y="168">"Not yet. Which topics did I miss?</text>
-    <text x="610" y="188">I'll change how I study them."</text>
-
-    <rect x="40" y="222" width="880" height="72" rx="8" fill="#FFFFFF"/>
-    <text x="58" y="254" font-weight="700">My change caused an outage</text>
-    <text x="300" y="254">"I'm a bad engineer."</text>
-    <text x="610" y="248">"What gap let this through?</text>
-    <text x="610" y="268">Fix it, and learn the platform better."</text>
-
-    <rect x="40" y="302" width="880" height="72" rx="8" fill="#FFFFFF"/>
-    <text x="58" y="334" font-weight="700">A platform I've never used</text>
-    <text x="300" y="334">"Not my area. I'll avoid it."</text>
-    <text x="610" y="328">"Lab it, read the docs, and ask</text>
-    <text x="610" y="348">someone who knows it."</text>
-  </g>
-  <line x1="286" y1="142" x2="286" y2="374" stroke="#E2E7ED" stroke-width="2"/>
-  <line x1="596" y1="142" x2="596" y2="374" stroke="#E2E7ED" stroke-width="2"/>
-
-  <rect x="40" y="396" width="880" height="164" rx="10" fill="#FFFFFF" stroke="#3B5BA9" stroke-width="1.5"/>
-  <text x="58" y="424" font-size="15" font-weight="700" fill="#3B5BA9">What the research actually says</text>
-  <g font-size="13" fill="#1B2A3A">
-    <circle cx="66" cy="450" r="4" fill="#3B5BA9"/><text x="80" y="455">Average effects of mindset programs on grades are <tspan font-weight="700">small</tspan>, far smaller than the popular version suggests.</text>
-    <circle cx="66" cy="476" r="4" fill="#3B5BA9"/><text x="80" y="481">Effects look larger for <tspan font-weight="700">struggling learners</tspan>, and depend on the environment around them.</text>
-    <circle cx="66" cy="502" r="4" fill="#3B5BA9"/><text x="80" y="507">Belief alone isn't enough: it works with <tspan font-weight="700">better strategies, practice and help</tspan>.</text>
-    <circle cx="66" cy="528" r="4" fill="#C0392B"/><text x="80" y="533">Never use it to blame people: "you just need a growth mindset" ignores real obstacles.</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<rect width="960" height="620" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Beyond growth mindset: four levers with stronger evidence</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Believing you can improve helps a little. These are the habits that do the improving.</text>
+<rect x="40" y="96" width="200" height="340" rx="12" fill="#F8E3E0" stroke="#C0392B" stroke-width="2"/>
+<circle cx="140" cy="138" r="24" fill="#C0392B"/><text x="140" y="147" text-anchor="middle" font-size="24" font-weight="800" fill="#FFFFFF">1</text>
+<text x="140" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A3A">Learn from errors</text>
+<rect x="52" y="204" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#C0392B"/>
+<text x="140" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#C0392B">Evidence: Mod. to strong</text>
+<text x="58" y="262" font-size="13" fill="#1B2A3A">Lab it, break it on</text>
+<text x="58" y="283" font-size="13" fill="#1B2A3A">purpose, fix it without</text>
+<text x="58" y="304" font-size="13" fill="#1B2A3A">the answer key.</text>
+<text x="58" y="325" font-size="13" fill="#1B2A3A"></text>
+<text x="58" y="346" font-size="13" fill="#1B2A3A">Error training: biggest</text>
+<text x="58" y="367" font-size="13" fill="#1B2A3A">gains on new problems</text>
+<rect x="266" y="96" width="200" height="340" rx="12" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="2"/>
+<circle cx="366" cy="138" r="24" fill="#3B5BA9"/><text x="366" y="147" text-anchor="middle" font-size="24" font-weight="800" fill="#FFFFFF">2</text>
+<text x="366" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A3A">Retrieve and space</text>
+<rect x="278" y="204" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#3B5BA9"/>
+<text x="366" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#3B5BA9">Evidence: Strong</text>
+<text x="284" y="262" font-size="13" fill="#1B2A3A">Close the book and</text>
+<text x="284" y="283" font-size="13" fill="#1B2A3A">recall. Lab the same</text>
+<text x="284" y="304" font-size="13" fill="#1B2A3A">topic again days later.</text>
+<text x="284" y="325" font-size="13" fill="#1B2A3A"></text>
+<text x="284" y="346" font-size="13" fill="#1B2A3A">Rereading and</text>
+<text x="284" y="367" font-size="13" fill="#1B2A3A">highlighting: low value</text>
+<rect x="492" y="96" width="200" height="340" rx="12" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+<circle cx="592" cy="138" r="24" fill="#B35C00"/><text x="592" y="147" text-anchor="middle" font-size="24" font-weight="800" fill="#FFFFFF">3</text>
+<text x="592" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A3A">Specific goals</text>
+<rect x="504" y="204" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#B35C00"/>
+<text x="592" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#B35C00">Evidence: Strong</text>
+<text x="510" y="262" font-size="13" fill="#1B2A3A">Not "study BGP".</text>
+<text x="510" y="283" font-size="13" fill="#1B2A3A">"Build and fix a BGP</text>
+<text x="510" y="304" font-size="13" fill="#1B2A3A">lab in 45 min, no</text>
+<text x="510" y="325" font-size="13" fill="#1B2A3A">notes." Then get</text>
+<text x="510" y="346" font-size="13" fill="#1B2A3A">feedback: a timer,</text>
+<text x="510" y="367" font-size="13" fill="#1B2A3A">a peer, a real ticket.</text>
+<rect x="718" y="96" width="200" height="340" rx="12" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<circle cx="818" cy="138" r="24" fill="#2E7D5B"/><text x="818" y="147" text-anchor="middle" font-size="24" font-weight="800" fill="#FFFFFF">4</text>
+<text x="818" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A3A">Earn confidence</text>
+<rect x="730" y="204" width="176" height="26" rx="13" fill="#FFFFFF" stroke="#2E7D5B"/>
+<text x="818" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#2E7D5B">Evidence: Moderate</text>
+<text x="736" y="262" font-size="13" fill="#1B2A3A">Confidence mostly</text>
+<text x="736" y="283" font-size="13" fill="#1B2A3A">follows success.</text>
+<text x="736" y="304" font-size="13" fill="#1B2A3A">Stack small wins,</text>
+<text x="736" y="325" font-size="13" fill="#1B2A3A">then raise the</text>
+<text x="736" y="346" font-size="13" fill="#1B2A3A">difficulty.</text>
+<rect x="40" y="470" width="878" height="122" rx="12" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="62" y="502" font-size="16" font-weight="700" fill="#1B2A3A">And growth mindset?</text>
+<text x="62" y="528" font-size="14" fill="#1B2A3A">Large meta-analyses find small average effects, larger for people who are struggling.</text>
+<text x="62" y="552" font-size="14" fill="#1B2A3A">"Not yet" is still a useful way to read a failed exam or a bad change. It just needs a method behind it.</text>
+<text x="62" y="576" font-size="13" fill="#5B6B7C">Use the belief as the reason to start, and the four levers above as the way to get better.</text>
 </svg>

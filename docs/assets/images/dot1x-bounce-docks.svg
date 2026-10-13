@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="650" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">802.1X: why a port bounce helps, and why docks get denied</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Two common surprises when rolling out port authentication</text>
+<rect x="30" y="92" width="900" height="240" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">1. Enabling 802.1X on a port where a device is already connected</text>
+<text x="48" y="150" text-anchor="start" font-size="12.5" fill="#C0392B" font-weight="700">Without a bounce</text>
+<rect x="48" y="160" width="190" height="56" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="143.0" y="185.0" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">802.1X enabled</text>
+<text x="143.0" y="203.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">device already up</text>
+<rect x="278" y="160" width="200" height="56" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="378.0" y="185.0" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">No link change</text>
+<text x="378.0" y="203.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">supplicant may not start</text>
+<rect x="518" y="160" width="200" height="56" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="618.0" y="185.0" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">Wait for timeouts</text>
+<text x="618.0" y="203.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">MAB after ~90 s (3 × 30 s)</text>
+<rect x="758" y="160" width="155" height="56" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="835.5" y="185.0" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">Slow or stuck</text>
+<text x="835.5" y="203.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">users call the helpdesk</text>
+<line x1="240" y1="188" x2="274" y2="188" stroke="#C0392B" stroke-width="2.5" marker-end="url(#r)"/>
+<line x1="480" y1="188" x2="514" y2="188" stroke="#C0392B" stroke-width="2.5" marker-end="url(#r)"/>
+<line x1="720" y1="188" x2="754" y2="188" stroke="#C0392B" stroke-width="2.5" marker-end="url(#r)"/>
+<text x="48" y="250" text-anchor="start" font-size="12.5" fill="#2E7D5B" font-weight="700">With shut / no shut</text>
+<rect x="48" y="260" width="190" height="56" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="143.0" y="285.0" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">Port bounced</text>
+<text x="143.0" y="303.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">link down, then up</text>
+<rect x="278" y="260" width="200" height="56" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="378.0" y="285.0" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">Fresh start</text>
+<text x="378.0" y="303.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">EAPOL-Start, MAB, DHCP</text>
+<rect x="518" y="260" width="200" height="56" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="618.0" y="285.0" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">Authenticated</text>
+<text x="618.0" y="303.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">in seconds</text>
+<rect x="758" y="260" width="155" height="56" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="835.5" y="285.0" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">Working</text>
+<text x="835.5" y="303.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">right VLAN, right policy</text>
+<line x1="240" y1="288" x2="274" y2="288" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<line x1="480" y1="288" x2="514" y2="288" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<line x1="720" y1="288" x2="754" y2="288" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<rect x="30" y="350" width="900" height="280" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="378" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">2. Docking stations have their own MAC address</text>
+<text x="48" y="414" text-anchor="start" font-size="12.5" fill="#C0392B" font-weight="700">Pass-through OFF</text>
+<rect x="48" y="422" width="120" height="62" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="108.0" y="449.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Laptop</text>
+<text x="108.0" y="468.0" text-anchor="middle" font-size="12" fill="#5B6B7C">…53:11</text>
+<rect x="198" y="422" width="120" height="62" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="258.0" y="449.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Dock</text>
+<text x="258.0" y="468.0" text-anchor="middle" font-size="12" fill="#5B6B7C">…53:99</text>
+<line x1="168" y1="453" x2="198" y2="453" stroke="#1B2A3A" stroke-width="2.5"/>
+<rect x="388" y="422" width="130" height="62" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="453.0" y="449.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Switch port</text>
+<text x="453.0" y="468.0" text-anchor="middle" font-size="12" fill="#5B6B7C">802.1X / MAB</text>
+<line x1="320" y1="453" x2="384" y2="453" stroke="#C0392B" stroke-width="2.5" marker-end="url(#r)"/>
+<text x="354" y="416" text-anchor="middle" font-size="11" fill="#5B6B7C">switch sees</text>
+<text x="453" y="500" text-anchor="middle" font-size="11.5" fill="#C0392B" font-family="Consolas, Menlo, monospace" xml:space="preserve">00:00:5e:00:53:99 (dock)</text>
+<rect x="578" y="422" width="120" height="62" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="638.0" y="449.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">NAC</text>
+<text x="638.0" y="468.0" text-anchor="middle" font-size="12" fill="#5B6B7C">policy server</text>
+<line x1="520" y1="453" x2="574" y2="453" stroke="#C0392B" stroke-width="2.5" marker-end="url(#r)"/>
+<rect x="748" y="422" width="165" height="62" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="830.5" y="449.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Unknown MAC</text>
+<text x="830.5" y="468.0" text-anchor="middle" font-size="12" fill="#5B6B7C">denied or wrong VLAN</text>
+<line x1="700" y1="453" x2="744" y2="453" stroke="#C0392B" stroke-width="2.5" marker-end="url(#r)"/>
+<text x="48" y="524" text-anchor="start" font-size="12.5" fill="#2E7D5B" font-weight="700">Pass-through ON</text>
+<rect x="48" y="532" width="120" height="62" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="108.0" y="559.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Laptop</text>
+<text x="108.0" y="578.0" text-anchor="middle" font-size="12" fill="#5B6B7C">…53:11</text>
+<rect x="198" y="532" width="120" height="62" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="258.0" y="559.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Dock</text>
+<text x="258.0" y="578.0" text-anchor="middle" font-size="12" fill="#5B6B7C">uses …53:11</text>
+<line x1="168" y1="563" x2="198" y2="563" stroke="#1B2A3A" stroke-width="2.5"/>
+<rect x="388" y="532" width="130" height="62" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="453.0" y="559.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Switch port</text>
+<text x="453.0" y="578.0" text-anchor="middle" font-size="12" fill="#5B6B7C">802.1X / MAB</text>
+<line x1="320" y1="563" x2="384" y2="563" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="354" y="526" text-anchor="middle" font-size="11" fill="#5B6B7C">switch sees</text>
+<text x="453" y="610" text-anchor="middle" font-size="11.5" fill="#2E7D5B" font-family="Consolas, Menlo, monospace" xml:space="preserve">00:00:5e:00:53:11 (laptop)</text>
+<rect x="578" y="532" width="120" height="62" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="638.0" y="559.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">NAC</text>
+<text x="638.0" y="578.0" text-anchor="middle" font-size="12" fill="#5B6B7C">policy server</text>
+<line x1="520" y1="563" x2="574" y2="563" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<rect x="748" y="532" width="165" height="62" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="830.5" y="559.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Known device</text>
+<text x="830.5" y="578.0" text-anchor="middle" font-size="12" fill="#5B6B7C">authorized</text>
+<line x1="700" y1="563" x2="744" y2="563" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+</svg>

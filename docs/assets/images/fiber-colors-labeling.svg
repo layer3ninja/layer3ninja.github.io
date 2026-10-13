@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="680" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Fiber at a glance: colors, strand order, and labels</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Jacket and connector colors tell you the fiber type; strand colors and labels tell you where it goes</text>
+<rect x="30" y="92" width="440" height="230" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Jacket color (TIA-598)</text>
+<rect x="48" y="138" width="70" height="20" rx="10" fill="#F2C700" stroke="#5B6B7C" stroke-width="1"/>
+<text x="130" y="153" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">OS1 / OS2</text>
+<text x="232" y="153" text-anchor="start" font-size="12" fill="#5B6B7C">single-mode 9/125 µm</text>
+<rect x="48" y="173" width="70" height="20" rx="10" fill="#F28C28" stroke="#5B6B7C" stroke-width="1"/>
+<text x="130" y="188" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">OM1 / OM2</text>
+<text x="232" y="188" text-anchor="start" font-size="12" fill="#5B6B7C">multimode 62.5 or 50 µm</text>
+<rect x="48" y="208" width="70" height="20" rx="10" fill="#3EC1C9" stroke="#5B6B7C" stroke-width="1"/>
+<text x="130" y="223" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">OM3 / OM4</text>
+<text x="232" y="223" text-anchor="start" font-size="12" fill="#5B6B7C">multimode 50/125 µm</text>
+<rect x="48" y="243" width="70" height="20" rx="10" fill="#B565A7" stroke="#5B6B7C" stroke-width="1"/>
+<text x="130" y="258" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">OM4 (violet)</text>
+<text x="232" y="258" text-anchor="start" font-size="12" fill="#5B6B7C">used by some vendors</text>
+<rect x="48" y="278" width="70" height="20" rx="10" fill="#9ACD32" stroke="#5B6B7C" stroke-width="1"/>
+<text x="130" y="293" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">OM5</text>
+<text x="232" y="293" text-anchor="start" font-size="12" fill="#5B6B7C">wideband multimode</text>
+<text x="48" y="316" text-anchor="start" font-size="11.5" fill="#C0392B">Color is a hint, not proof: always check the print on the jacket.</text>
+<rect x="490" y="92" width="440" height="230" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="508" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Connector color</text>
+<rect x="508" y="140" width="34" height="22" rx="4" fill="#2F6FD6" stroke="#5B6B7C" stroke-width="1"/>
+<rect x="542" y="147" width="16" height="8" rx="1" fill="#C9D1DB" stroke="#5B6B7C" stroke-width="1"/>
+<text x="572" y="156" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">Blue</text>
+<text x="625" y="156" text-anchor="start" font-size="12" fill="#5B6B7C">single-mode, UPC (flat polish)</text>
+<rect x="508" y="176" width="34" height="22" rx="4" fill="#2E9B47" stroke="#5B6B7C" stroke-width="1"/>
+<rect x="542" y="183" width="16" height="8" rx="1" fill="#C9D1DB" stroke="#5B6B7C" stroke-width="1"/>
+<text x="572" y="192" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">Green</text>
+<text x="625" y="192" text-anchor="start" font-size="12" fill="#5B6B7C">single-mode, APC (8° angle)</text>
+<rect x="508" y="212" width="34" height="22" rx="4" fill="#D8CBA8" stroke="#5B6B7C" stroke-width="1"/>
+<rect x="542" y="219" width="16" height="8" rx="1" fill="#C9D1DB" stroke="#5B6B7C" stroke-width="1"/>
+<text x="572" y="228" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">Beige</text>
+<text x="625" y="228" text-anchor="start" font-size="12" fill="#5B6B7C">multimode</text>
+<rect x="508" y="248" width="34" height="22" rx="4" fill="#3EC1C9" stroke="#5B6B7C" stroke-width="1"/>
+<rect x="542" y="255" width="16" height="8" rx="1" fill="#C9D1DB" stroke="#5B6B7C" stroke-width="1"/>
+<text x="572" y="264" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">Aqua</text>
+<text x="625" y="264" text-anchor="start" font-size="12" fill="#5B6B7C">multimode, OM3 / OM4</text>
+<rect x="508" y="286" width="404" height="28" rx="6" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="710" y="305" text-anchor="middle" font-size="11.5" fill="#C0392B" font-weight="600">Never mate green (APC) to blue (UPC): high loss, can damage faces</text>
+<rect x="30" y="336" width="900" height="112" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="362" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Strand (and buffer tube) order, TIA-598: 1 to 12</text>
+<circle cx="78" cy="394" r="15" fill="#1F5FBF" stroke="#5B6B7C" stroke-width="1"/>
+<text x="78" y="399" text-anchor="middle" font-size="12.5" fill="#FFFFFF" font-weight="700">1</text>
+<text x="78" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Blue</text>
+<circle cx="150" cy="394" r="15" fill="#F28C28" stroke="#5B6B7C" stroke-width="1"/>
+<text x="150" y="399" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="700">2</text>
+<text x="150" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Orange</text>
+<circle cx="222" cy="394" r="15" fill="#2E9B47" stroke="#5B6B7C" stroke-width="1"/>
+<text x="222" y="399" text-anchor="middle" font-size="12.5" fill="#FFFFFF" font-weight="700">3</text>
+<text x="222" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Green</text>
+<circle cx="294" cy="394" r="15" fill="#8B5A2B" stroke="#5B6B7C" stroke-width="1"/>
+<text x="294" y="399" text-anchor="middle" font-size="12.5" fill="#FFFFFF" font-weight="700">4</text>
+<text x="294" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Brown</text>
+<circle cx="366" cy="394" r="15" fill="#708090" stroke="#5B6B7C" stroke-width="1"/>
+<text x="366" y="399" text-anchor="middle" font-size="12.5" fill="#FFFFFF" font-weight="700">5</text>
+<text x="366" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Slate</text>
+<circle cx="438" cy="394" r="15" fill="#FFFFFF" stroke="#5B6B7C" stroke-width="1"/>
+<text x="438" y="399" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="700">6</text>
+<text x="438" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">White</text>
+<circle cx="510" cy="394" r="15" fill="#D32F2F" stroke="#5B6B7C" stroke-width="1"/>
+<text x="510" y="399" text-anchor="middle" font-size="12.5" fill="#FFFFFF" font-weight="700">7</text>
+<text x="510" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Red</text>
+<circle cx="582" cy="394" r="15" fill="#222222" stroke="#5B6B7C" stroke-width="1"/>
+<text x="582" y="399" text-anchor="middle" font-size="12.5" fill="#FFFFFF" font-weight="700">8</text>
+<text x="582" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Black</text>
+<circle cx="654" cy="394" r="15" fill="#F2C700" stroke="#5B6B7C" stroke-width="1"/>
+<text x="654" y="399" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="700">9</text>
+<text x="654" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Yellow</text>
+<circle cx="726" cy="394" r="15" fill="#8E44AD" stroke="#5B6B7C" stroke-width="1"/>
+<text x="726" y="399" text-anchor="middle" font-size="12.5" fill="#FFFFFF" font-weight="700">10</text>
+<text x="726" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Violet</text>
+<circle cx="798" cy="394" r="15" fill="#F4A6B8" stroke="#5B6B7C" stroke-width="1"/>
+<text x="798" y="399" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="700">11</text>
+<text x="798" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Rose</text>
+<circle cx="870" cy="394" r="15" fill="#3EC1C9" stroke="#5B6B7C" stroke-width="1"/>
+<text x="870" y="399" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="700">12</text>
+<text x="870" y="430" text-anchor="middle" font-size="11.5" fill="#1B2A3A">Aqua</text>
+<rect x="30" y="462" width="900" height="198" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="490" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Splice once, label both ends the same way</text>
+<rect x="48" y="525" width="300" height="64" rx="6" fill="#EEF1F5" stroke="#5B6B7C" stroke-width="1.5"/>
+<text x="198" y="517" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="700">MDF · rack 02 · fiber panel 03</text>
+<rect x="62.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="71.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">1</text>
+<rect x="85.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="94.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">2</text>
+<rect x="109.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="118.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">3</text>
+<rect x="132.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="141.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">4</text>
+<rect x="156.0" y="539" width="18" height="24" rx="3" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.3"/>
+<text x="165.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">5</text>
+<rect x="179.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="188.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">6</text>
+<rect x="203.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="212.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">7</text>
+<rect x="226.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="235.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">8</text>
+<rect x="250.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="259.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">9</text>
+<rect x="273.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="282.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">10</text>
+<rect x="297.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="306.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">11</text>
+<rect x="320.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="329.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">12</text>
+<rect x="612" y="525" width="300" height="64" rx="6" fill="#EEF1F5" stroke="#5B6B7C" stroke-width="1.5"/>
+<text x="762" y="517" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="700">IDF2 · rack 01 · fiber panel 01</text>
+<rect x="626.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="635.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">1</text>
+<rect x="649.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="658.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">2</text>
+<rect x="673.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="682.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">3</text>
+<rect x="696.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="705.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">4</text>
+<rect x="720.0" y="539" width="18" height="24" rx="3" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.3"/>
+<text x="729.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">5</text>
+<rect x="743.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="752.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">6</text>
+<rect x="767.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="776.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">7</text>
+<rect x="790.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="799.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">8</text>
+<rect x="814.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="823.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">9</text>
+<rect x="837.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="846.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">10</text>
+<rect x="861.0" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="870.0" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">11</text>
+<rect x="884.5" y="539" width="18" height="24" rx="3" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1"/>
+<text x="893.5" y="579" text-anchor="middle" font-size="9.5" fill="#5B6B7C">12</text>
+<path d="M348 557 C 430 520, 530 600, 612 557" fill="none" stroke="#F2C700" stroke-width="7"/>
+<text x="480" y="522" text-anchor="middle" font-size="12" fill="#5B6B7C">12-strand single-mode trunk</text>
+<text x="480" y="592" text-anchor="middle" font-size="11.5" fill="#5B6B7C">spliced into pigtails in each panel</text>
+<rect x="48" y="605" width="300" height="40" rx="6" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="198" y="630" text-anchor="middle" font-size="12" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">MDF-R02-FP03:05  →  IDF2-R01-FP01:05</text>
+<rect x="612" y="605" width="300" height="40" rx="6" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="762" y="630" text-anchor="middle" font-size="12" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">IDF2-R01-FP01:05  →  MDF-R02-FP03:05</text>
+</svg>

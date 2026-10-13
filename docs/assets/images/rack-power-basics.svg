@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="660" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Racking gear: rack units, cage nuts, PDU vs. UPS</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Know the sizes before you order, keep spare cage nuts, and feed every dual-PSU device from two sources</text>
+<rect x="30" y="95" width="430" height="535" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="124" text-anchor="start" font-size="16" fill="#1B2A3A" font-weight="700">Rack anatomy</text>
+<rect x="96" y="144" width="248" height="350" rx="4" fill="#EEF1F5" stroke="#5B6B7C" stroke-width="1.5"/>
+<rect x="100" y="150" width="10" height="338" rx="1" fill="#C9D1DB" stroke="#5B6B7C" stroke-width="1"/>
+<rect x="330" y="150" width="10" height="338" rx="1" fill="#C9D1DB" stroke="#5B6B7C" stroke-width="1"/>
+<rect x="110" y="151" width="220" height="11" rx="2" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.2"/>
+<text x="220.0" y="160.5" text-anchor="middle" font-size="10.5" fill="#1B2A3A" font-weight="600">1U switch</text>
+<rect x="110" y="164" width="220" height="11" rx="2" fill="#FFFFFF" stroke="#5B6B7C" stroke-width="1.2"/>
+<text x="220.0" y="173.5" text-anchor="middle" font-size="10.5" fill="#1B2A3A" font-weight="600">1U patch panel</text>
+<rect x="110" y="190" width="220" height="24" rx="2" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.2"/>
+<text x="220.0" y="206.0" text-anchor="middle" font-size="12" fill="#1B2A3A" font-weight="600">2U server</text>
+<rect x="110" y="229" width="220" height="11" rx="2" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.2"/>
+<text x="220.0" y="238.5" text-anchor="middle" font-size="10.5" fill="#1B2A3A" font-weight="600">1U firewall</text>
+<rect x="110" y="424" width="220" height="37" rx="2" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.2"/>
+<text x="220.0" y="446.5" text-anchor="middle" font-size="12" fill="#1B2A3A" font-weight="600">3U UPS (heavy: bottom)</text>
+<text x="220.0" y="363" text-anchor="middle" font-size="12" fill="#5B6B7C">42U ≈ 2 m tall (typical)</text>
+<line x1="220.0" y1="512" x2="100" y2="512" stroke="#5B6B7C" stroke-width="1.5" marker-end="url(#k)"/>
+<line x1="220.0" y1="512" x2="340" y2="512" stroke="#5B6B7C" stroke-width="1.5" marker-end="url(#k)"/>
+<text x="220.0" y="530" text-anchor="middle" font-size="12" fill="#1B2A3A" font-weight="600">19 in (482.6 mm) mounting width</text>
+<line x1="346" y1="150" x2="358" y2="150" stroke="#5B6B7C" stroke-width="1.5"/>
+<line x1="346" y1="163" x2="358" y2="163" stroke="#5B6B7C" stroke-width="1.5"/>
+<line x1="352" y1="150" x2="352" y2="163" stroke="#5B6B7C" stroke-width="1.5"/>
+<text x="364" y="161" text-anchor="start" font-size="11.5" fill="#1B2A3A" font-weight="600">1U = 44.45 mm</text>
+<rect x="358" y="194" width="90" height="170" rx="8" fill="#F4F7FA" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="403" y="186" text-anchor="middle" font-size="11" fill="#5B6B7C">one U, zoomed</text>
+<rect x="372" y="204" width="18" height="150" rx="2" fill="#C9D1DB" stroke="#5B6B7C" stroke-width="1"/>
+<rect x="375" y="220" width="12" height="12" rx="1" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.2"/>
+<rect x="375" y="270" width="12" height="12" rx="1" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.2"/>
+<rect x="375" y="320" width="12" height="12" rx="1" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.2"/>
+<text x="396" y="256" text-anchor="start" font-size="11" fill="#1B2A3A">15.9 mm</text>
+<text x="396" y="306" text-anchor="start" font-size="11" fill="#1B2A3A">15.9 mm</text>
+<text x="396" y="348" text-anchor="start" font-size="11" fill="#1B2A3A" font-weight="700">12.7 mm</text>
+<text x="396" y="362" text-anchor="start" font-size="10.5" fill="#C0392B">U border</text>
+<text x="48" y="560" text-anchor="start" font-size="12.5" fill="#1B2A3A">Square holes take cage nuts (M6 is the most common).</text>
+<text x="48" y="580" text-anchor="start" font-size="12.5" fill="#1B2A3A">Order them with the rack and keep a spare bag of 50+.</text>
+<text x="48" y="600" text-anchor="start" font-size="12.5" fill="#1B2A3A">Use a cage nut tool, not a screwdriver.</text>
+<rect x="480" y="95" width="450" height="535" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="498" y="124" text-anchor="start" font-size="16" fill="#1B2A3A" font-weight="700">Power: two independent feeds</text>
+<rect x="495" y="150" width="100" height="56" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="545.0" y="174.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Circuit A</text>
+<text x="545.0" y="193.0" text-anchor="middle" font-size="12" fill="#5B6B7C">breaker</text>
+<rect x="630" y="150" width="120" height="56" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="690.0" y="174.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">UPS A</text>
+<text x="690.0" y="193.0" text-anchor="middle" font-size="12" fill="#5B6B7C">battery backup</text>
+<rect x="785" y="150" width="125" height="56" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="847.5" y="174.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">PDU A</text>
+<text x="847.5" y="193.0" text-anchor="middle" font-size="12" fill="#5B6B7C">distribution</text>
+<line x1="597" y1="178" x2="626" y2="178" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<line x1="752" y1="178" x2="781" y2="178" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<rect x="495" y="245" width="100" height="56" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="545.0" y="269.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Circuit B</text>
+<text x="545.0" y="288.0" text-anchor="middle" font-size="12" fill="#5B6B7C">breaker</text>
+<rect x="630" y="245" width="120" height="56" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="690.0" y="269.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">UPS B</text>
+<text x="690.0" y="288.0" text-anchor="middle" font-size="12" fill="#5B6B7C">battery backup</text>
+<rect x="785" y="245" width="125" height="56" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="847.5" y="269.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">PDU B</text>
+<text x="847.5" y="288.0" text-anchor="middle" font-size="12" fill="#5B6B7C">distribution</text>
+<line x1="597" y1="273" x2="626" y2="273" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<line x1="752" y1="273" x2="781" y2="273" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<rect x="620" y="370" width="250" height="82" rx="10" fill="#F4F7FA" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="745" y="440" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="700">Device with two power supplies</text>
+<rect x="640" y="380" width="90" height="36" rx="6" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="685" y="403" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="600">PSU 2</text>
+<rect x="760" y="380" width="90" height="36" rx="6" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="805" y="403" text-anchor="middle" font-size="12.5" fill="#1B2A3A" font-weight="600">PSU 1</text>
+<path d="M910 178 L920 178 L920 350 L805 350 L805 376" fill="none" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<path d="M847 301 L847 330 L685 330 L685 376" fill="none" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="498" y="488" text-anchor="start" font-size="12.5" fill="#1B2A3A"><tspan font-weight='700'>UPS:</tspan> battery + clean power for minutes, until</text>
+<text x="498" y="508" text-anchor="start" font-size="12.5" fill="#1B2A3A">generator or graceful shutdown.</text>
+<text x="498" y="528" text-anchor="start" font-size="12.5" fill="#1B2A3A"><tspan font-weight='700'>PDU:</tspan> a smart power strip. No battery. Basic,</text>
+<text x="498" y="548" text-anchor="start" font-size="12.5" fill="#1B2A3A">metered, monitored or switched (remote on/off).</text>
+<text x="498" y="568" text-anchor="start" font-size="12.5" fill="#1B2A3A"><tspan font-weight='700'>Rule:</tspan> both PSUs never on the same PDU, and keep</text>
+<text x="498" y="588" text-anchor="start" font-size="12.5" fill="#1B2A3A">each circuit under 80% of its breaker rating.</text>
+</svg>

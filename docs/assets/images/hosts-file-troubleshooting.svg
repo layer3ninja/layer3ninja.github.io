@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker></defs>
+<rect width="960" height="640" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Why ping and nslookup can disagree</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">They look up names in different ways. The hosts file is checked by one and ignored by the other.</text>
+<rect x="30" y="110" width="170" height="64" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="115.0" y="138.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">ping, browser, apps</text>
+<text x="115.0" y="157.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">Windows resolver</text>
+<rect x="240" y="110" width="150" height="64" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="315.0" y="138.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">1. hosts file</text>
+<text x="315.0" y="157.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">checked first</text>
+<rect x="420" y="110" width="140" height="64" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="490.0" y="138.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">2. DNS cache</text>
+<text x="490.0" y="157.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">recent answers</text>
+<rect x="590" y="110" width="150" height="64" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="665.0" y="138.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">3. DNS server</text>
+<text x="665.0" y="157.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">+ suffix search list</text>
+<rect x="770" y="110" width="160" height="64" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="850.0" y="138.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">4. LLMNR / NetBIOS</text>
+<text x="850.0" y="157.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">local network only</text>
+<line x1="200" y1="142.0" x2="236" y2="142.0" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<line x1="390" y1="142.0" x2="416" y2="142.0" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<line x1="560" y1="142.0" x2="586" y2="142.0" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<line x1="740" y1="142.0" x2="766" y2="142.0" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<rect x="30" y="215" width="170" height="56" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="115.0" y="239.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">nslookup</text>
+<text x="115.0" y="258.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">its own DNS client</text>
+<path d="M200 243 L665 243 L665 182" fill="none" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="420" y="235" text-anchor="middle" font-size="12.5" fill="#2E7D5B" font-weight="600">goes straight to the DNS server: skips the hosts file and cache</text>
+<line x1="30" y1="300" x2="930" y2="300" stroke="#8A97A6" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="30" y="330" font-size="16" font-weight="700" fill="#1B2A3A">Using it: steering around a bad cloud edge location</text>
+<rect x="40" y="420" width="170" height="70" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="125.0" y="451.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">Test PC</text>
+<text x="125.0" y="470.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">hosts file edited</text>
+<rect x="700" y="355" width="230" height="72" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="815.0" y="387.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">Edge location A</text>
+<text x="815.0" y="406.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">198.51.100.10 · degraded</text>
+<rect x="700" y="485" width="230" height="72" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="815.0" y="517.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">Edge location B</text>
+<text x="815.0" y="536.0" text-anchor="middle" font-size="11.5" fill="#5B6B7C">203.0.113.20 · healthy</text>
+<line x1="212" y1="440" x2="696" y2="395" stroke="#C0392B" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#r)"/>
+<text x="455" y="382" text-anchor="middle" font-size="12.5" fill="#C0392B">DNS answer (nslookup): nearest edge, slow or failing</text>
+<line x1="212" y1="472" x2="696" y2="520" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="455" y="535" text-anchor="middle" font-size="12.5" fill="#2E7D5B">hosts file (ping, browser): pinned to another edge</text>
+<rect x="40" y="580" width="560" height="40" rx="8" fill="#1B2A3A"/>
+<text x="58" y="606" xml:space="preserve" font-size="13.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace">203.0.113.20    app.example.com    # TEMP: edge test, remove</text>
+<text x="620" y="606" font-size="12.5" fill="#5B6B7C">Same name, so TLS still works. Remove it after.</text>
+</svg>

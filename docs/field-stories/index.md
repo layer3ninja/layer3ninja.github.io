@@ -17,3 +17,4 @@ and what I learned fixing it.
 - [Hitting the Route Limit on an Old Switch: TCAM and SDM Templates](switch-max-routes.md): why routes beyond the hardware limit get CPU-switched, and how to check and fix it
 - [Life of a Packet: DHCP, Step by Step](dhcp-life-of-packet.md): DORA through a relay, renewals and APIPA, where DHCP breaks, and the commands to follow the packet
 - [Life of a Packet: DNS, Step by Step](dns-life-of-packet.md): stub and recursive resolvers, root to authoritative, caching and TTLs, where DNS breaks, and the commands to trace it
+- [Ping and nslookup Disagree? The Hosts File, and a Bad Cloud Edge](hosts-file-troubleshooting.md): how Windows resolves names, using the hosts file to steer around a bad edge location, and the traps to avoid

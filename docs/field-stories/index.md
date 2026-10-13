@@ -22,3 +22,4 @@ and what I learned fixing it.
 - [802.1X Rollout Surprises: Port Bounces and Docking Stations](dot1x-bounce-docks.md): why connected devices need a port bounce, and how MAC pass-through fixes docks
 - [Fiber Basics on Site: Color Codes, Splicing, Patch Panels and Labels](fiber-colors-labeling.md): single-mode vs. multimode at a glance, the 12-color strand order, and labeling both ends
 - [Tracking Down a Machine, and Why Moving Cables Seems Not to Work](tracking-a-machine.md): IP to MAC to port with ARP, MAC tables and CDP/LLDP, and the cache timers behind confusing cable moves
+- [Keeping It Cool: Hot and Cold Aisles, Small Data Rooms, and Fan Direction](cooling-basics.md): inlet temperatures, hot and cold aisles, cooling options for small rooms, and matching switch airflow to the rack

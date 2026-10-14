@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="660" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Realistic expectations, and owning mistakes as a team</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Promise what you can keep, say early when it slips, and stand in front of your team when something goes wrong</text>
+<rect x="30" y="92" width="440" height="330" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Why estimates run late: the planning fallacy</text>
+<text x="48" y="150" text-anchor="start" font-size="12" fill="#5B6B7C">Students' thesis estimates vs. reality (Buehler et al., 1994)</text>
+<rect x="48" y="166" width="220" height="30" rx="6" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="56" y="186" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700">predicted: 34 days</text>
+<rect x="48" y="206" width="360" height="30" rx="6" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="56" y="226" text-anchor="start" font-size="12.5" fill="#C0392B" font-weight="700">actual: 56 days</text>
+<text x="48" y="262" text-anchor="start" font-size="13.5" fill="#1B2A3A" font-weight="700">Setting a realistic expectation:</text>
+<text x="48" y="288" text-anchor="start" font-size="13" fill="#1B2A3A">• Break the work into steps, then estimate.</text>
+<text x="48" y="312" text-anchor="start" font-size="13" fill="#1B2A3A">• Check how long it took last time.</text>
+<text x="48" y="336" text-anchor="start" font-size="13" fill="#1B2A3A">• Add buffer for the unknowns.</text>
+<text x="48" y="360" text-anchor="start" font-size="13" fill="#1B2A3A">• Give a range, and say what it depends on.</text>
+<text x="48" y="384" text-anchor="start" font-size="13" fill="#1B2A3A">• Say early if it's going to slip.</text>
+<rect x="490" y="92" width="440" height="330" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="508" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">When the team gets it wrong</text>
+<circle cx="530" cy="160" r="15" fill="#2E7D5B"/>
+<text x="530" y="165" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="800">1</text>
+<text x="556" y="157" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Own it, as "we"</text>
+<text x="556" y="176" text-anchor="start" font-size="12.5" fill="#5B6B7C">"We missed the cable order."</text>
+<circle cx="530" cy="218" r="15" fill="#3B5BA9"/>
+<text x="530" y="223" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="800">2</text>
+<text x="556" y="215" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Explain briefly</text>
+<text x="556" y="234" text-anchor="start" font-size="12.5" fill="#5B6B7C">what happened, no excuses</text>
+<circle cx="530" cy="276" r="15" fill="#B35C00"/>
+<text x="530" y="281" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="800">3</text>
+<text x="556" y="273" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Fix it</text>
+<text x="556" y="292" text-anchor="start" font-size="12.5" fill="#5B6B7C">what we're doing now</text>
+<circle cx="530" cy="334" r="15" fill="#2E7D5B"/>
+<text x="530" y="339" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="800">4</text>
+<text x="556" y="331" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Prevent it</text>
+<text x="556" y="350" text-anchor="start" font-size="12.5" fill="#5B6B7C">what changes next time</text>
+<rect x="508" y="372" width="404" height="38" rx="8" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="710" y="396" text-anchor="middle" font-size="13" fill="#3B5BA9" font-weight="700">Outside the team: "we".  Inside: "what" and "how".</text>
+<rect x="30" y="440" width="900" height="200" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="468" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Keeping a promise matters far more than beating it (Gneezy &amp; Epley, 2014)</text>
+<rect x="48" y="488" width="272" height="92" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="68" y="528" text-anchor="start" font-size="30" fill="#C0392B" font-weight="800">−</text>
+<text x="106" y="522" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Broke the promise</text>
+<text x="106" y="546" text-anchor="start" font-size="12.5" fill="#5B6B7C">Trust drops sharply</text>
+<rect x="340" y="488" width="272" height="92" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="360" y="528" text-anchor="start" font-size="30" fill="#2E7D5B" font-weight="800">✓</text>
+<text x="398" y="522" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Kept the promise</text>
+<text x="398" y="546" text-anchor="start" font-size="12.5" fill="#5B6B7C">Trust holds: what people expect</text>
+<rect x="632" y="488" width="272" height="92" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="652" y="528" text-anchor="start" font-size="30" fill="#3B5BA9" font-weight="800">+</text>
+<text x="690" y="522" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Beat the promise</text>
+<text x="690" y="546" text-anchor="start" font-size="12.5" fill="#5B6B7C">Barely any extra credit</text>
+<text x="48" y="612" text-anchor="start" font-size="13" fill="#1B2A3A" font-style="italic">So don't pad estimates to look like a hero later. Give an honest estimate with buffer, then keep it.</text>
+</svg>

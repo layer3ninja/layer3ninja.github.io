@@ -14,3 +14,4 @@ learning and mindset at work.
 - [Beyond Growth Mindset: What Actually Makes Engineers Better](growth-mindset.md): why mindset alone has small effects, and four habits with stronger evidence: learning from errors, retrieval and spacing, specific goals, and earned confidence
 - [WRAP: Four Steps to Better Decisions Under Pressure](wrap-decisions.md): widen options, reality-test, attain distance, and prepare to be wrong, with network examples
 - [TALK: The Topic Pyramid and Better Conversations at Work](talk-conversations.md): the topic pyramid, follow-up questions, levity, and kindness when you disagree
+- [Calm in the Outage Call: Staying Steady and Keeping People Updated](calm-incident-updates.md): calming yourself and the room, updates that lower stress, and why every failed fix is progress

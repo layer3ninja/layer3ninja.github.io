@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="640" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Calm in the outage call</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Steady yourself, steady the room, and never let people wonder what's happening</text>
+<rect x="30" y="92" width="288" height="250" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="2"/>
+<circle cx="66" cy="130" r="20" fill="#3B5BA9"/>
+<text x="66" y="138" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="800">1</text>
+<text x="96" y="137" text-anchor="start" font-size="17" fill="#1B2A3A" font-weight="700">Calm yourself</text>
+<text x="52" y="186" text-anchor="start" font-size="14" fill="#1B2A3A">Slow your breathing:</text>
+<text x="52" y="213" text-anchor="start" font-size="14" fill="#1B2A3A">about 6 breaths a minute.</text>
+<text x="52" y="240" text-anchor="start" font-size="14" fill="#1B2A3A">Name it: "I'm stressed."</text>
+<text x="52" y="267" text-anchor="start" font-size="14" fill="#1B2A3A">Read the racing heart as</text>
+<text x="52" y="294" text-anchor="start" font-size="14" fill="#1B2A3A">energy, not danger.</text>
+<rect x="336" y="92" width="288" height="250" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<circle cx="372" cy="130" r="20" fill="#2E7D5B"/>
+<text x="372" y="138" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="800">2</text>
+<text x="402" y="137" text-anchor="start" font-size="17" fill="#1B2A3A" font-weight="700">Calm the room</text>
+<text x="358" y="186" text-anchor="start" font-size="14" fill="#1B2A3A">Speak slowly. Calm</text>
+<text x="358" y="213" text-anchor="start" font-size="14" fill="#1B2A3A">is contagious, so is panic.</text>
+<text x="358" y="240" text-anchor="start" font-size="14" fill="#1B2A3A">Facts, not guesses.</text>
+<text x="358" y="267" text-anchor="start" font-size="14" fill="#1B2A3A">One change at a time.</text>
+<text x="358" y="294" text-anchor="start" font-size="14" fill="#1B2A3A">Say what you're testing.</text>
+<rect x="642" y="92" width="288" height="250" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+<circle cx="678" cy="130" r="20" fill="#B35C00"/>
+<text x="678" y="138" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="800">3</text>
+<text x="708" y="137" text-anchor="start" font-size="17" fill="#1B2A3A" font-weight="700">Keep them updated</text>
+<text x="664" y="186" text-anchor="start" font-size="14" fill="#1B2A3A">Known / not known /</text>
+<text x="664" y="213" text-anchor="start" font-size="14" fill="#1B2A3A">next step / next update.</text>
+<text x="664" y="240" text-anchor="start" font-size="14" fill="#1B2A3A">Give a time for the next</text>
+<text x="664" y="267" text-anchor="start" font-size="14" fill="#1B2A3A">update, and keep it,</text>
+<text x="664" y="294" text-anchor="start" font-size="14" fill="#1B2A3A">even if nothing changed.</text>
+<rect x="30" y="362" width="900" height="256" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="392" text-anchor="start" font-size="16" fill="#1B2A3A" font-weight="700">Every failed fix is progress: it removes a suspect</text>
+<rect x="48" y="412" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="150" y="446" text-anchor="middle" font-size="16" fill="#8A97A6" font-weight="700">ISP link?</text>
+<text x="150" y="472" text-anchor="middle" font-size="12.5" fill="#5B6B7C">circuit clean, no loss</text>
+<line x1="78" y1="441" x2="222" y2="441" stroke="#C0392B" stroke-width="2.5"/>
+<text x="150" y="496" text-anchor="middle" font-size="12.5" fill="#C0392B" font-weight="700">ruled out</text>
+<line x1="254" y1="460" x2="268" y2="460" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<rect x="270" y="412" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="372" y="446" text-anchor="middle" font-size="16" fill="#8A97A6" font-weight="700">Firewall policy?</text>
+<text x="372" y="472" text-anchor="middle" font-size="12.5" fill="#5B6B7C">no denies in the logs</text>
+<line x1="300" y1="441" x2="444" y2="441" stroke="#C0392B" stroke-width="2.5"/>
+<text x="372" y="496" text-anchor="middle" font-size="12.5" fill="#C0392B" font-weight="700">ruled out</text>
+<line x1="476" y1="460" x2="490" y2="460" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<rect x="492" y="412" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="594" y="446" text-anchor="middle" font-size="16" fill="#8A97A6" font-weight="700">DNS?</text>
+<text x="594" y="472" text-anchor="middle" font-size="12.5" fill="#5B6B7C">resolves correctly</text>
+<line x1="522" y1="441" x2="666" y2="441" stroke="#C0392B" stroke-width="2.5"/>
+<text x="594" y="496" text-anchor="middle" font-size="12.5" fill="#C0392B" font-weight="700">ruled out</text>
+<line x1="698" y1="460" x2="712" y2="460" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<rect x="714" y="412" width="204" height="96" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<text x="816" y="446" text-anchor="middle" font-size="16" fill="#1B2A3A" font-weight="700">Switch uplink?</text>
+<text x="816" y="472" text-anchor="middle" font-size="12.5" fill="#5B6B7C">CRC errors climbing</text>
+<text x="816" y="496" text-anchor="middle" font-size="12.5" fill="#2E7D5B" font-weight="700">found it</text>
+<rect x="48" y="528" width="864" height="72" rx="8" fill="#F4F7FA" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="66" y="556" text-anchor="start" font-size="13.5" fill="#1B2A3A">In the update: "We've ruled out the ISP, the firewall and DNS. We're now checking the core uplinks.</text>
+<text x="66" y="580" text-anchor="start" font-size="13.5" fill="#1B2A3A">Next update at 10:30."   That's progress people can see, even before the fix.</text>
+</svg>

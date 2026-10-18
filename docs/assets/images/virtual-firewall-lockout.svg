@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 690" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="690" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">The firewall that locked us out of its own console</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">A virtual firewall on VMware, with the VMware management network behind that same firewall</text>
+<rect x="30" y="92" width="440" height="380" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#C0392B" font-weight="700">Before: management behind the firewall</text>
+<rect x="50" y="150" width="150" height="60" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="125.0" y="176.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Admin laptop</text>
+<text x="125.0" y="195.0" text-anchor="middle" font-size="12" fill="#5B6B7C">your desk / VPN</text>
+<rect x="260" y="270" width="190" height="180" rx="10" fill="#EEF1F5" stroke="#5B6B7C" stroke-width="1.5"/>
+<text x="355" y="292" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">ESXi host</text>
+<rect x="280" y="305" width="150" height="58" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="355.0" y="330.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Virtual firewall</text>
+<text x="355.0" y="349.0" text-anchor="middle" font-size="12" fill="#5B6B7C">VM on this host</text>
+<rect x="280" y="378" width="150" height="58" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="355.0" y="403.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">ESXi management</text>
+<text x="355.0" y="422.0" text-anchor="middle" font-size="12" fill="#5B6B7C">host client / vCenter</text>
+<path d="M135 212 L135 334 L276 334" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#r)"/>
+<text x="150" y="262" text-anchor="start" font-size="12" fill="#C0392B">every path to</text>
+<text x="150" y="278" text-anchor="start" font-size="12" fill="#C0392B">ESXi goes through</text>
+<text x="150" y="294" text-anchor="start" font-size="12" fill="#C0392B">the firewall</text>
+<path d="M355 365 L355 374" fill="none" stroke="#C0392B" stroke-width="2.5" marker-end="url(#r)"/>
+<circle cx="135" cy="334" r="14" fill="#C0392B"/>
+<line x1="129" y1="328" x2="141" y2="340" stroke="#FFFFFF" stroke-width="2.5"/>
+<line x1="141" y1="328" x2="129" y2="340" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="250" y="140" text-anchor="start" font-size="12" fill="#1B2A3A">Shut the firewall down for</text>
+<text x="250" y="156" text-anchor="start" font-size="12" fill="#1B2A3A">an upgrade, and the only way</text>
+<text x="250" y="172" text-anchor="start" font-size="12" fill="#1B2A3A" font-weight="700">to its console goes with it.</text>
+<rect x="490" y="92" width="440" height="380" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="508" y="120" text-anchor="start" font-size="15" fill="#2E7D5B" font-weight="700">After: an independent management path</text>
+<rect x="510" y="150" width="150" height="60" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="585.0" y="176.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Admin laptop</text>
+<text x="585.0" y="195.0" text-anchor="middle" font-size="12" fill="#5B6B7C">your desk / VPN</text>
+<rect x="720" y="270" width="190" height="180" rx="10" fill="#EEF1F5" stroke="#5B6B7C" stroke-width="1.5"/>
+<text x="815" y="292" text-anchor="middle" font-size="13" fill="#1B2A3A" font-weight="700">ESXi host</text>
+<rect x="740" y="305" width="150" height="58" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="815.0" y="330.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Virtual firewall</text>
+<text x="815.0" y="349.0" text-anchor="middle" font-size="12" fill="#5B6B7C">VM on this host</text>
+<rect x="740" y="378" width="150" height="58" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="815.0" y="403.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">ESXi management</text>
+<text x="815.0" y="422.0" text-anchor="middle" font-size="12" fill="#5B6B7C">host client / vCenter</text>
+<rect x="530" y="250" width="150" height="60" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="605.0" y="276.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Mgmt switch / OOB</text>
+<text x="605.0" y="295.0" text-anchor="middle" font-size="12" fill="#5B6B7C">not via the firewall</text>
+<line x1="605" y1="212" x2="605" y2="246" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<path d="M682 280 L700 280 L700 407 L736 407" fill="none" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<rect x="530" y="380" width="150" height="58" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="605.0" y="405.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">iDRAC / iLO</text>
+<text x="605.0" y="424.0" text-anchor="middle" font-size="12" fill="#5B6B7C">server's own console</text>
+<line x1="605" y1="312" x2="605" y2="376" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="710" y="140" text-anchor="start" font-size="12" fill="#1B2A3A">The firewall can be off,</text>
+<text x="710" y="156" text-anchor="start" font-size="12" fill="#1B2A3A">rebooting or broken, and you</text>
+<text x="710" y="172" text-anchor="start" font-size="12" fill="#1B2A3A" font-weight="700">can still reach its console.</text>
+<rect x="30" y="490" width="900" height="180" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="518" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Before you shut down a virtual firewall</text>
+<text x="48" y="550" text-anchor="start" font-size="13" fill="#1B2A3A">1. Trace your path to ESXi or vCenter. Does it</text>
+<text x="66" y="574" text-anchor="start" font-size="13" fill="#1B2A3A">cross this firewall? If yes, stop and fix that first.</text>
+<text x="48" y="598" text-anchor="start" font-size="13" fill="#1B2A3A">2. Have a second way in: a management network,</text>
+<text x="66" y="622" text-anchor="start" font-size="13" fill="#1B2A3A">jump host, or the server's iDRAC / iLO.</text>
+<text x="490" y="550" text-anchor="start" font-size="13" fill="#1B2A3A">3. Set the firewall VM to auto-start with the host.</text>
+<text x="490" y="574" text-anchor="start" font-size="13" fill="#1B2A3A">4. HA pair? Keep the members on different hosts</text>
+<text x="508" y="598" text-anchor="start" font-size="13" fill="#1B2A3A">(a DRS anti-affinity rule).</text>
+<text x="490" y="622" text-anchor="start" font-size="13" fill="#1B2A3A">5. Have someone on site, or a console cable, as plan C.</text>
+</svg>

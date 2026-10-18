@@ -16,3 +16,4 @@ learning and mindset at work.
 - [TALK: The Topic Pyramid and Better Conversations at Work](talk-conversations.md): the topic pyramid, follow-up questions, levity, and kindness when you disagree
 - [Calm in the Outage Call: Staying Steady and Keeping People Updated](calm-incident-updates.md): calming yourself and the room, updates that lower stress, and why every failed fix is progress
 - [Promise What You Can Keep: Realistic Expectations, and Owning Mistakes as a Team](realistic-expectations.md): the planning fallacy, estimates people can rely on, and owning a team mistake without blame
+- [Mindfulness for Engineers: Small Practices, Honest Evidence](mindfulness-at-work.md): what mindfulness is, small practices tied to alerts, reloads and change windows, and what the research really shows

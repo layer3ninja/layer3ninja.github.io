@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 780" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="780" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">A troubleshooting method, and reading pathping</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Structure beats guessing: define, test one thing at a time, and read loss along the whole path</text>
+<rect x="30" y="92" width="520" height="330" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">The loop</text>
+<circle cx="64" cy="154" r="14" fill="#3B5BA9"/>
+<text x="64" y="159" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="800">1</text>
+<text x="88" y="152" text-anchor="start" font-size="13.5" fill="#1B2A3A" font-weight="700">Define the problem</text>
+<text x="88" y="169" text-anchor="start" font-size="12" fill="#5B6B7C">who, what, since when, what changed?</text>
+<circle cx="64" cy="200" r="14" fill="#3B5BA9"/>
+<text x="64" y="205" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="800">2</text>
+<text x="88" y="198" text-anchor="start" font-size="13.5" fill="#1B2A3A" font-weight="700">Gather facts</text>
+<text x="88" y="215" text-anchor="start" font-size="12" fill="#5B6B7C">logs, counters, a working example to compare</text>
+<circle cx="64" cy="246" r="14" fill="#B35C00"/>
+<text x="64" y="251" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="800">3</text>
+<text x="88" y="244" text-anchor="start" font-size="13.5" fill="#1B2A3A" font-weight="700">Form a hypothesis</text>
+<text x="88" y="261" text-anchor="start" font-size="12" fill="#5B6B7C">the most likely cause that fits all the facts</text>
+<circle cx="64" cy="292" r="14" fill="#B35C00"/>
+<text x="64" y="297" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="800">4</text>
+<text x="88" y="290" text-anchor="start" font-size="13.5" fill="#1B2A3A" font-weight="700">Test one thing</text>
+<text x="88" y="307" text-anchor="start" font-size="12" fill="#5B6B7C">change or check one thing, then observe</text>
+<circle cx="64" cy="338" r="14" fill="#2E7D5B"/>
+<text x="64" y="343" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="800">5</text>
+<text x="88" y="336" text-anchor="start" font-size="13.5" fill="#1B2A3A" font-weight="700">Fix and verify</text>
+<text x="88" y="353" text-anchor="start" font-size="12" fill="#5B6B7C">confirm with the user, not just the CLI</text>
+<circle cx="64" cy="384" r="14" fill="#2E7D5B"/>
+<text x="64" y="389" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="800">6</text>
+<text x="88" y="382" text-anchor="start" font-size="13.5" fill="#1B2A3A" font-weight="700">Document and prevent</text>
+<text x="88" y="399" text-anchor="start" font-size="12" fill="#5B6B7C">notes, root cause, a process change</text>
+<path d="M420 340 C 470 340, 470 250, 420 250" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#r)"/>
+<text x="476" y="290" text-anchor="start" font-size="11.5" fill="#C0392B" font-weight="700">not fixed?</text>
+<text x="476" y="305" text-anchor="start" font-size="11.5" fill="#C0392B" font-weight="700">back to 3</text>
+<rect x="570" y="92" width="360" height="330" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="588" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Ways to narrow it down</text>
+<rect x="588" y="138" width="324" height="44" rx="8" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="602" y="156" text-anchor="start" font-size="13" fill="#3B5BA9" font-weight="700">Bottom-up</text>
+<text x="602" y="173" text-anchor="start" font-size="11.5" fill="#5B6B7C">start at the cable and work up the layers</text>
+<rect x="588" y="192" width="324" height="44" rx="8" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="602" y="210" text-anchor="start" font-size="13" fill="#3B5BA9" font-weight="700">Top-down</text>
+<text x="602" y="227" text-anchor="start" font-size="11.5" fill="#5B6B7C">start at the application and work down</text>
+<rect x="588" y="246" width="324" height="44" rx="8" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="602" y="264" text-anchor="start" font-size="13" fill="#3B5BA9" font-weight="700">Divide and conquer</text>
+<text x="602" y="281" text-anchor="start" font-size="11.5" fill="#5B6B7C">start in the middle: does ping work?</text>
+<rect x="588" y="300" width="324" height="44" rx="8" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="602" y="318" text-anchor="start" font-size="13" fill="#3B5BA9" font-weight="700">Follow the path</text>
+<text x="602" y="335" text-anchor="start" font-size="11.5" fill="#5B6B7C">hop by hop, from source to destination</text>
+<rect x="588" y="354" width="324" height="44" rx="8" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="602" y="372" text-anchor="start" font-size="13" fill="#3B5BA9" font-weight="700">Compare</text>
+<text x="602" y="389" text-anchor="start" font-size="11.5" fill="#5B6B7C">what's different from one that works?</text>
+<rect x="30" y="440" width="900" height="320" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="468" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Reading pathping: where does the loss actually start?</text>
+<text x="48" y="494" text-anchor="start" font-size="13.5" fill="#2E7D5B" font-weight="700">Not a real problem</text>
+<rect x="48" y="504" width="420" height="170" rx="8" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="60" y="526" text-anchor="start" font-size="11.5" fill="#8A97A6" font-family="Consolas, Menlo, monospace" xml:space="preserve">Hop  RTT   Source to Here  Address</text>
+<text x="60" y="550" text-anchor="start" font-size="11.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">1    1ms   0/100 = 0%      10.10.10.1</text>
+<text x="60" y="572" text-anchor="start" font-size="11.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">2    4ms   0/100 = 0%      198.51.100.1</text>
+<text x="60" y="594" text-anchor="start" font-size="11.5" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">3    12ms  64/100 = 64%    198.51.100.9</text>
+<text x="60" y="616" text-anchor="start" font-size="11.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">4    13ms  0/100 = 0%      203.0.113.5</text>
+<text x="60" y="638" text-anchor="start" font-size="11.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">5    14ms  0/100 = 0%      203.0.113.20</text>
+<rect x="48" y="684" width="420" height="62" rx="8" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="62" y="706" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Loss only at hop 3, gone after it.</text>
+<text x="62" y="726" text-anchor="start" font-size="12.5" fill="#1B2A3A">That router rate-limits pings to itself.</text>
+<text x="490" y="494" text-anchor="start" font-size="13.5" fill="#C0392B" font-weight="700">Real loss</text>
+<rect x="490" y="504" width="420" height="170" rx="8" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="502" y="526" text-anchor="start" font-size="11.5" fill="#8A97A6" font-family="Consolas, Menlo, monospace" xml:space="preserve">Hop  RTT   Source to Here  Address</text>
+<text x="502" y="550" text-anchor="start" font-size="11.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">1    1ms   0/100 = 0%      10.10.10.1</text>
+<text x="502" y="572" text-anchor="start" font-size="11.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">2    4ms   0/100 = 0%      198.51.100.1</text>
+<text x="502" y="594" text-anchor="start" font-size="11.5" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">3    12ms  18/100 = 18%    198.51.100.9</text>
+<text x="502" y="616" text-anchor="start" font-size="11.5" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">4    13ms  19/100 = 19%    203.0.113.5</text>
+<text x="502" y="638" text-anchor="start" font-size="11.5" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">5    14ms  20/100 = 20%    203.0.113.20</text>
+<rect x="490" y="684" width="420" height="62" rx="8" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="504" y="706" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Loss starts at hop 3 and continues</text>
+<text x="504" y="726" text-anchor="start" font-size="12.5" fill="#1B2A3A">to the destination. Look at that hop.</text>
+</svg>

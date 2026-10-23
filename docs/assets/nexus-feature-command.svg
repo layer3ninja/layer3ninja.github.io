@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="700" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">NX-OS: enable the feature first</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">On Nexus, most protocols are switched off until you turn them on, and switching them off removes their config</text>
+<rect x="30" y="92" width="440" height="300" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Coming from IOS: "the command doesn't exist"</text>
+<rect x="48" y="136" width="404" height="240" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="64" y="164" text-anchor="start" font-size="12.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">N9K(config)# interface vlan 10</text>
+<text x="64" y="186" text-anchor="start" font-size="12.5" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">                         ^</text>
+<text x="64" y="208" text-anchor="start" font-size="12.5" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">% Invalid command at '^' marker.</text>
+<text x="64" y="230" text-anchor="start" font-size="12.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"></text>
+<text x="64" y="252" text-anchor="start" font-size="12.5" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">N9K(config)# feature interface-vlan</text>
+<text x="64" y="274" text-anchor="start" font-size="12.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">N9K(config)# interface vlan 10</text>
+<text x="64" y="296" text-anchor="start" font-size="12.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">N9K(config-if)# ip address 10.10.10.1/24</text>
+<text x="64" y="318" text-anchor="start" font-size="12.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">N9K(config-if)# no shutdown</text>
+<text x="64" y="340" text-anchor="start" font-size="12.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"></text>
+<text x="64" y="366" text-anchor="start" font-size="11.5" fill="#F6D08A" font-style="italic">Same with OSPF, BGP, HSRP, LACP, vPC, DHCP relay...</text>
+<rect x="490" y="92" width="440" height="300" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="508" y="120" text-anchor="start" font-size="15" fill="#C0392B" font-weight="700">The trap: "no feature" deletes its config</text>
+<rect x="508" y="136" width="404" height="150" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="524" y="164" text-anchor="start" font-size="12.5" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">N9K(config)# no feature ospf</text>
+<text x="524" y="186" text-anchor="start" font-size="12.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"></text>
+<text x="524" y="208" text-anchor="start" font-size="12.5" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">N9K# show running-config ospf</text>
+<text x="524" y="230" text-anchor="start" font-size="12.5" fill="#F6D08A" font-family="Consolas, Menlo, monospace" xml:space="preserve">!  router ospf 1 ... gone</text>
+<text x="524" y="252" text-anchor="start" font-size="12.5" fill="#F6D08A" font-family="Consolas, Menlo, monospace" xml:space="preserve">!  ip router ospf 1 area 0 ... gone</text>
+<rect x="508" y="298" width="404" height="80" rx="8" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="524" y="322" text-anchor="start" font-size="13" fill="#2E7D5B" font-weight="700">Before disabling anything:</text>
+<text x="524" y="344" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">checkpoint before-change</text>
+<text x="524" y="366" text-anchor="start" font-size="12" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">rollback running-config checkpoint before-change</text>
+<rect x="30" y="410" width="900" height="272" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="438" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Common features and what they unlock</text>
+<rect x="48" y="456" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="60" y="475" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature interface-vlan</text>
+<text x="60" y="493" text-anchor="start" font-size="11.5" fill="#5B6B7C">SVIs (interface Vlan10)</text>
+<rect x="344" y="456" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="356" y="475" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature lacp</text>
+<text x="356" y="493" text-anchor="start" font-size="11.5" fill="#5B6B7C">LACP port-channels</text>
+<rect x="640" y="456" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="652" y="475" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature vpc</text>
+<text x="652" y="493" text-anchor="start" font-size="11.5" fill="#5B6B7C">virtual port-channels</text>
+<rect x="48" y="510" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="60" y="529" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature hsrp</text>
+<text x="60" y="547" text-anchor="start" font-size="11.5" fill="#5B6B7C">gateway redundancy (also vrrp)</text>
+<rect x="344" y="510" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="356" y="529" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature ospf</text>
+<text x="356" y="547" text-anchor="start" font-size="11.5" fill="#5B6B7C">OSPF (also bgp, eigrp, pim)</text>
+<rect x="640" y="510" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="652" y="529" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature dhcp</text>
+<text x="652" y="547" text-anchor="start" font-size="11.5" fill="#5B6B7C">DHCP relay and snooping</text>
+<rect x="48" y="564" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="60" y="583" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature tacacs+</text>
+<text x="60" y="601" text-anchor="start" font-size="11.5" fill="#5B6B7C">TACACS+ AAA</text>
+<rect x="344" y="564" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="356" y="583" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature lldp</text>
+<text x="356" y="601" text-anchor="start" font-size="11.5" fill="#5B6B7C">LLDP neighbors</text>
+<rect x="640" y="564" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="652" y="583" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature udld</text>
+<text x="652" y="601" text-anchor="start" font-size="11.5" fill="#5B6B7C">unidirectional link detection</text>
+<rect x="48" y="618" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="60" y="637" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature nxapi</text>
+<text x="60" y="655" text-anchor="start" font-size="11.5" fill="#5B6B7C">the NX-API for automation</text>
+<rect x="344" y="618" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="356" y="637" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature scp-server</text>
+<text x="356" y="655" text-anchor="start" font-size="11.5" fill="#5B6B7C">copy files to the switch</text>
+<rect x="640" y="618" width="280" height="46" rx="6" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="652" y="637" text-anchor="start" font-size="12.5" fill="#3B5BA9" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">feature bash-shell</text>
+<text x="652" y="655" text-anchor="start" font-size="11.5" fill="#5B6B7C">Linux shell access</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="760" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Reading show interface and show policy-map interface</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Which counters matter, what they usually mean, and how to tell physical problems from congestion</text>
+<rect x="30" y="92" width="560" height="300" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="46" y="118" text-anchor="start" font-size="12.5" fill="#FFFFFF" font-weight="700" font-family="Consolas, Menlo, monospace" xml:space="preserve">SW1# show interfaces Gi1/0/48</text>
+<text x="46" y="148" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">Gi1/0/48 is up, line protocol is up (connected)</text>
+<text x="46" y="172" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX</text>
+<text x="46" y="196" text-anchor="start" font-size="11.2" fill="#F6D08A" font-family="Consolas, Menlo, monospace" xml:space="preserve">  Last clearing of "show interface" counters 00:42:10</text>
+<text x="46" y="220" text-anchor="start" font-size="11.2" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 18340</text>
+<text x="46" y="244" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">  5 minute input rate 412000000 bits/sec, 38100 packets/sec</text>
+<text x="46" y="268" text-anchor="start" font-size="11.2" fill="#F6D08A" font-family="Consolas, Menlo, monospace" xml:space="preserve">  5 minute output rate 968000000 bits/sec, 81200 packets/sec</text>
+<text x="46" y="292" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">     1203 runts, 0 giants, 0 throttles</text>
+<text x="46" y="316" text-anchor="start" font-size="11.2" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">     5214 input errors, 4011 CRC, 0 frame, 0 overrun, 0 ignored</text>
+<text x="46" y="340" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">     0 late collision, 0 deferred</text>
+<text x="46" y="364" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">     0 output errors, 0 collisions, 2 interface resets</text>
+<rect x="610" y="110" width="320" height="46" rx="8" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="624" y="129" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Last clearing:</text>
+<text x="624" y="147" text-anchor="start" font-size="12" fill="#1B2A3A">clear counters, then watch which ones grow</text>
+<line x1="592" y1="192" x2="606" y2="133" stroke="#B35C00" stroke-width="1.5"/>
+<rect x="610" y="168" width="320" height="46" rx="8" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="624" y="187" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Output drops:</text>
+<text x="624" y="205" text-anchor="start" font-size="12" fill="#1B2A3A">congestion or microbursts (QoS?)</text>
+<line x1="592" y1="216" x2="606" y2="191" stroke="#C0392B" stroke-width="1.5"/>
+<rect x="610" y="226" width="320" height="46" rx="8" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="624" y="245" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Near line rate:</text>
+<text x="624" y="263" text-anchor="start" font-size="12" fill="#1B2A3A">the link is full</text>
+<line x1="592" y1="264" x2="606" y2="249" stroke="#B35C00" stroke-width="1.5"/>
+<rect x="610" y="284" width="320" height="46" rx="8" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="624" y="303" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">CRC + runts:</text>
+<text x="624" y="321" text-anchor="start" font-size="12" fill="#1B2A3A">physical layer: cable, optic, dirty fiber</text>
+<line x1="592" y1="312" x2="606" y2="307" stroke="#C0392B" stroke-width="1.5"/>
+<rect x="610" y="342" width="320" height="46" rx="8" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="624" y="361" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Late collisions (if rising):</text>
+<text x="624" y="379" text-anchor="start" font-size="12" fill="#1B2A3A">duplex mismatch</text>
+<line x1="592" y1="336" x2="606" y2="365" stroke="#3B5BA9" stroke-width="1.5"/>
+<rect x="30" y="410" width="900" height="330" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="438" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">show policy-map interface: a 50 Mbps WAN shaper under pressure</text>
+<rect x="48" y="454" width="520" height="272" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="62" y="480" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">Service-policy output: WAN-SHAPE-50M</text>
+<text x="62" y="504" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">  Class-map: class-default (match-any)</text>
+<text x="62" y="528" text-anchor="start" font-size="11" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">    30 second offered rate 61234000 bps, drop rate 9876000 bps</text>
+<text x="62" y="552" text-anchor="start" font-size="11" fill="#F5A3A3" font-family="Consolas, Menlo, monospace" xml:space="preserve">    (queue depth/total drops/no-buffer drops) 208/45120/0</text>
+<text x="62" y="576" text-anchor="start" font-size="11" fill="#F6D08A" font-family="Consolas, Menlo, monospace" xml:space="preserve">    shape (average) cir 50000000</text>
+<text x="62" y="600" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">    Service-policy : WAN-CHILD</text>
+<text x="62" y="624" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">      Class-map: VOICE (match-all)</text>
+<text x="62" y="648" text-anchor="start" font-size="11" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">        30 second offered rate 1102000 bps, drop rate 0000 bps</text>
+<text x="62" y="672" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">        Match: dscp ef (46)</text>
+<text x="62" y="696" text-anchor="start" font-size="11" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">        Priority: 5000 kbps, b/w exceed drops: 0</text>
+<text x="600" y="476" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">Offered vs. shaped</text>
+<rect x="600" y="490" width="257.04" height="26" rx="4" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="608" y="508" text-anchor="start" font-size="12" fill="#C0392B" font-weight="700">offered 61 Mbps</text>
+<rect x="600" y="526" width="210.0" height="26" rx="4" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="608" y="544" text-anchor="start" font-size="12" fill="#3B5BA9" font-weight="700">shaped to 50 Mbps</text>
+<rect x="600" y="562" width="18.480000000000004" height="26" rx="4" fill="#2E7D5B" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="626" y="580" text-anchor="start" font-size="12" fill="#2E7D5B" font-weight="700">voice 1.1 Mbps, 0 drops</text>
+<text x="600" y="620" text-anchor="start" font-size="12.5" fill="#1B2A3A">The ~10 Mbps over the shaper is</text>
+<text x="600" y="640" text-anchor="start" font-size="12.5" fill="#1B2A3A">dropped in class-default.</text>
+<text x="600" y="660" text-anchor="start" font-size="12.5" fill="#1B2A3A">Voice is protected by its priority</text>
+<text x="600" y="680" text-anchor="start" font-size="12.5" fill="#1B2A3A">queue. The fix is more bandwidth,</text>
+<text x="600" y="700" text-anchor="start" font-size="12.5" fill="#1B2A3A">or deciding what else gets priority.</text>
+</svg>

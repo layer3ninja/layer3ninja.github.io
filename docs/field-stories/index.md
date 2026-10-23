@@ -24,3 +24,6 @@ and what I learned fixing it.
 - [Tracking Down a Machine, and Why Moving Cables Seems Not to Work](tracking-a-machine.md): IP to MAC to port with ARP, MAC tables and CDP/LLDP, and the cache timers behind confusing cable moves
 - [Keeping It Cool: Hot and Cold Aisles, Small Data Rooms, and Fan Direction](cooling-basics.md): inlet temperatures, hot and cold aisles, cooling options for small rooms, and matching switch airflow to the rack
 - [The Virtual Firewall That Locked Us Out of Its Own Console](virtual-firewall-lockout.md): VMware management behind a virtual firewall, the circular dependency it creates, and how to break it before a change
+- [Nexus Basics: Enable the Feature First (and Be Careful Turning It Off)](nexus-feature-command.md): why commands "don't exist" on a new Nexus, the common features, and why no feature deletes config
+- [Reading show interface and show policy-map interface](show-interface-policy-map.md): which counters mean a physical problem, which mean congestion, and where QoS is dropping traffic
+- [How I Troubleshoot: A Method, and Reading pathping and WinMTR Properly](troubleshooting-method-pathping.md): a structured loop, five ways to narrow it down, and where packet loss really starts

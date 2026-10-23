@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="700" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">I FORESAW IT: ten questions before any negotiation</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Seth Freeman's preparation checklist. Example: your firewall support renewal quote just went up 40%</text>
+<rect x="30" y="92" width="170" height="214" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="2"/>
+<text x="115" y="150" text-anchor="middle" font-size="46" fill="#3B5BA9" font-weight="800">I</text>
+<text x="115" y="180" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Interests</text>
+<text x="115" y="204" text-anchor="middle" font-size="12" fill="#1B2A3A">What do we both really</text>
+<text x="115" y="221" text-anchor="middle" font-size="12" fill="#1B2A3A">need?</text>
+<line x1="50" y1="242" x2="180" y2="242" stroke="#3B5BA9" stroke-width="1"/>
+<text x="115" y="264" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">uptime, budget vs.</text>
+<text x="115" y="281" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">their revenue</text>
+<rect x="212" y="92" width="170" height="214" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="2"/>
+<text x="297" y="150" text-anchor="middle" font-size="46" fill="#3B5BA9" font-weight="800">F</text>
+<text x="297" y="180" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Factual research</text>
+<text x="297" y="204" text-anchor="middle" font-size="12" fill="#1B2A3A">What can I learn</text>
+<text x="297" y="221" text-anchor="middle" font-size="12" fill="#1B2A3A">first?</text>
+<line x1="232" y1="242" x2="362" y2="242" stroke="#3B5BA9" stroke-width="1"/>
+<text x="297" y="264" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">last year's price,</text>
+<text x="297" y="281" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">market quotes</text>
+<rect x="394" y="92" width="170" height="214" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<text x="479" y="150" text-anchor="middle" font-size="46" fill="#2E7D5B" font-weight="800">O</text>
+<text x="479" y="180" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Options</text>
+<text x="479" y="204" text-anchor="middle" font-size="12" fill="#1B2A3A">What creative deals</text>
+<text x="479" y="221" text-anchor="middle" font-size="12" fill="#1B2A3A">exist?</text>
+<line x1="414" y1="242" x2="544" y2="242" stroke="#2E7D5B" stroke-width="1"/>
+<text x="479" y="264" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">3-year term, fewer</text>
+<text x="479" y="281" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">SKUs, bundle</text>
+<rect x="576" y="92" width="170" height="214" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<text x="661" y="150" text-anchor="middle" font-size="46" fill="#2E7D5B" font-weight="800">R</text>
+<text x="661" y="180" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Rapport</text>
+<text x="661" y="204" text-anchor="middle" font-size="12" fill="#1B2A3A">How do I set a good</text>
+<text x="661" y="221" text-anchor="middle" font-size="12" fill="#1B2A3A">tone?</text>
+<line x1="596" y1="242" x2="726" y2="242" stroke="#2E7D5B" stroke-width="1"/>
+<text x="661" y="264" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">call the account</text>
+<text x="661" y="281" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">manager early</text>
+<rect x="758" y="92" width="170" height="214" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<text x="843" y="150" text-anchor="middle" font-size="46" fill="#2E7D5B" font-weight="800">E</text>
+<text x="843" y="180" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Empathy, ethics</text>
+<text x="843" y="204" text-anchor="middle" font-size="12" fill="#1B2A3A">How does it look to</text>
+<text x="843" y="221" text-anchor="middle" font-size="12" fill="#1B2A3A">them?</text>
+<line x1="778" y1="242" x2="908" y2="242" stroke="#2E7D5B" stroke-width="1"/>
+<text x="843" y="264" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">their quota, their</text>
+<text x="843" y="281" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">pricing rules</text>
+<rect x="30" y="322" width="170" height="214" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+<text x="115" y="380" text-anchor="middle" font-size="46" fill="#B35C00" font-weight="800">S</text>
+<text x="115" y="410" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Setting, schedule</text>
+<text x="115" y="434" text-anchor="middle" font-size="12" fill="#1B2A3A">When and where?</text>
+<line x1="50" y1="472" x2="180" y2="472" stroke="#B35C00" stroke-width="1"/>
+<text x="115" y="494" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">before the quarter</text>
+<text x="115" y="511" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">ends, not after expiry</text>
+<rect x="212" y="322" width="170" height="214" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+<text x="297" y="380" text-anchor="middle" font-size="46" fill="#B35C00" font-weight="800">A</text>
+<text x="297" y="410" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Alternatives</text>
+<text x="297" y="434" text-anchor="middle" font-size="12" fill="#1B2A3A">What if we don't</text>
+<text x="297" y="451" text-anchor="middle" font-size="12" fill="#1B2A3A">agree?</text>
+<line x1="232" y1="472" x2="362" y2="472" stroke="#B35C00" stroke-width="1"/>
+<text x="297" y="494" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">partner quote,</text>
+<text x="297" y="511" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">third-party support</text>
+<rect x="394" y="322" width="170" height="214" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+<text x="479" y="380" text-anchor="middle" font-size="46" fill="#B35C00" font-weight="800">W</text>
+<text x="479" y="410" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Who</text>
+<text x="479" y="434" text-anchor="middle" font-size="12" fill="#1B2A3A">Who else has</text>
+<text x="479" y="451" text-anchor="middle" font-size="12" fill="#1B2A3A">influence?</text>
+<line x1="414" y1="472" x2="544" y2="472" stroke="#B35C00" stroke-width="1"/>
+<text x="479" y="494" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">finance, the partner,</text>
+<text x="479" y="511" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">their manager</text>
+<rect x="576" y="322" width="170" height="214" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="2"/>
+<text x="661" y="380" text-anchor="middle" font-size="46" fill="#C0392B" font-weight="800">I</text>
+<text x="661" y="410" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Independent criteria</text>
+<text x="661" y="434" text-anchor="middle" font-size="12" fill="#1B2A3A">What fair standards</text>
+<text x="661" y="451" text-anchor="middle" font-size="12" fill="#1B2A3A">apply?</text>
+<line x1="596" y1="472" x2="726" y2="472" stroke="#C0392B" stroke-width="1"/>
+<text x="661" y="494" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">list price, last</text>
+<text x="661" y="511" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">renewal, quotes</text>
+<rect x="758" y="322" width="170" height="214" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="2"/>
+<text x="843" y="380" text-anchor="middle" font-size="46" fill="#C0392B" font-weight="800">T</text>
+<text x="843" y="410" text-anchor="middle" font-size="13.5" fill="#1B2A3A" font-weight="700">Topics, targets, trades</text>
+<text x="843" y="434" text-anchor="middle" font-size="12" fill="#1B2A3A">What do I trade for</text>
+<text x="843" y="451" text-anchor="middle" font-size="12" fill="#1B2A3A">what?</text>
+<line x1="778" y1="472" x2="908" y2="472" stroke="#C0392B" stroke-width="1"/>
+<text x="843" y="494" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">longer term for a</text>
+<text x="843" y="511" text-anchor="middle" font-size="11.5" fill="#5B6B7C" font-style="italic">lower rate</text>
+<rect x="30" y="560" width="900" height="120" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="588" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Why the E matters: seeing their side reaches more deals</text>
+<text x="48" y="608" text-anchor="start" font-size="12" fill="#5B6B7C">Galinsky et al., 2008: a negotiation that only worked if the hidden interests were found</text>
+<text x="196" y="632" text-anchor="end" font-size="12" fill="#1B2A3A" font-weight="600">Perspective-taking</text>
+<rect x="206" y="620" width="456" height="14" rx="3" fill="#2E7D5B" stroke="none" stroke-width="1.5"/>
+<text x="668" y="632" text-anchor="start" font-size="12" fill="#2E7D5B" font-weight="700">76% reached a deal</text>
+<text x="196" y="650" text-anchor="end" font-size="12" fill="#1B2A3A" font-weight="600">Empathy (feeling)</text>
+<rect x="206" y="638" width="324" height="14" rx="3" fill="#B35C00" stroke="none" stroke-width="1.5"/>
+<text x="536" y="650" text-anchor="start" font-size="12" fill="#B35C00" font-weight="700">54% reached a deal</text>
+<text x="196" y="668" text-anchor="end" font-size="12" fill="#1B2A3A" font-weight="600">No instruction</text>
+<rect x="206" y="656" width="234" height="14" rx="3" fill="#5B6B7C" stroke="none" stroke-width="1.5"/>
+<text x="446" y="668" text-anchor="start" font-size="12" fill="#5B6B7C" font-weight="700">39% reached a deal</text>
+</svg>

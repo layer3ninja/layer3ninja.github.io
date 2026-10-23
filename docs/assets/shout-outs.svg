@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="640" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Shout-outs that actually land</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Specific, timely and sincere recognition costs seconds and changes how people work</text>
+<rect x="30" y="92" width="900" height="240" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">The anatomy of a good shout-out</text>
+<rect x="48" y="136" width="204" height="62" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="150" y="162" text-anchor="middle" font-size="15" fill="#3B5BA9" font-weight="800">Who</text>
+<text x="150" y="184" text-anchor="middle" font-size="12" fill="#1B2A3A">name the person</text>
+<rect x="266" y="136" width="204" height="62" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="368" y="162" text-anchor="middle" font-size="15" fill="#B35C00" font-weight="800">What</text>
+<text x="368" y="184" text-anchor="middle" font-size="12" fill="#1B2A3A">the specific action</text>
+<rect x="484" y="136" width="204" height="62" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="586" y="162" text-anchor="middle" font-size="15" fill="#2E7D5B" font-weight="800">Effect</text>
+<text x="586" y="184" text-anchor="middle" font-size="12" fill="#1B2A3A">what it made possible</text>
+<rect x="702" y="136" width="204" height="62" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="804" y="162" text-anchor="middle" font-size="15" fill="#C0392B" font-weight="800">When</text>
+<text x="804" y="184" text-anchor="middle" font-size="12" fill="#1B2A3A">soon, while it matters</text>
+<rect x="48" y="214" width="864" height="100" rx="8" fill="#F4F7FA" stroke="#C9D1DB" stroke-width="1.5"/>
+<text x="66" y="240" text-anchor="start" font-size="13" fill="#5B6B7C" font-style="italic">Instead of:  "Thanks everyone, great job last night."</text>
+<text x="66" y="268" text-anchor="start" font-size="13" fill="#1B2A3A">Try:  "Thanks, Sam, for tracing that MAC address hop by hop at 2 a.m. You found the bad</text>
+<text x="66" y="290" text-anchor="start" font-size="13" fill="#1B2A3A">uplink, and the payment terminals were back 30 minutes sooner. That saved the morning."</text>
+<rect x="30" y="350" width="440" height="270" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="378" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">A thank-you changes behavior</text>
+<text x="48" y="398" text-anchor="start" font-size="12" fill="#5B6B7C">Grant &amp; Gino, 2010: helped a second time</text>
+<text x="48" y="440" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="600">Not thanked</text>
+<rect x="150" y="420" width="128" height="30" rx="4" fill="#5B6B7C" stroke="none" stroke-width="1.5"/>
+<text x="286" y="441" text-anchor="start" font-size="14" fill="#5B6B7C" font-weight="800">32%</text>
+<text x="48" y="484" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="600">Thanked</text>
+<rect x="150" y="464" width="264" height="30" rx="4" fill="#2E7D5B" stroke="none" stroke-width="1.5"/>
+<text x="422" y="485" text-anchor="start" font-size="14" fill="#2E7D5B" font-weight="800">66%</text>
+<text x="48" y="536" text-anchor="start" font-size="12.5" fill="#1B2A3A">People who were thanked were about</text>
+<text x="48" y="556" text-anchor="start" font-size="12.5" fill="#1B2A3A">twice as likely to help again, because</text>
+<text x="48" y="576" text-anchor="start" font-size="12.5" fill="#1B2A3A">they felt their help was valued.</text>
+<rect x="490" y="350" width="440" height="270" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="508" y="378" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">We underestimate how much it matters</text>
+<text x="508" y="410" text-anchor="start" font-size="12.5" fill="#1B2A3A">• People writing a thank-you note</text>
+<text x="521" y="430" text-anchor="start" font-size="12.5" fill="#1B2A3A">underestimated how positive and how</text>
+<text x="521" y="450" text-anchor="start" font-size="12.5" fill="#1B2A3A">surprised the recipient would feel, and</text>
+<text x="521" y="470" text-anchor="start" font-size="12.5" fill="#1B2A3A">overestimated how awkward it would be</text>
+<text x="521" y="490" text-anchor="start" font-size="12.5" fill="#1B2A3A">(Kumar &amp; Epley, 2018).</text>
+<text x="508" y="510" text-anchor="start" font-size="12.5" fill="#1B2A3A"></text>
+<text x="508" y="530" text-anchor="start" font-size="12.5" fill="#1B2A3A">• Employees who got strong recognition</text>
+<text x="521" y="550" text-anchor="start" font-size="12.5" fill="#1B2A3A">were 45% less likely to have left two</text>
+<text x="521" y="570" text-anchor="start" font-size="12.5" fill="#1B2A3A">years later (Gallup and Workhuman, 2024).</text>
+</svg>

@@ -27,3 +27,4 @@ and what I learned fixing it.
 - [Nexus Basics: Enable the Feature First (and Be Careful Turning It Off)](nexus-feature-command.md): why commands "don't exist" on a new Nexus, the common features, and why no feature deletes config
 - [Reading show interface and show policy-map interface](show-interface-policy-map.md): which counters mean a physical problem, which mean congestion, and where QoS is dropping traffic
 - [How I Troubleshoot: A Method, and Reading pathping and WinMTR Properly](troubleshooting-method-pathping.md): a structured loop, five ways to narrow it down, and where packet loss really starts
+- [Catalyst Center Templates: Using Variables to Assign VLANs and Subnets](catalyst-center-templates.md): one template for every site, deriving VLANs and subnets from a site number, interface loops, and safe rollouts

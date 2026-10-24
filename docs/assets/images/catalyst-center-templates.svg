@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="700" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Catalyst Center templates: one template, every site</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Variables hold what changes per site. The template holds everything that should be the same.</text>
+<rect x="30" y="96" width="330" height="300" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="46" y="122" text-anchor="start" font-size="12.5" fill="#8A97A6" font-weight="700">Template (Velocity)</text>
+<text x="46" y="148" text-anchor="start" font-size="11.2" fill="#F6D08A" font-family="Consolas, Menlo, monospace" xml:space="preserve">#set( $data_vlan = 100 + $site_id )</text>
+<text x="46" y="169" text-anchor="start" font-size="11.2" fill="#F6D08A" font-family="Consolas, Menlo, monospace" xml:space="preserve">#set( $voice_vlan = 200 + $site_id )</text>
+<text x="46" y="190" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"></text>
+<text x="46" y="211" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">vlan $data_vlan</text>
+<text x="46" y="232" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"> name DATA-SITE$site_id</text>
+<text x="46" y="253" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">vlan $voice_vlan</text>
+<text x="46" y="274" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"> name VOICE-SITE$site_id</text>
+<text x="46" y="295" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">!</text>
+<text x="46" y="316" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">interface Vlan$data_vlan</text>
+<text x="46" y="337" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"> ip address 10.${site_id}.10.1 255.255.255.0</text>
+<text x="46" y="358" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"> ip helper-address $dhcp_server</text>
+<rect x="400" y="96" width="170" height="140" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="485" y="122" text-anchor="middle" font-size="13" fill="#B35C00" font-weight="700">Values: site 21</text>
+<text x="414" y="150" text-anchor="start" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">site_id     = 21</text>
+<text x="414" y="172" text-anchor="start" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">dhcp_server =</text>
+<text x="414" y="192" text-anchor="start" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">  10.0.50.10</text>
+<rect x="400" y="256" width="170" height="140" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="485" y="282" text-anchor="middle" font-size="13" fill="#B35C00" font-weight="700">Values: site 22</text>
+<text x="414" y="310" text-anchor="start" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">site_id     = 22</text>
+<text x="414" y="332" text-anchor="start" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">dhcp_server =</text>
+<text x="414" y="352" text-anchor="start" font-size="11.5" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">  10.0.50.10</text>
+<line x1="362" y1="200" x2="396" y2="166" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<line x1="362" y1="290" x2="396" y2="326" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<rect x="610" y="96" width="320" height="140" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="626" y="118" text-anchor="start" font-size="12" fill="#8A97A6" font-weight="700">Pushed to site 21 switch</text>
+<text x="626" y="142" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">vlan 121</text>
+<text x="626" y="161" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve"> name DATA-SITE21</text>
+<text x="626" y="180" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">vlan 221</text>
+<text x="626" y="199" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">interface Vlan121</text>
+<text x="626" y="218" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve"> ip address 10.21.10.1 255.255.255.0</text>
+<line x1="572" y1="166" x2="606" y2="166" stroke="#2E7D5B" stroke-width="2" marker-end="url(#g)"/>
+<rect x="610" y="256" width="320" height="140" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="626" y="278" text-anchor="start" font-size="12" fill="#8A97A6" font-weight="700">Pushed to site 22 switch</text>
+<text x="626" y="302" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">vlan 122</text>
+<text x="626" y="321" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve"> name DATA-SITE22</text>
+<text x="626" y="340" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">vlan 222</text>
+<text x="626" y="359" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">interface Vlan122</text>
+<text x="626" y="378" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve"> ip address 10.22.10.1 255.255.255.0</text>
+<line x1="572" y1="326" x2="606" y2="326" stroke="#2E7D5B" stroke-width="2" marker-end="url(#g)"/>
+<rect x="30" y="416" width="900" height="264" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="444" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">The workflow</text>
+<rect x="48" y="462" width="276" height="80" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<circle cx="78" cy="502" r="16" fill="#3B5BA9"/>
+<text x="78" y="508" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="800">1</text>
+<text x="104" y="498" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Write the template</text>
+<text x="104" y="518" text-anchor="start" font-size="11.5" fill="#5B6B7C">Template Hub, Velocity or Jinja2</text>
+<rect x="340" y="462" width="276" height="80" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<circle cx="370" cy="502" r="16" fill="#3B5BA9"/>
+<text x="370" y="508" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="800">2</text>
+<text x="396" y="498" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Define variables</text>
+<text x="396" y="518" text-anchor="start" font-size="11.5" fill="#5B6B7C">type, range, required, default</text>
+<rect x="632" y="462" width="276" height="80" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<circle cx="662" cy="502" r="16" fill="#B35C00"/>
+<text x="662" y="508" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="800">3</text>
+<text x="688" y="498" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Attach to a profile</text>
+<text x="688" y="518" text-anchor="start" font-size="11.5" fill="#5B6B7C">network profile, assigned to sites</text>
+<rect x="48" y="558" width="276" height="80" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<circle cx="78" cy="598" r="16" fill="#B35C00"/>
+<text x="78" y="604" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="800">4</text>
+<text x="104" y="594" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Provision</text>
+<text x="104" y="614" text-anchor="start" font-size="11.5" fill="#5B6B7C">enter or import each site's values</text>
+<rect x="340" y="558" width="276" height="80" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<circle cx="370" cy="598" r="16" fill="#2E7D5B"/>
+<text x="370" y="604" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="800">5</text>
+<text x="396" y="594" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Preview</text>
+<text x="396" y="614" text-anchor="start" font-size="11.5" fill="#5B6B7C">check the rendered config first</text>
+<rect x="632" y="558" width="276" height="80" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<circle cx="662" cy="598" r="16" fill="#2E7D5B"/>
+<text x="662" y="604" text-anchor="middle" font-size="15" fill="#FFFFFF" font-weight="800">6</text>
+<text x="688" y="594" text-anchor="start" font-size="14" fill="#1B2A3A" font-weight="700">Deploy</text>
+<text x="688" y="614" text-anchor="start" font-size="11.5" fill="#5B6B7C">then verify on the switch</text>
+<text x="48" y="668" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-style="italic">One number (site_id) drives the VLAN IDs and the subnets, so every site follows the same plan.</text>
+</svg>

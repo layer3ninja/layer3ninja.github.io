@@ -17,3 +17,5 @@ learning and mindset at work.
 - [Calm in the Outage Call: Staying Steady and Keeping People Updated](calm-incident-updates.md): calming yourself and the room, updates that lower stress, and why every failed fix is progress
 - [Promise What You Can Keep: Realistic Expectations, and Owning Mistakes as a Team](realistic-expectations.md): the planning fallacy, estimates people can rely on, and owning a team mistake without blame
 - [Mindfulness for Engineers: Small Practices, Honest Evidence](mindfulness-at-work.md): what mindfulness is, small practices tied to alerts, reloads and change windows, and what the research really shows
+- [Make It Stick: How to Actually Remember What You Study](make-it-stick.md): why rereading fades, the techniques that last, and a study plan for certifications
+- [Ask the People Who've Seen It a Hundred Times: Vendors, Partners and Design Reviews](ask-vendors.md): who to ask, what to ask, and how to weigh advice from people who may want to sell you something

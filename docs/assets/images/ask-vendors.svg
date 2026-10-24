@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="620" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Ask the people who've seen it a hundred times</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">Vendors and partners have seen your platform at many customers. Use that, and weigh it wisely.</text>
+<rect x="30" y="92" width="288" height="290" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="2"/>
+<text x="174" y="126" text-anchor="middle" font-size="17" fill="#3B5BA9" font-weight="800">Who to ask</text>
+<text x="52" y="162" text-anchor="start" font-size="13" fill="#1B2A3A">• Pre-sales engineers</text>
+<text x="64" y="181" text-anchor="start" font-size="13" fill="#1B2A3A">(before you buy)</text>
+<text x="52" y="211" text-anchor="start" font-size="13" fill="#1B2A3A">• The partner who installs it</text>
+<text x="52" y="241" text-anchor="start" font-size="13" fill="#1B2A3A">• Support (TAC) for specific issues</text>
+<text x="52" y="271" text-anchor="start" font-size="13" fill="#1B2A3A">• Validated designs and</text>
+<text x="64" y="290" text-anchor="start" font-size="13" fill="#1B2A3A">best-practice guides</text>
+<text x="52" y="320" text-anchor="start" font-size="13" fill="#1B2A3A">• Peers and user groups</text>
+<rect x="336" y="92" width="288" height="290" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<text x="480" y="126" text-anchor="middle" font-size="17" fill="#2E7D5B" font-weight="800">What to ask</text>
+<text x="358" y="162" text-anchor="start" font-size="13" fill="#1B2A3A">• "What would you change</text>
+<text x="370" y="181" text-anchor="start" font-size="13" fill="#1B2A3A">in this design?"</text>
+<text x="358" y="211" text-anchor="start" font-size="13" fill="#1B2A3A">• "What do customers usually</text>
+<text x="370" y="230" text-anchor="start" font-size="13" fill="#1B2A3A">get wrong?"</text>
+<text x="358" y="260" text-anchor="start" font-size="13" fill="#1B2A3A">• "Which version do you</text>
+<text x="370" y="279" text-anchor="start" font-size="13" fill="#1B2A3A">recommend, and why?"</text>
+<text x="358" y="309" text-anchor="start" font-size="13" fill="#1B2A3A">• "Have you deployed this</text>
+<text x="370" y="328" text-anchor="start" font-size="13" fill="#1B2A3A">at our size?"</text>
+<rect x="642" y="92" width="288" height="290" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+<text x="786" y="126" text-anchor="middle" font-size="17" fill="#B35C00" font-weight="800">How to weigh it</text>
+<text x="664" y="162" text-anchor="start" font-size="13" fill="#1B2A3A">• What do they gain from</text>
+<text x="676" y="181" text-anchor="start" font-size="13" fill="#1B2A3A">the answer?</text>
+<text x="664" y="211" text-anchor="start" font-size="13" fill="#1B2A3A">• Get a second opinion</text>
+<text x="664" y="241" text-anchor="start" font-size="13" fill="#1B2A3A">• Test it in a lab</text>
+<text x="664" y="271" text-anchor="start" font-size="13" fill="#1B2A3A">• Get key advice in writing</text>
+<text x="664" y="301" text-anchor="start" font-size="13" fill="#1B2A3A">• Decide for yourself</text>
+<rect x="30" y="400" width="900" height="200" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="428" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Two biases to work against</text>
+<rect x="48" y="444" width="420" height="140" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="64" y="470" text-anchor="start" font-size="14" fill="#3B5BA9" font-weight="700">We underuse advice</text>
+<text x="64" y="496" text-anchor="start" font-size="12.5" fill="#1B2A3A">In experiments, people typically move only</text>
+<text x="64" y="516" text-anchor="start" font-size="12.5" fill="#1B2A3A">part of the way toward advice, trusting</text>
+<text x="64" y="536" text-anchor="start" font-size="12.5" fill="#1B2A3A">their own view more, even when the</text>
+<text x="64" y="556" text-anchor="start" font-size="12.5" fill="#1B2A3A">advisor knows more.</text>
+<rect x="492" y="444" width="420" height="140" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="508" y="470" text-anchor="start" font-size="14" fill="#B35C00" font-weight="700">Advisors have interests</text>
+<text x="508" y="496" text-anchor="start" font-size="12.5" fill="#1B2A3A">A vendor's advice can lean toward selling</text>
+<text x="508" y="516" text-anchor="start" font-size="12.5" fill="#1B2A3A">more. Roberto lists "not seeking outside</text>
+<text x="508" y="536" text-anchor="start" font-size="12.5" fill="#1B2A3A">experts without a vested interest" as a</text>
+<text x="508" y="556" text-anchor="start" font-size="12.5" fill="#1B2A3A">sign of groupthink.</text>
+</svg>

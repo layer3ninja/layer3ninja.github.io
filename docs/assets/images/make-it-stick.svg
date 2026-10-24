@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="700" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Make it stick: study habits that actually work</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">From Brown, Roediger and McDaniel's Make It Stick, applied to learning networking</text>
+<rect x="30" y="92" width="900" height="96" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#C0392B" font-weight="700">Feels productive, works poorly</text>
+<rect x="48" y="134" width="164" height="38" rx="19" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.5"/>
+<text x="130" y="158" text-anchor="middle" font-size="12" fill="#1B2A3A">Rereading the book</text>
+<rect x="224" y="134" width="164" height="38" rx="19" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.5"/>
+<text x="306" y="158" text-anchor="middle" font-size="12" fill="#1B2A3A">Highlighting</text>
+<rect x="400" y="134" width="164" height="38" rx="19" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.5"/>
+<text x="482" y="158" text-anchor="middle" font-size="12" fill="#1B2A3A">Watching videos twice</text>
+<rect x="576" y="134" width="164" height="38" rx="19" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.5"/>
+<text x="658" y="158" text-anchor="middle" font-size="12" fill="#1B2A3A">Cramming the night before</text>
+<rect x="752" y="134" width="164" height="38" rx="19" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.5"/>
+<text x="834" y="158" text-anchor="middle" font-size="12" fill="#1B2A3A">One topic for hours</text>
+<rect x="30" y="206" width="216" height="184" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="2"/>
+<text x="138" y="242" text-anchor="middle" font-size="17" fill="#3B5BA9" font-weight="800">Retrieve</text>
+<text x="138" y="280" text-anchor="middle" font-size="12.5" fill="#1B2A3A">Close the book. Write the</text>
+<text x="138" y="301" text-anchor="middle" font-size="12.5" fill="#1B2A3A">OSPF LSA types from</text>
+<text x="138" y="322" text-anchor="middle" font-size="12.5" fill="#1B2A3A">memory, then check.</text>
+<rect x="258" y="206" width="216" height="184" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="2"/>
+<text x="366" y="242" text-anchor="middle" font-size="17" fill="#3B5BA9" font-weight="800">Space</text>
+<text x="366" y="280" text-anchor="middle" font-size="12.5" fill="#1B2A3A">Rebuild the lab today, in</text>
+<text x="366" y="301" text-anchor="middle" font-size="12.5" fill="#1B2A3A">three days, and in two</text>
+<text x="366" y="322" text-anchor="middle" font-size="12.5" fill="#1B2A3A">weeks.</text>
+<rect x="486" y="206" width="216" height="184" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<text x="594" y="242" text-anchor="middle" font-size="17" fill="#2E7D5B" font-weight="800">Interleave</text>
+<text x="594" y="280" text-anchor="middle" font-size="12.5" fill="#1B2A3A">Mix OSPF, BGP and STP labs</text>
+<text x="594" y="301" text-anchor="middle" font-size="12.5" fill="#1B2A3A">instead of one topic all</text>
+<text x="594" y="322" text-anchor="middle" font-size="12.5" fill="#1B2A3A">day.</text>
+<rect x="714" y="206" width="216" height="184" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="2"/>
+<text x="822" y="242" text-anchor="middle" font-size="17" fill="#2E7D5B" font-weight="800">Elaborate</text>
+<text x="822" y="280" text-anchor="middle" font-size="12.5" fill="#1B2A3A">Explain why DHCP uses</text>
+<text x="822" y="301" text-anchor="middle" font-size="12.5" fill="#1B2A3A">broadcast to a colleague,</text>
+<text x="822" y="322" text-anchor="middle" font-size="12.5" fill="#1B2A3A">in your own words.</text>
+<rect x="30" y="406" width="216" height="184" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+<text x="138" y="442" text-anchor="middle" font-size="17" fill="#B35C00" font-weight="800">Generate</text>
+<text x="138" y="480" text-anchor="middle" font-size="12.5" fill="#1B2A3A">Try to design the solution</text>
+<text x="138" y="501" text-anchor="middle" font-size="12.5" fill="#1B2A3A">before reading the answer.</text>
+<rect x="258" y="406" width="216" height="184" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="2"/>
+<text x="366" y="442" text-anchor="middle" font-size="17" fill="#B35C00" font-weight="800">Reflect</text>
+<text x="366" y="480" text-anchor="middle" font-size="12.5" fill="#1B2A3A">After a lab or an outage:</text>
+<text x="366" y="501" text-anchor="middle" font-size="12.5" fill="#1B2A3A">what did I learn, what</text>
+<text x="366" y="522" text-anchor="middle" font-size="12.5" fill="#1B2A3A">would I change?</text>
+<rect x="486" y="406" width="216" height="184" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="2"/>
+<text x="594" y="442" text-anchor="middle" font-size="17" fill="#C0392B" font-weight="800">Calibrate</text>
+<text x="594" y="480" text-anchor="middle" font-size="12.5" fill="#1B2A3A">Practice exams show what</text>
+<text x="594" y="501" text-anchor="middle" font-size="12.5" fill="#1B2A3A">you really know, not what</text>
+<text x="594" y="522" text-anchor="middle" font-size="12.5" fill="#1B2A3A">you feel you know.</text>
+<rect x="714" y="406" width="216" height="184" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="2"/>
+<text x="822" y="442" text-anchor="middle" font-size="17" fill="#C0392B" font-weight="800">Embrace struggle</text>
+<text x="822" y="480" text-anchor="middle" font-size="12.5" fill="#1B2A3A">If it feels hard, you're</text>
+<text x="822" y="501" text-anchor="middle" font-size="12.5" fill="#1B2A3A">probably learning. Easy</text>
+<text x="822" y="522" text-anchor="middle" font-size="12.5" fill="#1B2A3A">feels good, fades fast.</text>
+<text x="480" y="630" text-anchor="middle" font-size="13" fill="#1B2A3A" font-style="italic">Learning that feels easy is often forgotten fast. A bit of effort while learning is what makes it last.</text>
+<text x="480" y="656" text-anchor="middle" font-size="12" fill="#5B6B7C">Researchers call this a desirable difficulty.</text>
+</svg>

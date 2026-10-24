@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="660" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">FlexConnect: the AP gets its IP from the native VLAN</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">The AP's own traffic is untagged, so the switch port's native VLAN decides where the AP lands</text>
+<rect x="30" y="92" width="900" height="330" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<rect x="60" y="200" width="150" height="74" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="135.0" y="233.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">FlexConnect AP</text>
+<text x="135.0" y="252.0" text-anchor="middle" font-size="12" fill="#5B6B7C">branch site</text>
+<rect x="280" y="150" width="290" height="174" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="294" y="178" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">interface Gi1/0/10</text>
+<text x="294" y="202" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"> switchport mode trunk</text>
+<text x="294" y="226" text-anchor="start" font-size="11" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve"> switchport trunk native vlan 30</text>
+<text x="294" y="250" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"> switchport trunk allowed vlan 10,20,30</text>
+<text x="294" y="274" text-anchor="start" font-size="11" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"> spanning-tree portfast trunk</text>
+<text x="425" y="310" text-anchor="middle" font-size="11.5" fill="#8A97A6">branch access switch</text>
+<line x1="212" y1="237" x2="276" y2="237" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<rect x="610" y="130" width="300" height="58" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="624" y="154" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">VLAN 30 (native, untagged)</text>
+<text x="624" y="174" text-anchor="start" font-size="11" fill="#5B6B7C">AP management: DHCP, then CAPWAP to the WLC</text>
+<line x1="572" y1="237" x2="606" y2="159" stroke="#2E7D5B" stroke-width="1.8" marker-end="url(#g)"/>
+<rect x="610" y="200" width="300" height="58" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="624" y="224" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">VLAN 10 (tagged)</text>
+<text x="624" y="244" text-anchor="start" font-size="11" fill="#5B6B7C">locally switched staff WLAN</text>
+<line x1="572" y1="237" x2="606" y2="229" stroke="#3B5BA9" stroke-width="1.8" marker-end="url(#b)"/>
+<rect x="610" y="270" width="300" height="58" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="624" y="294" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">VLAN 20 (tagged)</text>
+<text x="624" y="314" text-anchor="start" font-size="11" fill="#5B6B7C">locally switched guest WLAN</text>
+<line x1="572" y1="237" x2="606" y2="299" stroke="#3B5BA9" stroke-width="1.8" marker-end="url(#b)"/>
+<text x="48" y="396" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-style="italic">The flex profile's native VLAN on the controller must match the switch port's native VLAN (30 here).</text>
+<rect x="30" y="440" width="900" height="200" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="468" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">What goes wrong</text>
+<rect x="48" y="484" width="864" height="30" rx="6" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="62" y="504" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Native VLAN left as 1</text>
+<text x="470" y="504" text-anchor="start" font-size="12" fill="#1B2A3A">AP gets no IP, or one from the wrong subnet, and never joins</text>
+<rect x="48" y="520" width="864" height="30" rx="6" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="62" y="540" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Port configured as access in the data VLAN</text>
+<text x="470" y="540" text-anchor="start" font-size="12" fill="#1B2A3A">AP joins, but tagged WLANs can't reach their VLANs</text>
+<rect x="48" y="556" width="864" height="30" rx="6" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="62" y="576" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">Native VLAN on switch and flex profile differ</text>
+<text x="470" y="576" text-anchor="start" font-size="12" fill="#1B2A3A">clients on that VLAN get no traffic or land in the wrong place</text>
+<rect x="48" y="592" width="864" height="30" rx="6" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="62" y="612" text-anchor="start" font-size="12.5" fill="#1B2A3A" font-weight="700">WLAN VLAN missing from the allowed list</text>
+<text x="470" y="612" text-anchor="start" font-size="12" fill="#1B2A3A">one SSID works, another connects but gets no IP</text>
+</svg>

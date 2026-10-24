@@ -28,3 +28,6 @@ and what I learned fixing it.
 - [Reading show interface and show policy-map interface](show-interface-policy-map.md): which counters mean a physical problem, which mean congestion, and where QoS is dropping traffic
 - [How I Troubleshoot: A Method, and Reading pathping and WinMTR Properly](troubleshooting-method-pathping.md): a structured loop, five ways to narrow it down, and where packet loss really starts
 - [Catalyst Center Templates: Using Variables to Assign VLANs and Subnets](catalyst-center-templates.md): one template for every site, deriving VLANs and subnets from a site number, interface loops, and safe rollouts
+- [FortiGate Dropping Asymmetric Traffic: Reverse Path Check Fail](fortigate-asymmetric-routing.md): finding RPF drops in a debug flow, and the fixes from symmetric routing to a same-distance, higher-priority route
+- [Palo Alto Stuck Sessions: When an Old Session Won't Let Go](palo-alto-stuck-sessions.md): why long-lived flows keep the old path or NAT after a change, and how to find and clear them
+- [FlexConnect APs: Why the Native VLAN Matters](flexconnect-native-vlan.md): trunk ports for FlexConnect, matching the native VLAN to the flex profile, and the mistakes that stop APs joining

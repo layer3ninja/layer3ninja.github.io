@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="640" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Palo Alto: when an old session won't let go</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">A session keeps the path and NAT it was created with. If traffic never stops, it never times out.</text>
+<rect x="30" y="92" width="900" height="280" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Example: a long-lived UDP flow after an ISP failover</text>
+<rect x="60" y="170" width="150" height="70" rx="10" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="135.0" y="201.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">Phone system</text>
+<text x="135.0" y="220.0" text-anchor="middle" font-size="12" fill="#5B6B7C">SIP over UDP</text>
+<rect x="300" y="150" width="200" height="110" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="400" y="176" text-anchor="middle" font-size="15" fill="#1B2A3A" font-weight="700">Palo Alto</text>
+<text x="400" y="200" text-anchor="middle" font-size="12" fill="#5B6B7C">session table</text>
+<rect x="316" y="212" width="168" height="34" rx="6" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="400" y="234" text-anchor="middle" font-size="11.5" fill="#F6D08A" font-family="Consolas, Menlo, monospace" xml:space="preserve">id 37676 → ISP-A NAT</text>
+<rect x="620" y="120" width="170" height="60" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="705.0" y="146.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">ISP A</text>
+<text x="705.0" y="165.0" text-anchor="middle" font-size="12" fill="#5B6B7C">failed</text>
+<rect x="620" y="240" width="170" height="60" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<text x="705.0" y="266.0" text-anchor="middle" font-size="14" fill="#1B2A3A" font-weight="700">ISP B</text>
+<text x="705.0" y="285.0" text-anchor="middle" font-size="12" fill="#5B6B7C">working</text>
+<line x1="212" y1="205" x2="296" y2="205" stroke="#3B5BA9" stroke-width="2.5" marker-end="url(#b)"/>
+<path d="M502 190 L616 152" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#r)"/>
+<text x="500" y="132" text-anchor="start" font-size="11.5" fill="#C0392B">old session, old NAT</text>
+<path d="M502 236 L616 268" fill="none" stroke="#2E7D5B" stroke-width="2.5" marker-end="url(#g)"/>
+<text x="500" y="302" text-anchor="start" font-size="11.5" fill="#2E7D5B">new sessions: fine</text>
+<text x="48" y="320" text-anchor="start" font-size="12.5" fill="#1B2A3A">The phones keep sending every few seconds, so the session's idle timer never runs out.</text>
+<text x="48" y="340" text-anchor="start" font-size="12.5" fill="#1B2A3A">Everything new works; only that one long-lived flow is stuck on the dead path.</text>
+<rect x="30" y="390" width="900" height="236" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="418" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Find it, check it, clear it</text>
+<rect x="48" y="432" width="560" height="178" rx="10" fill="#1B2A3A" stroke="#1B2A3A" stroke-width="1.5"/>
+<text x="64" y="458" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">show session all filter source 10.10.40.5 destination-port 5060</text>
+<text x="64" y="480" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">show session id 37676</text>
+<text x="64" y="502" text-anchor="start" font-size="11.2" fill="#8A97A6" font-family="Consolas, Menlo, monospace" xml:space="preserve">   ...egress interface, NAT source, start time</text>
+<text x="64" y="524" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">clear session id 37676</text>
+<text x="64" y="546" text-anchor="start" font-size="11.2" fill="#9FE0B8" font-family="Consolas, Menlo, monospace" xml:space="preserve">clear session all filter source 10.10.40.5</text>
+<text x="64" y="568" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve"></text>
+<text x="64" y="590" text-anchor="start" font-size="11.2" fill="#E7ECF7" font-family="Consolas, Menlo, monospace" xml:space="preserve">show session info   # timeouts and totals</text>
+<rect x="628" y="432" width="284" height="178" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<text x="644" y="458" text-anchor="start" font-size="13" fill="#3B5BA9" font-weight="700">Default idle timeouts</text>
+<text x="644" y="488" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">TCP</text>
+<text x="760" y="488" text-anchor="start" font-size="13" fill="#1B2A3A">3600 s</text>
+<text x="644" y="514" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">UDP</text>
+<text x="760" y="514" text-anchor="start" font-size="13" fill="#1B2A3A">30 s</text>
+<text x="644" y="540" text-anchor="start" font-size="13" fill="#1B2A3A" font-weight="700">ICMP</text>
+<text x="760" y="540" text-anchor="start" font-size="13" fill="#1B2A3A">6 s</text>
+<text x="644" y="580" text-anchor="start" font-size="11.5" fill="#5B6B7C">A flow that never goes quiet</text>
+<text x="644" y="598" text-anchor="start" font-size="11.5" fill="#5B6B7C">never reaches its timeout.</text>
+</svg>

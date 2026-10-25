@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><marker id="b" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B5BA9"/></marker><marker id="g" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D5B"/></marker><marker id="o" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#B35C00"/></marker><marker id="r" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/></marker><marker id="k" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B6B7C"/></marker><marker id="t" markerWidth="6" markerHeight="6" markerUnits="strokeWidth" refX="9" refY="5" viewBox="0 0 10 10" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1B2A3A"/></marker></defs>
+<rect width="960" height="640" rx="14" fill="#F4F7FA"/>
+<text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#1B2A3A">Temporary fixes that quietly become permanent</text>
+<text x="480" y="70" text-anchor="middle" font-size="14" fill="#5B6B7C">"The unexpected became the expected became the accepted."  Diane Vaughan</text>
+<rect x="30" y="92" width="900" height="230" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="120" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">How it usually happens</text>
+<rect x="48" y="138" width="204" height="110" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="150" y="166" text-anchor="middle" font-size="16" fill="#B35C00" font-weight="800">Day 1</text>
+<text x="150" y="194" text-anchor="middle" font-size="12" fill="#1B2A3A">Site is down. A tech patches</text>
+<text x="150" y="214" text-anchor="middle" font-size="12" fill="#1B2A3A">around a bad port.</text>
+<line x1="254" y1="193" x2="268" y2="193" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<rect x="270" y="138" width="204" height="110" rx="10" fill="#F6E7D2" stroke="#B35C00" stroke-width="1.5"/>
+<text x="372" y="166" text-anchor="middle" font-size="16" fill="#B35C00" font-weight="800">Week 1</text>
+<text x="372" y="194" text-anchor="middle" font-size="12" fill="#1B2A3A">It works. Everyone moves</text>
+<text x="372" y="214" text-anchor="middle" font-size="12" fill="#1B2A3A">on to the next fire.</text>
+<line x1="476" y1="193" x2="490" y2="193" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<rect x="492" y="138" width="204" height="110" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="594" y="166" text-anchor="middle" font-size="16" fill="#C0392B" font-weight="800">Month 6</text>
+<text x="594" y="194" text-anchor="middle" font-size="12" fill="#1B2A3A">Nobody remembers why</text>
+<text x="594" y="214" text-anchor="middle" font-size="12" fill="#1B2A3A">that cable is there.</text>
+<line x1="698" y1="193" x2="712" y2="193" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+<rect x="714" y="138" width="204" height="110" rx="10" fill="#F8E3E0" stroke="#C0392B" stroke-width="1.5"/>
+<text x="816" y="166" text-anchor="middle" font-size="16" fill="#C0392B" font-weight="800">Year 2</text>
+<text x="816" y="194" text-anchor="middle" font-size="12" fill="#1B2A3A">Someone "tidies up" and</text>
+<text x="816" y="214" text-anchor="middle" font-size="12" fill="#1B2A3A">causes an outage.</text>
+<text x="48" y="282" text-anchor="start" font-size="12.5" fill="#5B6B7C">Common ones: an any-any firewall rule, a static route, a hosts file entry, a bypassed UPS, a loose patch cable,</text>
+<text x="48" y="302" text-anchor="start" font-size="12.5" fill="#5B6B7C">a disabled check "just until the vendor fixes it".</text>
+<rect x="30" y="340" width="900" height="282" rx="10" fill="#FFFFFF" stroke="#8A97A6" stroke-width="1.5"/>
+<text x="48" y="368" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">A simple process that stops the drift</text>
+<rect x="48" y="386" width="424" height="98" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<circle cx="80" cy="435" r="17" fill="#3B5BA9"/>
+<text x="80" y="441" text-anchor="middle" font-size="16" fill="#FFFFFF" font-weight="800">1</text>
+<text x="110" y="420" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Ticket it</text>
+<text x="110" y="444" text-anchor="start" font-size="12" fill="#1B2A3A">every temporary fix gets a ticket, an owner</text>
+<text x="110" y="464" text-anchor="start" font-size="12" fill="#1B2A3A">and an expiry date</text>
+<rect x="488" y="386" width="424" height="98" rx="10" fill="#E7ECF7" stroke="#3B5BA9" stroke-width="1.5"/>
+<circle cx="520" cy="435" r="17" fill="#3B5BA9"/>
+<text x="520" y="441" text-anchor="middle" font-size="16" fill="#FFFFFF" font-weight="800">2</text>
+<text x="550" y="420" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Label it</text>
+<text x="550" y="444" text-anchor="start" font-size="12" fill="#1B2A3A">on the cable, in the rule name or comment:</text>
+<text x="550" y="464" text-anchor="start" font-size="12" fill="#1B2A3A" font-family="Consolas, Menlo, monospace" xml:space="preserve">TEMP 2026-10-25 TKT-1234</text>
+<rect x="48" y="498" width="424" height="98" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<circle cx="80" cy="547" r="17" fill="#2E7D5B"/>
+<text x="80" y="553" text-anchor="middle" font-size="16" fill="#FFFFFF" font-weight="800">3</text>
+<text x="110" y="532" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Review it</text>
+<text x="110" y="556" text-anchor="start" font-size="12" fill="#1B2A3A">temporary items are a standing agenda point</text>
+<text x="110" y="576" text-anchor="start" font-size="12" fill="#1B2A3A">in the weekly team meeting</text>
+<rect x="488" y="498" width="424" height="98" rx="10" fill="#E3F1EA" stroke="#2E7D5B" stroke-width="1.5"/>
+<circle cx="520" cy="547" r="17" fill="#2E7D5B"/>
+<text x="520" y="553" text-anchor="middle" font-size="16" fill="#FFFFFF" font-weight="800">4</text>
+<text x="550" y="532" text-anchor="start" font-size="15" fill="#1B2A3A" font-weight="700">Close it</text>
+<text x="550" y="556" text-anchor="start" font-size="12" fill="#1B2A3A">fix properly, or make it official with a</text>
+<text x="550" y="576" text-anchor="start" font-size="12" fill="#1B2A3A">change record. No third option.</text>
+</svg>

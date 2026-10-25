@@ -31,3 +31,6 @@ and what I learned fixing it.
 - [FortiGate Dropping Asymmetric Traffic: Reverse Path Check Fail](fortigate-asymmetric-routing.md): finding RPF drops in a debug flow, and the fixes from symmetric routing to a same-distance, higher-priority route
 - [Palo Alto Stuck Sessions: When an Old Session Won't Let Go](palo-alto-stuck-sessions.md): why long-lived flows keep the old path or NAT after a change, and how to find and clear them
 - [FlexConnect APs: Why the Native VLAN Matters](flexconnect-native-vlan.md): trunk ports for FlexConnect, matching the native VLAN to the flex profile, and the mistakes that stop APs joining
+- [The New AP That Looked Like an Attacker](rogue-ap-production-ssid.md): an unmanaged AP broadcasting the production SSID, how rogue detection works, and provisioning APs safely
+- [When an Old Switch Runs Out of Spanning-Tree Instances](stp-instance-limit.md): PVST+ instance limits, why VLANs beyond them are unprotected, and pruning or MST as the fix
+- [Temporary Fixes That Quietly Become Permanent](temporary-fixes.md): why workarounds stick, the normalization of deviance, and a four-step process to close them

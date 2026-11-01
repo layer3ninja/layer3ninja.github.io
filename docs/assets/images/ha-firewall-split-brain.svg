@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" width="960" height="660" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D5B"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C0392B"/></marker>
+  </defs>
+  <rect width="960" height="660" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Split-brain: the heartbeat dies, not the firewall</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">To the standby, a dead peer and a dead heartbeat link look exactly the same</text>
+
+  <!-- Healthy -->
+  <rect x="40" y="96" width="430" height="330" rx="12" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="2"/>
+  <text x="60" y="126" font-size="16" font-weight="700" fill="#2E7D5B">Healthy pair</text>
+  <rect x="155" y="146" width="200" height="40" rx="8" fill="#F1F3F5" stroke="#5B6B7C"/>
+  <text x="255" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Switch</text>
+  <rect x="70" y="250" width="150" height="62" rx="8" fill="#E6F4EE" stroke="#2E7D5B" stroke-width="2"/>
+  <text x="145" y="274" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">FW-A</text>
+  <text x="145" y="294" text-anchor="middle" font-size="12" font-weight="700" fill="#2E7D5B">ACTIVE</text>
+  <rect x="290" y="250" width="150" height="62" rx="8" fill="#F1F3F5" stroke="#5B6B7C"/>
+  <text x="365" y="274" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">FW-B</text>
+  <text x="365" y="294" text-anchor="middle" font-size="12" fill="#5B6B7C">standby</text>
+  <line x1="200" y1="186" x2="150" y2="248" stroke="#2E7D5B" stroke-width="3"/>
+  <line x1="310" y1="186" x2="360" y2="248" stroke="#A7B1BC" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="222" y1="270" x2="288" y2="270" stroke="#2E7D5B" stroke-width="2.5"/>
+  <line x1="222" y1="292" x2="288" y2="292" stroke="#2E7D5B" stroke-width="2.5"/>
+  <text x="255" y="336" text-anchor="middle" font-size="12" font-weight="700" fill="#2E7D5B">2 heartbeat links</text>
+  <text x="60" y="378" font-size="13" fill="#1B2A3A">Virtual MAC 00:09:0f:09:… lives on one port.</text>
+  <text x="60" y="400" font-size="13" fill="#1B2A3A">One session table. Traffic is stable.</text>
+
+  <!-- Split brain -->
+  <rect x="490" y="96" width="430" height="330" rx="12" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+  <text x="510" y="126" font-size="16" font-weight="700" fill="#C0392B">Split-brain</text>
+  <rect x="605" y="146" width="200" height="40" rx="8" fill="#F8E3E0" stroke="#C0392B"/>
+  <text x="705" y="164" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Switch</text>
+  <text x="705" y="179" text-anchor="middle" font-size="11" fill="#C0392B">MAC flapping Gi1/0/1 ⇄ Gi1/0/2</text>
+  <rect x="520" y="250" width="150" height="62" rx="8" fill="#F8E3E0" stroke="#C0392B" stroke-width="2"/>
+  <text x="595" y="274" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">FW-A</text>
+  <text x="595" y="294" text-anchor="middle" font-size="12" font-weight="700" fill="#C0392B">ACTIVE</text>
+  <rect x="740" y="250" width="150" height="62" rx="8" fill="#F8E3E0" stroke="#C0392B" stroke-width="2"/>
+  <text x="815" y="274" text-anchor="middle" font-size="14" font-weight="700" fill="#1B2A3A">FW-B</text>
+  <text x="815" y="294" text-anchor="middle" font-size="12" font-weight="700" fill="#C0392B">ACTIVE</text>
+  <line x1="650" y1="186" x2="600" y2="248" stroke="#C0392B" stroke-width="3"/>
+  <line x1="760" y1="186" x2="810" y2="248" stroke="#C0392B" stroke-width="3"/>
+  <line x1="672" y1="270" x2="738" y2="270" stroke="#A7B1BC" stroke-width="2.5" stroke-dasharray="4 4"/>
+  <line x1="672" y1="292" x2="738" y2="292" stroke="#A7B1BC" stroke-width="2.5" stroke-dasharray="4 4"/>
+  <path d="M696,270 l14,22 M710,270 l-14,22" stroke="#C0392B" stroke-width="3"/>
+  <text x="705" y="336" text-anchor="middle" font-size="12" font-weight="700" fill="#C0392B">all heartbeat paths lost</text>
+  <text x="510" y="378" font-size="13" fill="#1B2A3A">Both claim the same virtual IPs and MACs.</text>
+  <text x="510" y="400" font-size="13" fill="#1B2A3A">Two session tables: traffic works, then drops.</text>
+
+  <!-- Bottom -->
+  <rect x="40" y="446" width="430" height="192" rx="12" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+  <text x="60" y="474" font-size="15" font-weight="700" fill="#1B2A3A">Recover in this order</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="60" y="502"><tspan font-weight="700" fill="#2B6CB0">1</tspan>  Pick the survivor (correct config, most traffic)</text>
+    <text x="60" y="526"><tspan font-weight="700" fill="#2B6CB0">2</tspan>  Isolate the other unit: shut its ports or power off</text>
+    <text x="60" y="550"><tspan font-weight="700" fill="#2B6CB0">3</tspan>  Clear ARP / MAC on neighbours if needed</text>
+    <text x="60" y="574"><tspan font-weight="700" fill="#2B6CB0">4</tspan>  Fix the heartbeat path</text>
+    <text x="60" y="598"><tspan font-weight="700" fill="#2B6CB0">5</tspan>  Rejoin as standby, check config sync</text>
+  </g>
+  <rect x="490" y="446" width="430" height="192" rx="12" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="2"/>
+  <text x="510" y="474" font-size="15" font-weight="700" fill="#2E7D5B">Prevent it</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="510" y="502">• Two or more heartbeat links, different ports/modules</text>
+    <text x="510" y="526">• Direct cables, not through shared switches</text>
+    <text x="510" y="550">• Vendor backups: FortiGate backup-hbdev,</text>
+    <text x="524" y="568">Palo Alto HA1 backup + heartbeat backup</text>
+    <text x="510" y="594">• Alert when ONE heartbeat link goes down</text>
+    <text x="510" y="618">• Test failover in a change window</text>
+  </g>
+</svg>

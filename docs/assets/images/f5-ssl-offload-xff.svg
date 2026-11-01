@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" width="960" height="680" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2B6CB0"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D5B"/></marker>
+    <marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7A8796"/></marker>
+  </defs>
+  <rect width="960" height="680" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Who is the server's default gateway?</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">The reply must come back through the F5. Pick SNAT, or make the F5 the gateway.</text>
+
+  <!-- Panel A -->
+  <rect x="40" y="96" width="430" height="390" rx="12" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="60" y="126" font-size="16" font-weight="700" fill="#2B6CB0">A. Gateway = firewall, SNAT on the F5</text>
+  <text x="60" y="146" font-size="12" fill="#5B6B7C">One-arm. What we chose.</text>
+
+  <rect x="80" y="166" width="150" height="40" rx="8" fill="#EAF1FB" stroke="#2B6CB0"/>
+  <text x="155" y="184" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Client</text>
+  <text x="155" y="199" text-anchor="middle" font-size="11" fill="#5B6B7C">198.51.100.25</text>
+  <rect x="80" y="246" width="150" height="40" rx="8" fill="#FDF0E1" stroke="#B35C00"/>
+  <text x="155" y="271" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Firewall</text>
+  <rect x="300" y="246" width="150" height="40" rx="8" fill="#E6F4EE" stroke="#2E7D5B"/>
+  <text x="375" y="264" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">F5 BIG-IP</text>
+  <text x="375" y="279" text-anchor="middle" font-size="11" fill="#5B6B7C">VIP .20.50, self .30.5</text>
+  <rect x="80" y="376" width="150" height="40" rx="8" fill="#F1F3F5" stroke="#5B6B7C"/>
+  <text x="155" y="394" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Web servers</text>
+  <text x="155" y="409" text-anchor="middle" font-size="11" fill="#5B6B7C">GW = firewall</text>
+
+  <line x1="155" y1="206" x2="155" y2="244" stroke="#2B6CB0" stroke-width="2.5" marker-end="url(#b)"/>
+  <line x1="230" y1="266" x2="298" y2="266" stroke="#2B6CB0" stroke-width="2.5" marker-end="url(#b)"/>
+  <path d="M375,286 L375,396 L232,396" fill="none" stroke="#2B6CB0" stroke-width="2.5" marker-end="url(#b)"/>
+  <text x="366" y="334" text-anchor="end" font-size="11.5" font-weight="700" fill="#2B6CB0">src = F5 self IP</text>
+  <text x="366" y="350" text-anchor="end" font-size="11.5" font-weight="700" fill="#2B6CB0">+ X-Forwarded-For</text>
+  <path d="M120,374 L120,288" fill="none" stroke="#7A8796" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#k)"/>
+  <text x="62" y="326" font-size="11" fill="#5B6B7C">backups,</text>
+  <text x="62" y="340" font-size="11" fill="#5B6B7C">patching</text>
+
+  <text x="60" y="444" font-size="12.5" fill="#2E7D5B">+ F5 only carries load-balanced traffic</text>
+  <text x="60" y="464" font-size="12.5" fill="#C0392B">− Server sees the F5's IP, needs XFF (HTTP only)</text>
+
+  <!-- Panel B -->
+  <rect x="490" y="96" width="430" height="390" rx="12" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="2"/>
+  <text x="510" y="126" font-size="16" font-weight="700" fill="#2E7D5B">B. Gateway = F5, no SNAT</text>
+  <text x="510" y="146" font-size="12" fill="#5B6B7C">Inline / routed mode.</text>
+
+  <rect x="630" y="166" width="150" height="40" rx="8" fill="#EAF1FB" stroke="#2B6CB0"/>
+  <text x="705" y="184" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Client</text>
+  <text x="705" y="199" text-anchor="middle" font-size="11" fill="#5B6B7C">198.51.100.25</text>
+  <rect x="630" y="236" width="150" height="40" rx="8" fill="#FDF0E1" stroke="#B35C00"/>
+  <text x="705" y="261" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Firewall</text>
+  <rect x="630" y="306" width="150" height="40" rx="8" fill="#E6F4EE" stroke="#2E7D5B"/>
+  <text x="705" y="324" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">F5 BIG-IP</text>
+  <text x="705" y="339" text-anchor="middle" font-size="11" fill="#5B6B7C">floating self IP = GW</text>
+  <rect x="630" y="376" width="150" height="40" rx="8" fill="#F1F3F5" stroke="#5B6B7C"/>
+  <text x="705" y="394" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Web servers</text>
+  <text x="705" y="409" text-anchor="middle" font-size="11" fill="#5B6B7C">GW = F5</text>
+
+  <line x1="705" y1="206" x2="705" y2="234" stroke="#2B6CB0" stroke-width="2.5" marker-end="url(#b)"/>
+  <line x1="705" y1="276" x2="705" y2="304" stroke="#2B6CB0" stroke-width="2.5" marker-end="url(#b)"/>
+  <line x1="705" y1="346" x2="705" y2="374" stroke="#2B6CB0" stroke-width="2.5" marker-end="url(#b)"/>
+  <text x="790" y="364" font-size="11.5" font-weight="700" fill="#2E7D5B">src = real client IP</text>
+  <path d="M630,396 L590,396 L590,326 L628,326" fill="none" stroke="#7A8796" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#k)"/>
+  <text x="510" y="360" font-size="11" fill="#5B6B7C">all other</text>
+  <text x="510" y="374" font-size="11" fill="#5B6B7C">traffic too</text>
+
+  <text x="510" y="444" font-size="12.5" fill="#2E7D5B">+ Real client IP for every protocol</text>
+  <text x="510" y="464" font-size="12.5" fill="#C0392B">− F5 routes everything, a bigger dependency</text>
+
+  <!-- XFF strip -->
+  <rect x="40" y="508" width="880" height="148" rx="12" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+  <text x="60" y="536" font-size="15" font-weight="700" fill="#1B2A3A">SSL offload lets the F5 read HTTP, so it can add the client IP as a header</text>
+  <rect x="60" y="552" width="250" height="88" rx="8" fill="#EAF1FB" stroke="#2B6CB0"/>
+  <text x="75" y="574" font-size="12" font-weight="700" fill="#2B6CB0">Client → F5: HTTPS :443</text>
+  <text x="75" y="596" font-family="Consolas, Menlo, monospace" font-size="12" fill="#1B2A3A">encrypted, Client SSL</text>
+  <text x="75" y="616" font-family="Consolas, Menlo, monospace" font-size="12" fill="#1B2A3A">profile holds the cert</text>
+  <text x="335" y="602" font-size="24" fill="#5B6B7C">→</text>
+  <rect x="370" y="552" width="330" height="88" rx="8" fill="#E6F4EE" stroke="#2E7D5B"/>
+  <text x="385" y="574" font-size="12" font-weight="700" fill="#2E7D5B">F5 → server: HTTP :80</text>
+  <text x="385" y="596" font-family="Consolas, Menlo, monospace" font-size="12" fill="#1B2A3A">GET /login HTTP/1.1</text>
+  <text x="385" y="616" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#2E7D5B">X-Forwarded-For: 198.51.100.25</text>
+  <text x="385" y="633" font-family="Consolas, Menlo, monospace" font-size="12" fill="#1B2A3A">X-Forwarded-Proto: https</text>
+  <text x="720" y="578" font-size="12" fill="#C0392B" font-weight="700">Don't trust it blindly:</text>
+  <text x="720" y="598" font-size="12" fill="#1B2A3A">overwrite it on the F5,</text>
+  <text x="720" y="616" font-size="12" fill="#1B2A3A">trust it only from the</text>
+  <text x="720" y="634" font-size="12" fill="#1B2A3A">F5's self IPs</text>
+</svg>

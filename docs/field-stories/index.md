@@ -34,3 +34,5 @@ and what I learned fixing it.
 - [The New AP That Looked Like an Attacker](rogue-ap-production-ssid.md): an unmanaged AP broadcasting the production SSID, how rogue detection works, and provisioning APs safely
 - [When an Old Switch Runs Out of Spanning-Tree Instances](stp-instance-limit.md): PVST+ instance limits, why VLANs beyond them are unprotected, and pruning or MST as the fix
 - [Temporary Fixes That Quietly Become Permanent](temporary-fixes.md): why workarounds stick, the normalization of deviance, and a four-step process to close them
+- [SSL Offload on an F5: Firewall or Load Balancer as the Server's Gateway](f5-ssl-offload-xff.md): SNAT versus routed mode, why the servers lost the client IP, and X-Forwarded-For done safely
+- [Split-Brain: When Both Firewalls in an HA Pair Think They're in Charge](ha-firewall-split-brain.md): how a lost heartbeat makes both units active, recovering without losing config, and heartbeat design that prevents it

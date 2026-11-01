@@ -19,3 +19,6 @@ learning and mindset at work.
 - [Mindfulness for Engineers: Small Practices, Honest Evidence](mindfulness-at-work.md): what mindfulness is, small practices tied to alerts, reloads and change windows, and what the research really shows
 - [Make It Stick: How to Actually Remember What You Study](make-it-stick.md): why rereading fades, the techniques that last, and a study plan for certifications
 - [Ask the People Who've Seen It a Hundred Times: Vendors, Partners and Design Reviews](ask-vendors.md): who to ask, what to ask, and how to weigh advice from people who may want to sell you something
+- [I FORESAW IT: Preparing for Any Negotiation in Ten Questions](i-foresaw-it.md): Seth Freeman's ten-question checklist, shown on a support renewal quote that went up 40%
+- [Shout-Outs: Why Saying Thank You at Work Matters More Than You Think](shout-outs.md): what makes recognition land, thanking imperfect work, and why we underestimate a thank-you
+- ["I Told You So" and "Who Asked You to Do That?"](told-you-so.md): hindsight bias, why both sentences shut people down, and what to say instead

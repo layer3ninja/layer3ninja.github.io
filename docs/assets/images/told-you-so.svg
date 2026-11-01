@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5B6B7C"/></marker>
+  </defs>
+  <rect width="960" height="640" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Two sentences that cost more than the outage</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">The outage gets fixed. What people learn from your reaction stays.</text>
+
+  <!-- Hindsight strip -->
+  <rect x="40" y="96" width="880" height="112" rx="12" fill="#FFFFFF" stroke="#B35C00" stroke-width="1.8"/>
+  <text x="60" y="124" font-size="15" font-weight="700" fill="#B35C00">Hindsight bias: after the outcome, it always looks obvious</text>
+  <rect x="60" y="140" width="250" height="52" rx="8" fill="#F1F3F5" stroke="#A7B1BC"/>
+  <text x="185" y="161" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1B2A3A">Before the change</text>
+  <text x="185" y="180" text-anchor="middle" font-size="12" fill="#5B6B7C">many risks, all uncertain</text>
+  <line x1="318" y1="166" x2="378" y2="166" stroke="#5B6B7C" stroke-width="2" marker-end="url(#k)"/>
+  <text x="348" y="156" text-anchor="middle" font-size="11" fill="#5B6B7C">outage</text>
+  <rect x="386" y="140" width="250" height="52" rx="8" fill="#FDF0E1" stroke="#B35C00"/>
+  <text x="511" y="161" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1B2A3A">After</text>
+  <text x="511" y="180" text-anchor="middle" font-size="12" fill="#B35C00">"anyone could have seen it"</text>
+  <text x="660" y="160" font-size="12.5" fill="#1B2A3A">So "I told you so" is often</text>
+  <text x="660" y="178" font-size="12.5" fill="#1B2A3A">less true than it feels, and</text>
+  <text x="660" y="196" font-size="12.5" fill="#1B2A3A">never useful mid-incident.</text>
+
+  <!-- Left: harm -->
+  <rect x="40" y="228" width="430" height="392" rx="12" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+  <text x="60" y="258" font-size="15" font-weight="700" fill="#C0392B">What people hear</text>
+
+  <rect x="60" y="274" width="390" height="44" rx="8" fill="#F8E3E0" stroke="#C0392B"/>
+  <text x="255" y="302" text-anchor="middle" font-size="15" font-weight="700" fill="#1B2A3A">"I told you so."</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="70" y="344">→ "This is about who was right."</text>
+    <text x="70" y="368">→ Defensive, at the worst moment</text>
+    <text x="70" y="392">→ Next time: don't ask, hide it longer</text>
+  </g>
+
+  <rect x="60" y="420" width="390" height="44" rx="8" fill="#F8E3E0" stroke="#C0392B"/>
+  <text x="255" y="448" text-anchor="middle" font-size="15" font-weight="700" fill="#1B2A3A">"Who asked you to do that?"</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="70" y="490">→ "Stepping up is risky."</text>
+    <text x="70" y="514">→ Initiative stops; problems get left alone</text>
+    <text x="70" y="538">→ The real gap (process) never gets fixed</text>
+  </g>
+  <text x="60" y="590" font-size="12.5" font-style="italic" fill="#5B6B7C">Less speaking up = mistakes surface later</text>
+  <text x="60" y="608" font-size="12.5" font-style="italic" fill="#5B6B7C">(Edmondson 1999; Detert &amp; Burris 2007)</text>
+
+  <!-- Right: instead -->
+  <rect x="490" y="228" width="430" height="392" rx="12" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="2.5"/>
+  <text x="510" y="258" font-size="15" font-weight="700" fill="#2E7D5B">Compassion first, then the process</text>
+
+  <circle cx="524" cy="292" r="13" fill="#2E7D5B"/>
+  <text x="524" y="297" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="546" y="290" font-size="13.5" font-weight="700" fill="#1B2A3A">Calm the moment</text>
+  <text x="546" y="310" font-size="12.5" fill="#1B2A3A">"Let's get it stable first."</text>
+
+  <circle cx="524" cy="352" r="13" fill="#2E7D5B"/>
+  <text x="524" y="357" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="546" y="350" font-size="13.5" font-weight="700" fill="#1B2A3A">Assume good intent, ask what and how</text>
+  <text x="546" y="370" font-size="12.5" fill="#1B2A3A">"Walk me through what you were fixing."</text>
+
+  <circle cx="524" cy="412" r="13" fill="#2E7D5B"/>
+  <text x="524" y="417" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="546" y="410" font-size="13.5" font-weight="700" fill="#1B2A3A">Thank the initiative, route it</text>
+  <text x="546" y="430" font-size="12.5" fill="#1B2A3A">"Thanks for jumping in. Loop me in on</text>
+  <text x="546" y="448" font-size="12.5" fill="#1B2A3A">core changes so we catch this together."</text>
+
+  <circle cx="524" cy="490" r="13" fill="#2E7D5B"/>
+  <text x="524" y="495" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="546" y="488" font-size="13.5" font-weight="700" fill="#1B2A3A">Make the warning count next time</text>
+  <text x="546" y="508" font-size="12.5" fill="#1B2A3A">Risk line in the change request,</text>
+  <text x="546" y="526" font-size="12.5" fill="#1B2A3A">a 10-minute pre-mortem before the window</text>
+
+  <text x="510" y="590" font-size="12.5" font-style="italic" fill="#5B6B7C">Support after failure raises motivation to improve</text>
+  <text x="510" y="608" font-size="12.5" font-style="italic" fill="#5B6B7C">(Breines &amp; Chen 2012)</text>
+</svg>

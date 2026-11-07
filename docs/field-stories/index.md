@@ -40,3 +40,6 @@ and what I learned fixing it.
 - [Why SQL Hates the WAN: Latency, Round Trips, MTU and Idle Timeouts](sql-over-wan.md): why chatty database traffic crawls over distance, MSS clamping over IPsec, and firewall session timeouts
 - [Breakout Ports, and Why You Can't Always Use Every Port at Full Speed](breakout-ports-limits.md): QSFP lanes and breakout cabling, and the port modes and pairs that disable neighbouring ports on a Nexus
 - [Link Up, No MAC Address: The PoE Device That Only Got 15 W After a Firmware Upgrade](poe-static-after-upgrade.md): spotting a Class 4 device stuck at 15.4 W, why auto mode depends on CDP/LLDP, and when power inline static is the right fix
+- [Locked Out by a VLAN Change: Getting a Remote Switch Back with DTP](dtp-remote-switch-rescue.md): how a dynamic port follows its neighbour into a trunk, when that rescue can't work, and why to disable DTP afterwards
+- [Let's Encrypt on an F5: When the Renewal Script Is the Weakest Link](f5-letsencrypt-renewal.md): the HTTP-01 challenge, cron vs. iCall, HA sync, and monitoring now that expiry emails have stopped
+- [Cable Lengths for Metric Brains: Feet, Metres and a Converter](cable-lengths-metric-feet.md): rules to remember, cable sizes and distance limits, with an interactive metres/feet converter

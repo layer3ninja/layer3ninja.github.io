@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" width="960" height="680" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2B6CB0"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D5B"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C0392B"/></marker>
+  </defs>
+  <rect width="960" height="680" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Why SQL slows down across the WAN</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">Bandwidth is rarely the problem. Round trips, MTU and idle timeouts usually are.</text>
+
+  <!-- Panel 1: round trips -->
+  <rect x="40" y="96" width="880" height="250" rx="12" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="60" y="124" font-size="16" font-weight="700" fill="#2B6CB0">1. Latency × round trips</text>
+  <text x="60" y="146" font-size="12.5" fill="#5B6B7C">Each request waits a full RTT. The server answers in under 1 ms; the rest is the path.</text>
+  <text x="120" y="176" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">App server</text>
+  <text x="420" y="176" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">SQL Server</text>
+  <line x1="120" y1="184" x2="120" y2="330" stroke="#A7B1BC" stroke-width="2"/>
+  <line x1="420" y1="184" x2="420" y2="330" stroke="#A7B1BC" stroke-width="2"/>
+  <line x1="120" y1="192" x2="416" y2="210" stroke="#2B6CB0" stroke-width="2" marker-end="url(#b)"/>
+  <line x1="420" y1="212" x2="124" y2="230" stroke="#2E7D5B" stroke-width="2" marker-end="url(#g)"/>
+  <line x1="120" y1="236" x2="416" y2="254" stroke="#2B6CB0" stroke-width="2" marker-end="url(#b)"/>
+  <line x1="420" y1="256" x2="124" y2="274" stroke="#2E7D5B" stroke-width="2" marker-end="url(#g)"/>
+  <line x1="120" y1="280" x2="416" y2="298" stroke="#2B6CB0" stroke-width="2" marker-end="url(#b)"/>
+  <line x1="420" y1="300" x2="124" y2="318" stroke="#2E7D5B" stroke-width="2" marker-end="url(#g)"/>
+  <text x="250" y="194" text-anchor="middle" font-size="11" fill="#2B6CB0">query</text>
+  <text x="300" y="214" text-anchor="middle" font-size="11" fill="#2E7D5B">row</text>
+  <text x="96" y="232" text-anchor="end" font-size="11" fill="#C0392B">1 RTT</text>
+  <text x="96" y="276" text-anchor="end" font-size="11" fill="#C0392B">1 RTT</text>
+  <text x="96" y="320" text-anchor="end" font-size="11" fill="#C0392B">1 RTT</text>
+
+  <rect x="500" y="170" width="400" height="160" rx="10" fill="#EAF1FB" stroke="#2B6CB0"/>
+  <text x="520" y="196" font-size="13" font-weight="700" fill="#1B2A3A">Time for 1,000 round trips</text>
+  <g font-size="12.5" fill="#1B2A3A">
+    <text x="520" y="222">LAN, 0.5 ms</text><rect x="680" y="211" width="4" height="14" fill="#2E7D5B"/><text x="692" y="222">0.5 s</text>
+    <text x="520" y="248">Metro, 10 ms</text><rect x="680" y="237" width="16" height="14" fill="#B35C00"/><text x="704" y="248">10 s</text>
+    <text x="520" y="274">Cross-country, 50 ms</text><rect x="680" y="263" width="80" height="14" fill="#C0392B"/><text x="768" y="274">50 s</text>
+    <text x="520" y="300">Overseas, 150 ms</text><rect x="680" y="289" width="200" height="14" fill="#C0392B"/>
+  </g>
+  <text x="780" y="300" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">150 s</text>
+  <text x="520" y="322" font-size="11.5" font-style="italic" fill="#5B6B7C">More bandwidth changes none of these.</text>
+
+  <!-- Panel 2: MTU -->
+  <rect x="40" y="366" width="430" height="292" rx="12" fill="#FFFFFF" stroke="#B35C00" stroke-width="2"/>
+  <text x="60" y="394" font-size="16" font-weight="700" fill="#B35C00">2. MTU over IPsec</text>
+  <text x="60" y="416" font-size="12.5" fill="#5B6B7C">Login works. Big result sets hang.</text>
+  <rect x="60" y="436" width="300" height="30" rx="4" fill="#FDF0E1" stroke="#B35C00"/>
+  <text x="210" y="456" text-anchor="middle" font-size="12" fill="#1B2A3A">1,500-byte packet, DF set</text>
+  <rect x="60" y="476" width="70" height="30" rx="4" fill="#F1F3F5" stroke="#5B6B7C"/>
+  <text x="95" y="496" text-anchor="middle" font-size="11" fill="#1B2A3A">ESP hdr</text>
+  <rect x="130" y="476" width="300" height="30" rx="4" fill="#FDF0E1" stroke="#B35C00"/>
+  <text x="280" y="496" text-anchor="middle" font-size="12" fill="#1B2A3A">+ ~50–80 bytes = too big</text>
+  <line x1="60" y1="520" x2="380" y2="520" stroke="#5B6B7C" stroke-dasharray="4 3"/>
+  <text x="60" y="538" font-size="11.5" fill="#5B6B7C">tunnel MTU ≈ 1,400</text>
+  <text x="456" y="498" font-size="22" font-weight="700" fill="#C0392B" text-anchor="end">✗</text>
+  <text x="60" y="566" font-size="13" font-weight="700" fill="#1B2A3A">Test:</text>
+  <text x="104" y="566" font-family="Consolas, Menlo, monospace" font-size="12.5" fill="#1B2A3A">ping -f -l 1372 &lt;sql-ip&gt;</text>
+  <text x="60" y="592" font-size="13" font-weight="700" fill="#1B2A3A">Fix:</text>
+  <text x="104" y="592" font-family="Consolas, Menlo, monospace" font-size="12.5" fill="#2E7D5B">ip tcp adjust-mss 1360</text>
+  <text x="104" y="612" font-size="12" fill="#5B6B7C">(FortiGate: tcp-mss-sender/receiver;</text>
+  <text x="104" y="630" font-size="12" fill="#5B6B7C">Palo Alto: Adjust TCP MSS)</text>
+
+  <!-- Panel 3: idle -->
+  <rect x="490" y="366" width="430" height="292" rx="12" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+  <text x="510" y="394" font-size="16" font-weight="700" fill="#C0392B">3. Firewall idle timeout</text>
+  <text x="510" y="416" font-size="12.5" fill="#5B6B7C">First query of the morning fails. Long reports die.</text>
+  <line x1="520" y1="470" x2="890" y2="470" stroke="#A7B1BC" stroke-width="2"/>
+  <rect x="520" y="456" width="40" height="28" rx="4" fill="#E6F4EE" stroke="#2E7D5B"/>
+  <text x="540" y="475" text-anchor="middle" font-size="11" fill="#1B2A3A">busy</text>
+  <text x="660" y="462" text-anchor="middle" font-size="11.5" fill="#5B6B7C">pooled connection, silent</text>
+  <line x1="740" y1="446" x2="740" y2="494" stroke="#C0392B" stroke-width="2.5"/>
+  <text x="740" y="440" text-anchor="middle" font-size="11.5" font-weight="700" fill="#C0392B">firewall deletes session</text>
+  <text x="740" y="510" text-anchor="middle" font-size="11" fill="#C0392B">(FortiGate default TTL 3,600 s)</text>
+  <rect x="830" y="456" width="56" height="28" rx="4" fill="#F8E3E0" stroke="#C0392B"/>
+  <text x="858" y="475" text-anchor="middle" font-size="11" fill="#1B2A3A">drop</text>
+  <text x="510" y="556" font-size="13" font-weight="700" fill="#1B2A3A">Fix:</text>
+  <text x="550" y="556" font-size="12.5" fill="#1B2A3A">keepalives shorter than the timeout,</text>
+  <text x="550" y="576" font-size="12.5" fill="#1B2A3A">or a longer session TTL for SQL only</text>
+  <text x="510" y="612" font-size="12.5" font-style="italic" fill="#5B6B7C">Best fix overall: keep the app tier next to its</text>
+  <text x="510" y="630" font-size="12.5" font-style="italic" fill="#5B6B7C">database, and put the WAN in front of the app.</text>
+</svg>

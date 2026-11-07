@@ -36,3 +36,7 @@ and what I learned fixing it.
 - [Temporary Fixes That Quietly Become Permanent](temporary-fixes.md): why workarounds stick, the normalization of deviance, and a four-step process to close them
 - [SSL Offload on an F5: Firewall or Load Balancer as the Server's Gateway](f5-ssl-offload-xff.md): SNAT versus routed mode, why the servers lost the client IP, and X-Forwarded-For done safely
 - [Split-Brain: When Both Firewalls in an HA Pair Think They're in Charge](ha-firewall-split-brain.md): how a lost heartbeat makes both units active, recovering without losing config, and heartbeat design that prevents it
+- [Which ASN Do I Use for Azure ExpressRoute? Public vs. Private, Explained](expressroute-asn.md): ASN rules for private and Microsoft peering, the reserved numbers, and why every site needs its own ASN
+- [Why SQL Hates the WAN: Latency, Round Trips, MTU and Idle Timeouts](sql-over-wan.md): why chatty database traffic crawls over distance, MSS clamping over IPsec, and firewall session timeouts
+- [Breakout Ports, and Why You Can't Always Use Every Port at Full Speed](breakout-ports-limits.md): QSFP lanes and breakout cabling, and the port modes and pairs that disable neighbouring ports on a Nexus
+- [Link Up, No MAC Address: The PoE Device That Only Got 15 W After a Firmware Upgrade](poe-static-after-upgrade.md): spotting a Class 4 device stuck at 15.4 W, why auto mode depends on CDP/LLDP, and when power inline static is the right fix

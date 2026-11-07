@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" width="960" height="660" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="960" height="660" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Breakout ports, and why the port next door stops working</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">A QSFP port is four lanes. Splitting them can borrow resources from the neighbouring port.</text>
+
+  <!-- Panel 1: lanes -->
+  <rect x="40" y="96" width="880" height="200" rx="12" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="60" y="124" font-size="16" font-weight="700" fill="#2B6CB0">1. One 100G port = four 25G lanes</text>
+  <rect x="70" y="150" width="150" height="120" rx="10" fill="#EAF1FB" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="145" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Eth1/1 QSFP28</text>
+  <g fill="#2B6CB0"><rect x="90" y="186" width="110" height="14" rx="3"/><rect x="90" y="206" width="110" height="14" rx="3"/><rect x="90" y="226" width="110" height="14" rx="3"/><rect x="90" y="246" width="110" height="14" rx="3"/></g>
+  <g stroke="#2B6CB0" stroke-width="2" fill="none">
+    <path d="M220,193 C300,193 300,160 380,160"/><path d="M220,213 C300,213 300,196 380,196"/>
+    <path d="M220,233 C300,233 300,232 380,232"/><path d="M220,253 C300,253 300,268 380,268"/>
+  </g>
+  <g font-size="12.5" fill="#1B2A3A">
+    <rect x="384" y="148" width="110" height="24" rx="5" fill="#EAF1FB" stroke="#2B6CB0"/><text x="439" y="165" text-anchor="middle">Eth1/1/1 25G</text>
+    <rect x="384" y="184" width="110" height="24" rx="5" fill="#EAF1FB" stroke="#2B6CB0"/><text x="439" y="201" text-anchor="middle">Eth1/1/2 25G</text>
+    <rect x="384" y="220" width="110" height="24" rx="5" fill="#EAF1FB" stroke="#2B6CB0"/><text x="439" y="237" text-anchor="middle">Eth1/1/3 25G</text>
+    <rect x="384" y="256" width="110" height="24" rx="5" fill="#EAF1FB" stroke="#2B6CB0"/><text x="439" y="273" text-anchor="middle">Eth1/1/4 25G</text>
+  </g>
+  <text x="530" y="160" font-size="13" font-weight="700" fill="#1B2A3A">Cabling that can split lanes</text>
+  <text x="530" y="184" font-size="12.5" fill="#2E7D5B">✓ Breakout DAC / AOC (QSFP → 4 × SFP)</text>
+  <text x="530" y="206" font-size="12.5" fill="#2E7D5B">✓ Parallel optics: SR4, DR4/PSM4 + MPO fan-out</text>
+  <text x="530" y="228" font-size="12.5" fill="#C0392B">✗ LR4 / CWDM4: all lanes on one fibre pair</text>
+  <text x="530" y="260" font-family="Consolas, Menlo, monospace" font-size="12" fill="#1B2A3A">interface breakout module 1</text>
+  <text x="530" y="278" font-family="Consolas, Menlo, monospace" font-size="12" fill="#1B2A3A">  port 1 map 25g-4x</text>
+
+  <!-- Panel 2: port pairs -->
+  <rect x="40" y="316" width="880" height="324" rx="12" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+  <text x="60" y="344" font-size="16" font-weight="700" fill="#C0392B">2. Example: Nexus 93180LC-EX, top/bottom port pairs</text>
+  <text x="60" y="366" font-size="12.5" fill="#5B6B7C">Only odd (top) ports can break out. Breaking one out disables the even port below it.</text>
+
+  <!-- faceplate -->
+  <rect x="60" y="384" width="500" height="150" rx="8" fill="#2F3B48"/>
+  <g font-size="11" font-weight="700" text-anchor="middle">
+    <rect x="80" y="400" width="80" height="50" rx="4" fill="#C0392B" stroke="#F8E3E0"/><text x="120" y="422" fill="#FFFFFF">1</text><text x="120" y="438" fill="#FFFFFF">4 × 10G</text>
+    <rect x="80" y="466" width="80" height="50" rx="4" fill="#5B6B7C" stroke="#A7B1BC" stroke-dasharray="4 3"/><text x="120" y="488" fill="#DDE3E9">2</text><text x="120" y="504" fill="#DDE3E9">disabled</text>
+    <rect x="175" y="400" width="80" height="50" rx="4" fill="#2E7D5B"/><text x="215" y="422" fill="#FFFFFF">3</text><text x="215" y="438" fill="#FFFFFF">40G</text>
+    <rect x="175" y="466" width="80" height="50" rx="4" fill="#2E7D5B"/><text x="215" y="488" fill="#FFFFFF">4</text><text x="215" y="504" fill="#FFFFFF">40G</text>
+    <rect x="270" y="400" width="80" height="50" rx="4" fill="#C0392B" stroke="#F8E3E0"/><text x="310" y="422" fill="#FFFFFF">5</text><text x="310" y="438" fill="#FFFFFF">4 × 10G</text>
+    <rect x="270" y="466" width="80" height="50" rx="4" fill="#5B6B7C" stroke="#A7B1BC" stroke-dasharray="4 3"/><text x="310" y="488" fill="#DDE3E9">6</text><text x="310" y="504" fill="#DDE3E9">disabled</text>
+    <rect x="365" y="400" width="80" height="50" rx="4" fill="#2E7D5B"/><text x="405" y="422" fill="#FFFFFF">7</text><text x="405" y="438" fill="#FFFFFF">40G</text>
+    <rect x="365" y="466" width="80" height="50" rx="4" fill="#2E7D5B"/><text x="405" y="488" fill="#FFFFFF">8</text><text x="405" y="504" fill="#FFFFFF">40G</text>
+  </g>
+  <text x="500" y="466" text-anchor="middle" font-size="18" fill="#A7B1BC">…</text>
+  <text x="60" y="560" font-size="12" fill="#5B6B7C">Faceplate shown simplified. Odd ports on top, even ports below.</text>
+
+  <!-- modes -->
+  <rect x="590" y="384" width="310" height="150" rx="8" fill="#FDF0E1" stroke="#B35C00"/>
+  <text x="606" y="408" font-size="13" font-weight="700" fill="#1B2A3A">Port modes (pick one per switch)</text>
+  <g font-size="12.5" fill="#1B2A3A">
+    <text x="606" y="436">Mode 1 (default): 28 × 40G + 4 × 100G</text>
+    <text x="606" y="460">Mode 2: 24 × 40G + 6 × 100G</text>
+    <text x="606" y="484">Mode 3: 18 × 40/100G</text>
+  </g>
+  <text x="606" y="514" font-size="12" font-weight="700" fill="#C0392B">Leaving mode 3 needs a reload</text>
+
+  <text x="60" y="592" font-size="13.5" font-weight="700" fill="#1B2A3A">"Up to 32 × 40G or 18 × 100G" means one or the other, not both.</text>
+  <text x="60" y="616" font-size="12.5" fill="#5B6B7C">Read the port-mode and breakout rules for your exact model before you draw the port map.</text>
+</svg>

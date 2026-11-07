@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="960" height="600" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Which OSPF changes wait for a reset?</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">Most apply the moment you type them. Two common ones sit in the config doing nothing.</text>
+
+  <rect x="40" y="96" width="430" height="290" rx="12" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="2"/>
+  <text x="60" y="126" font-size="16" font-weight="700" fill="#2E7D5B">Apply immediately</text>
+  <g font-size="13.5" fill="#1B2A3A">
+    <text x="60" y="160"><tspan fill="#2E7D5B" font-weight="700">✓</tspan>  ip ospf cost / reference-bandwidth</text>
+    <text x="60" y="190"><tspan fill="#2E7D5B" font-weight="700">✓</tspan>  passive-interface, network statements</text>
+    <text x="60" y="220"><tspan fill="#2E7D5B" font-weight="700">✓</tspan>  area range, summary-address</text>
+    <text x="60" y="250"><tspan fill="#2E7D5B" font-weight="700">✓</tspan>  redistribute</text>
+    <text x="60" y="280"><tspan fill="#B35C00" font-weight="700">!</tspan>  hello/dead timers, authentication:</text>
+    <text x="82" y="300">immediate, but the adjacency drops</text>
+    <text x="82" y="320">until both sides match</text>
+  </g>
+
+  <rect x="490" y="96" width="430" height="290" rx="12" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+  <text x="510" y="126" font-size="16" font-weight="700" fill="#C0392B">Wait for a reset</text>
+  <text x="510" y="160" font-size="14" font-weight="700" fill="#1B2A3A">router-id</text>
+  <text x="510" y="180" font-size="12.5" fill="#1B2A3A">read only when the OSPF process starts</text>
+  <rect x="510" y="192" width="390" height="44" rx="6" fill="#F8E3E0" stroke="#C0392B"/>
+  <text x="522" y="211" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#1B2A3A">% OSPF: Reload or use "clear ip ospf process"</text>
+  <text x="522" y="228" font-family="Consolas, Menlo, monospace" font-size="11.5" fill="#1B2A3A">command, for this to take effect</text>
+  <text x="510" y="268" font-size="14" font-weight="700" fill="#1B2A3A">ip ospf priority (DR/BDR)</text>
+  <text x="510" y="288" font-size="12.5" fill="#1B2A3A">election isn't pre-emptive: the current DR</text>
+  <text x="510" y="306" font-size="12.5" fill="#1B2A3A">stays until the next election on the segment</text>
+  <text x="510" y="340" font-size="12.5" font-weight="700" fill="#C0392B">clear ip ospf process drops EVERY adjacency</text>
+  <text x="510" y="360" font-size="12.5" fill="#1B2A3A">on the router. Pick the narrowest reset.</text>
+
+  <rect x="40" y="406" width="880" height="174" rx="12" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="60" y="434" font-size="15" font-weight="700" fill="#2B6CB0">Narrowest reset that works</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="60" y="464" font-weight="700">Router ID, several processes</text><text x="330" y="464" font-family="Consolas, Menlo, monospace" font-size="12.5">clear ip ospf 1 process</text>
+    <text x="60" y="490" font-weight="700">Router ID, one process</text><text x="330" y="490" font-family="Consolas, Menlo, monospace" font-size="12.5">clear ip ospf process</text>
+    <text x="60" y="516" font-weight="700">DR priority, one segment</text><text x="330" y="516">bounce that segment on both the current DR and BDR</text>
+    <text x="60" y="542" font-weight="700">Remote router</text><text x="330" y="542" font-family="Consolas, Menlo, monospace" font-size="12.5">reload in 10</text><text x="440" y="542">first, then</text><text x="520" y="542" font-family="Consolas, Menlo, monospace" font-size="12.5">reload cancel</text><text x="630" y="542">once back</text>
+  </g>
+  <text x="60" y="568" font-size="12" font-style="italic" fill="#5B6B7C">Verify: show ip ospf | i ID · show ip ospf neighbor · show ip ospf interface brief</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5B6B7C"/></marker>
+  </defs>
+  <rect width="960" height="600" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Rolling back Meraki firmware</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">When the problem arrived with an upgrade, going back is the fastest test.</text>
+
+  <!-- timeline -->
+  <rect x="40" y="96" width="880" height="170" rx="12" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="60" y="124" font-size="15" font-weight="700" fill="#2B6CB0">The rollback window</text>
+  <line x1="80" y1="190" x2="880" y2="190" stroke="#A7B1BC" stroke-width="3"/>
+  <rect x="160" y="178" width="480" height="24" rx="4" fill="#E6F4EE" stroke="#2E7D5B"/>
+  <text x="478" y="195" text-anchor="middle" font-size="12.5" font-weight="700" fill="#2E7D5B">Rollback to previous version: 14 days</text>
+  <circle cx="160" cy="190" r="9" fill="#2B6CB0"/>
+  <text x="160" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1B2A3A">Upgrade</text>
+  <text x="160" y="228" text-anchor="middle" font-size="12" fill="#5B6B7C">v1 → v2</text>
+  <circle cx="300" cy="190" r="7" fill="#C0392B"/>
+  <text x="300" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#C0392B">Unstable</text>
+  <circle cx="640" cy="190" r="7" fill="#5B6B7C"/>
+  <text x="640" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1B2A3A">Day 14</text>
+  <text x="760" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1B2A3A">After</text>
+  <text x="760" y="228" text-anchor="middle" font-size="12" fill="#5B6B7C">pick a version from</text>
+  <text x="760" y="246" text-anchor="middle" font-size="12" fill="#5B6B7C">Schedule upgrades, or Support</text>
+  <text x="400" y="228" text-anchor="middle" font-size="12" fill="#5B6B7C">Organization › Firmware upgrades › Most recent upgrades › Rollback</text>
+
+  <!-- before -->
+  <rect x="40" y="286" width="280" height="294" rx="12" fill="#FFFFFF" stroke="#B35C00" stroke-width="2"/>
+  <text x="60" y="314" font-size="15" font-weight="700" fill="#B35C00">1. Is it the firmware?</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="60" y="344">• Started right after an</text><text x="74" y="362">upgrade? (Event log)</text>
+    <text x="60" y="392">• More than one device</text><text x="74" y="410">on that version?</text>
+    <text x="60" y="440">• Known issue in the</text><text x="74" y="458">release notes?</text>
+    <text x="60" y="488">• Anything else in the</text><text x="74" y="506">Change log?</text>
+  </g>
+
+  <rect x="340" y="286" width="280" height="294" rx="12" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+  <text x="360" y="314" font-size="15" font-weight="700" fill="#C0392B">2. Roll back, as a change</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="360" y="344">Firmware is per network,</text>
+    <text x="360" y="362">per product type:</text>
+  </g>
+  <g font-size="12" text-anchor="middle">
+    <rect x="360" y="380" width="70" height="40" rx="6" fill="#F8E3E0" stroke="#C0392B"/><text x="395" y="404" fill="#1B2A3A">MR 1</text>
+    <rect x="440" y="380" width="70" height="40" rx="6" fill="#F8E3E0" stroke="#C0392B" stroke-width="2.5"/><text x="475" y="398" fill="#1B2A3A">MR 2</text><text x="475" y="412" fill="#C0392B" font-weight="700">unstable</text>
+    <rect x="520" y="380" width="70" height="40" rx="6" fill="#F8E3E0" stroke="#C0392B"/><text x="555" y="404" fill="#1B2A3A">MR 3</text>
+  </g>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="360" y="448">All APs in the network roll back,</text>
+    <text x="360" y="466">not just the bad one.</text>
+    <text x="360" y="500">Schedule it; warn users</text>
+    <text x="360" y="518">about the brief reboot.</text>
+  </g>
+
+  <rect x="640" y="286" width="280" height="294" rx="12" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="2"/>
+  <text x="660" y="314" font-size="15" font-weight="700" fill="#2E7D5B">3. Don't go back to v2</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="660" y="344">• Check Scheduled changes:</text><text x="674" y="362">auto-upgrades still run</text>
+    <text x="660" y="392">• Set the upgrade window</text>
+    <text x="660" y="422">• Open a support case</text>
+    <text x="660" y="452">• Upgrade forward to the</text><text x="674" y="470">fixed release, deliberately</text>
+    <text x="660" y="500">• Write down the date,</text><text x="674" y="518">reason and case number</text>
+  </g>
+</svg>

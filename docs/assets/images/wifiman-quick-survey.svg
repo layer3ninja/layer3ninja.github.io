@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="960" height="620" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">A quick Wi-Fi walk-around with your phone</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">Is it coverage, interference, roaming, or something else? Answer that first.</text>
+
+  <!-- floor plan -->
+  <rect x="40" y="96" width="520" height="320" rx="12" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="60" y="124" font-size="15" font-weight="700" fill="#2B6CB0">Walk the route, note each room</text>
+  <g fill="none" stroke="#A7B1BC" stroke-width="2">
+    <rect x="70" y="140" width="460" height="256"/>
+    <line x1="230" y1="140" x2="230" y2="260"/><line x1="380" y1="140" x2="380" y2="260"/>
+    <line x1="70" y1="260" x2="190" y2="260"/><line x1="270" y1="260" x2="530" y2="260"/>
+  </g>
+  <!-- coverage blobs -->
+  <circle cx="150" cy="200" r="70" fill="#2E7D5B" fill-opacity="0.16"/>
+  <circle cx="455" cy="330" r="80" fill="#2E7D5B" fill-opacity="0.16"/>
+  <g font-size="11" font-weight="700" text-anchor="middle">
+    <rect x="135" y="186" width="30" height="20" rx="4" fill="#2E7D5B"/><text x="150" y="200" fill="#FFFFFF">AP1</text>
+    <rect x="440" y="316" width="30" height="20" rx="4" fill="#2E7D5B"/><text x="455" y="330" fill="#FFFFFF">AP2</text>
+  </g>
+  <!-- path -->
+  <path d="M110,230 C200,300 300,300 330,200 S420,320 480,370" fill="none" stroke="#2B6CB0" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <g font-size="11.5" fill="#1B2A3A">
+    <circle cx="110" cy="230" r="5" fill="#2B6CB0"/><text x="84" y="248">−52 dBm</text>
+    <circle cx="250" cy="282" r="5" fill="#B35C00"/><text x="214" y="302">−68 dBm</text>
+    <circle cx="330" cy="200" r="6" fill="#C0392B"/><text x="300" y="186" font-weight="700" fill="#C0392B">−78 dBm</text>
+    <text x="268" y="224" fill="#C0392B">Meeting room</text>
+    <circle cx="480" cy="370" r="5" fill="#2B6CB0"/><text x="446" y="392">−55 dBm</text>
+  </g>
+
+  <!-- what to check -->
+  <rect x="580" y="96" width="340" height="320" rx="12" fill="#FFFFFF" stroke="#1B2A3A" stroke-width="1.5"/>
+  <text x="600" y="124" font-size="15" font-weight="700" fill="#1B2A3A">In WiFiman, check</text>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="600" y="156"><tspan font-weight="700">Signal</tspan>: live dBm while walking</text>
+    <text x="600" y="186"><tspan font-weight="700">AP</tspan>: did the phone roam to</text><text x="614" y="204">the closer one?</text>
+    <text x="600" y="234"><tspan font-weight="700">Scan</tspan>: how many strong APs</text><text x="614" y="252">share your channel?</text>
+    <text x="600" y="282"><tspan font-weight="700">Speed test</tspan>: real throughput</text><text x="614" y="300">where the user sits</text>
+    <text x="600" y="330"><tspan font-weight="700">Both bands</tspan>: 2.4 GHz uses</text><text x="614" y="348">channels 1, 6, 11 only</text>
+  </g>
+  <text x="600" y="390" font-size="12" font-style="italic" fill="#5B6B7C">Measure at desk height, same phone.</text>
+
+  <!-- targets -->
+  <rect x="40" y="436" width="520" height="164" rx="12" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="2"/>
+  <text x="60" y="464" font-size="15" font-weight="700" fill="#2E7D5B">Targets for voice and video</text>
+  <g font-size="12" text-anchor="middle" font-weight="700">
+    <rect x="60" y="480" width="110" height="26" fill="#2E7D5B"/><text x="115" y="498" fill="#FFFFFF">−30 to −60</text>
+    <rect x="170" y="480" width="110" height="26" fill="#6BAF8D"/><text x="225" y="498" fill="#FFFFFF">−60 to −67</text>
+    <rect x="280" y="480" width="110" height="26" fill="#E3A44B"/><text x="335" y="498" fill="#1B2A3A">−67 to −75</text>
+    <rect x="390" y="480" width="150" height="26" fill="#C0392B"/><text x="465" y="498" fill="#FFFFFF">below −75 dBm</text>
+  </g>
+  <g font-size="11.5" text-anchor="middle" fill="#5B6B7C"><text x="115" y="522">excellent</text><text x="225" y="522">voice OK</text><text x="335" y="522">data only</text><text x="465" y="522">poor</text></g>
+  <g font-size="13" fill="#1B2A3A">
+    <text x="60" y="554"><tspan font-weight="700">RSSI</tspan> −67 dBm or better · <tspan font-weight="700">SNR</tspan> 25 dB or more</text>
+    <text x="60" y="580"><tspan font-weight="700">Overlap</tspan> about 20% between neighbouring cells</text>
+  </g>
+
+  <!-- limits -->
+  <rect x="580" y="436" width="340" height="164" rx="12" fill="#FFFFFF" stroke="#B35C00" stroke-width="2"/>
+  <text x="600" y="464" font-size="15" font-weight="700" fill="#B35C00">Phone limits</text>
+  <g font-size="12.5" fill="#1B2A3A">
+    <text x="600" y="492">• Phones differ by several dB</text>
+    <text x="600" y="516">• iOS limits scanning other networks</text>
+    <text x="600" y="540">• Android: 4 scans per 2 min, unless</text>
+    <text x="614" y="558">scan throttling is turned off</text>
+    <text x="600" y="582">• New designs: use a real survey tool</text>
+  </g>
+</svg>

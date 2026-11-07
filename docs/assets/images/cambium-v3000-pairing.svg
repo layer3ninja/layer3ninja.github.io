@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C0392B"/></marker>
+  </defs>
+  <rect width="960" height="620" rx="14" fill="#F4F7FA"/>
+  <text x="40" y="48" font-size="24" font-weight="700" fill="#1B2A3A">Staging a cnWave 60 GHz link on the bench</text>
+  <text x="40" y="74" font-size="15" fill="#5B6B7C">Both radios on one Layer 2 network: one laptop can see, upgrade and fix both ends.</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="96" width="430" height="270" rx="12" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="60" y="124" font-size="15" font-weight="700" fill="#2B6CB0">1. Before the link: both on the switch</text>
+  <rect x="180" y="146" width="150" height="40" rx="8" fill="#F1F3F5" stroke="#5B6B7C"/>
+  <text x="255" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Switch + laptop</text>
+  <rect x="70" y="236" width="150" height="56" rx="8" fill="#EAF1FB" stroke="#2B6CB0"/>
+  <text x="145" y="258" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">PoP DN</text>
+  <text x="145" y="276" text-anchor="middle" font-size="11" fill="#5B6B7C">E2E controller</text>
+  <rect x="290" y="236" width="150" height="56" rx="8" fill="#EAF1FB" stroke="#2B6CB0"/>
+  <text x="365" y="258" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">CN</text>
+  <text x="365" y="276" text-anchor="middle" font-size="11" fill="#5B6B7C">client node</text>
+  <line x1="220" y1="186" x2="160" y2="234" stroke="#2B6CB0" stroke-width="2.5"/>
+  <line x1="290" y1="186" x2="350" y2="234" stroke="#2B6CB0" stroke-width="2.5"/>
+  <g font-size="12" fill="#1B2A3A">
+    <text x="60" y="318">✓ Same firmware on both (1.2.2+ for Quick PTP)</text>
+    <text x="60" y="338">✓ Read the CN's MAC from its own web page</text>
+    <text x="60" y="358">✓ Watch both status pages while the link forms</text>
+  </g>
+
+  <!-- Step 2 loop -->
+  <rect x="490" y="96" width="430" height="270" rx="12" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+  <text x="510" y="124" font-size="15" font-weight="700" fill="#C0392B">2. Link up with L2 bridge: loop!</text>
+  <rect x="630" y="146" width="150" height="40" rx="8" fill="#F8E3E0" stroke="#C0392B"/>
+  <text x="705" y="171" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">Switch</text>
+  <rect x="520" y="236" width="150" height="56" rx="8" fill="#EAF1FB" stroke="#2B6CB0"/>
+  <text x="595" y="268" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">PoP DN</text>
+  <rect x="740" y="236" width="150" height="56" rx="8" fill="#EAF1FB" stroke="#2B6CB0"/>
+  <text x="815" y="268" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A3A">CN</text>
+  <line x1="670" y1="186" x2="610" y2="234" stroke="#C0392B" stroke-width="2.5"/>
+  <line x1="740" y1="186" x2="800" y2="234" stroke="#C0392B" stroke-width="2.5"/>
+  <path d="M672,256 q34,-16 66,0" fill="none" stroke="#2E7D5B" stroke-width="2.5"/>
+  <path d="M672,266 q34,-16 66,0" fill="none" stroke="#2E7D5B" stroke-width="2.5"/>
+  <text x="705" y="300" text-anchor="middle" font-size="11.5" font-weight="700" fill="#2E7D5B">60 GHz bridge</text>
+  <text x="510" y="330" font-size="12.5" fill="#1B2A3A">The wireless link acts like a cable between the two</text>
+  <text x="510" y="350" font-size="12.5" font-weight="700" fill="#C0392B">→ unplug the CN's Ethernet once the link is up</text>
+
+  <!-- Bottom -->
+  <rect x="40" y="386" width="430" height="214" rx="12" fill="#FFFFFF" stroke="#B35C00" stroke-width="2"/>
+  <text x="60" y="414" font-size="15" font-weight="700" fill="#B35C00">Bench traps</text>
+  <g font-size="12.5" fill="#1B2A3A">
+    <text x="60" y="444"><tspan font-weight="700">Same default IP:</tspan> both start at 169.254.1.1.</text>
+    <text x="74" y="462">Connect one at a time, change the IP first.</text>
+    <text x="60" y="492"><tspan font-weight="700">Too close:</tspan> lower power for the bench</text>
+    <text x="74" y="510">(EIRP ~13 dBm, short-range Tx setting).</text>
+    <text x="60" y="540"><tspan font-weight="700">Indoors:</tspan> no GPS lock. Disable GPS for setup,</text>
+    <text x="74" y="558">check it again afterwards.</text>
+    <text x="60" y="586" fill="#5B6B7C" font-style="italic">Laptop: 169.254.1.3 / 255.255.0.0, no gateway</text>
+  </g>
+
+  <rect x="490" y="386" width="430" height="214" rx="12" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="2"/>
+  <text x="510" y="414" font-size="15" font-weight="700" fill="#2E7D5B">3. On site</text>
+  <g font-size="12.5" fill="#1B2A3A">
+    <text x="510" y="444">1. Clear line of sight (rain and oxygen absorb 60 GHz)</text>
+    <text x="510" y="470">2. Align carefully: the beams are narrow</text>
+    <text x="510" y="496">3. Confirm link and signal on both ends</text>
+    <text x="510" y="522">4. Restore deployment transmit power</text>
+    <text x="510" y="548">5. Test throughput end to end</text>
+  </g>
+  <text x="510" y="584" font-size="12" font-style="italic" fill="#5B6B7C">Shortcut: Tools › Quick PTP Setup, enter the CN's MAC.</text>
+</svg>

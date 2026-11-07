@@ -43,3 +43,7 @@ and what I learned fixing it.
 - [Locked Out by a VLAN Change: Getting a Remote Switch Back with DTP](dtp-remote-switch-rescue.md): how a dynamic port follows its neighbour into a trunk, when that rescue can't work, and why to disable DTP afterwards
 - [Let's Encrypt on an F5: When the Renewal Script Is the Weakest Link](f5-letsencrypt-renewal.md): the HTTP-01 challenge, cron vs. iCall, HA sync, and monitoring now that expiry emails have stopped
 - [Cable Lengths for Metric Brains: Feet, Metres and a Converter](cable-lengths-metric-feet.md): rules to remember, cable sizes and distance limits, with an interactive metres/feet converter
+- [A Wi-Fi Survey from Your Pocket: Quick Checks with WiFiman](wifiman-quick-survey.md): a walk-around survey with a phone, the signal and SNR targets to aim for, and where a phone app stops being enough
+- [When the Fix Is Going Backwards: Rolling Back Meraki Firmware](meraki-firmware-rollback.md): the 14-day rollback window, why it applies network-wide, and how not to get upgraded straight back
+- [Pairing a Cambium cnWave V3000 60 GHz Link: What Made the First Sync Easier](cambium-v3000-pairing.md): staging both radios on Layer 2, the default-IP and bridging-loop traps, and bench power settings
+- [The OSPF Change That Didn't Take Effect: When You Need clear ip ospf process](clear-ospf-process.md): router ID and DR priority changes that wait for a reset, and how to reset with the least disruption
